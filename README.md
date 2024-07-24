@@ -66,7 +66,7 @@ To follow this course and run the examples in this repository, you need:
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/tuusuario/mi-curso-java.git
+   git clone https://github.com/andreyrgm/Course.git
 
 3. Navigate to the module folder corresponding to the topic you are studying.
 
