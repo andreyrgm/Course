@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Java/Assignments/1ConsoleName/1ConsoleName.iml" filepath="$PROJECT_DIR$/Java/Assignments/1ConsoleName/1ConsoleName.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/IdeaProjects/Introduction/1HelloWord/1HelloWord.iml" filepath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/1HelloWord/1HelloWord.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Assignments/Introduction/ConsoleName/ConsoleName.iml" filepath="$PROJECT_DIR$/Java/Assignments/Introduction/ConsoleName/ConsoleName.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/IdeaProjects/Introduction/Conversion/Conversion.iml" filepath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/Conversion/Conversion.iml" />
       <module fileurl="file://$PROJECT_DIR$/Course.iml" filepath="$PROJECT_DIR$/Course.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/IdeaProjects/Introduction/HelloWord/HelloWord.iml" filepath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/HelloWord/HelloWord.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Assignments/Introduction/InvoiceDetail/InvoiceDetail.iml" filepath="$PROJECT_DIR$/Java/Assignments/Introduction/InvoiceDetail/InvoiceDetail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/IdeaProjects/Introduction/NumSystem/NumSystem.iml" filepath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/NumSystem/NumSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/IdeaProjects/Introduction/Primitive/Primitive.iml" filepath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/Primitive/Primitive.iml" />
     </modules>
   </component>
 </project>
