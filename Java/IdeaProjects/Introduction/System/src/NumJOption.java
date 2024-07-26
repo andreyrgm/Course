@@ -1,25 +1,26 @@
-import java.util.InputMismatchException;
-import java.util.Scanner;
+import javax.swing.*;
 
-public class MainScanner {
+public class NumJOption {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int decimalNum = getInputNumber(sc);
+        int decimalNum = getInputNumber();
         showConversions(decimalNum);
     }
 
-    private static int getInputNumber(Scanner sc) {
+    /**
+     * Solicita al usuario un número entero utilizando un cuadro de diálogo de entrada.
+     *
+     * @return El número entero ingresado por el usuario.
+     */
+    private static int getInputNumber() {
         int decimalNum = 0;
         boolean validInput = false;
 
         while (!validInput) {
-            System.out.println("Enter an int:");
             try {
-                decimalNum = sc.nextInt();
+                decimalNum = Integer.parseInt(JOptionPane.showInputDialog(null, "Enter an int"));
                 validInput = true;
-            } catch (InputMismatchException e) {
-                System.out.println("Error: you must enter an int!");
-                sc.next(); // Limpiar el input inválido
+            } catch (NumberFormatException e) {
+                JOptionPane.showMessageDialog(null, "Error: you must enter an int");
             }
         }
         return decimalNum;
@@ -36,13 +37,22 @@ public class MainScanner {
         String binaryResult = "Binary num of " + decimalNum + " = " + Integer.toBinaryString(decimalNum);
         System.out.println(binaryResult);
 
+        int binaryNum = 0b111110100; // Ejemplo de número binario
+        System.out.println("binaryNum = " + binaryNum);
+
         String octalResult = "Octal num of " + decimalNum + " = " + Integer.toOctalString(decimalNum);
         System.out.println(octalResult);
+
+        int octalNum = 0764; // Ejemplo de número octal
+        System.out.println("octalNum = " + octalNum);
 
         String hexResult = "Hex num of " + decimalNum + " = " + Integer.toHexString(decimalNum);
         System.out.println(hexResult);
 
+        int hexNum = 0x1f4; // Ejemplo de número hexadecimal
+        System.out.println("hexNum = " + hexNum);
+
         String message = binaryResult + "\n" + octalResult + "\n" + hexResult;
-        System.out.println(message);
+        JOptionPane.showMessageDialog(null, message);
     }
 }
