@@ -2,10 +2,10 @@ import java.util.Scanner;
 
 /**
  * Se requiere desarrollar un programa que reciba los nombres de 3 integrantes de tu familia o amigos como argumentos de línea de comandos.
- *
+ * <p>
  * Se pide por cada nombre de la persona una nueva variable del tipo String al tomar el segundo carácter, pero convertido en mayúscula
  * y se le concatena un punto y los dos últimos caracteres de la persona. Por ejemplo, para Andres debe quedar como N.es
- *
+ * <p>
  * Debe imprimir como resultado los tres nuevos nombres separados con guion bajo (como una única variable).
  */
 

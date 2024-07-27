@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Ternary {
     public static void main(String[] args) {
         // Ejemplo de uso del operador ternario
-        String var = 7 == 7 ? "If true": "If false";
+        String var = 7 == 7 ? "If true" : "If false";
         System.out.println("var = " + var);
 
         double math = 0;

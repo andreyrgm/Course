@@ -25,6 +25,6 @@ public class TestEfficiency {
 
         // Imprimir los resultados de la concatenación
         System.out.println("c = " + c);
-        System.out.println("sb = " + sb.toString());
+        System.out.println("sb = " + sb);
     }
 }
