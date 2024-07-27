@@ -13,8 +13,6 @@ The "Complete Master in Java from Zero to Expert 2024" course covers a wide rang
 1. **Introduction to Java**
  - Installation and configuration of the development environment
  - Java programming fundamentals
-
-2. **Control Structures**
  - Conditional
  - Loops
 
