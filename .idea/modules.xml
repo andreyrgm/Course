@@ -4,10 +4,13 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Java/Assignments/Introduction/ConsoleName/ConsoleName.iml" filepath="$PROJECT_DIR$/Java/Assignments/Introduction/ConsoleName/ConsoleName.iml" />
       <module fileurl="file://$PROJECT_DIR$/Course.iml" filepath="$PROJECT_DIR$/Course.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Assignments/Introduction/Operator/FuelTank/FuelTank.iml" filepath="$PROJECT_DIR$/Java/Assignments/Introduction/Operator/FuelTank/FuelTank.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/IdeaProjects/Introduction/HelloWord/HelloWord.iml" filepath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/HelloWord/HelloWord.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/Assignments/Introduction/var/InvoiceDetail/InvoiceDetail.iml" filepath="$PROJECT_DIR$/Java/Assignments/Introduction/var/InvoiceDetail/InvoiceDetail.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/Assignments/Introduction/String/NameManagement/NameManagement.iml" filepath="$PROJECT_DIR$/Java/Assignments/Introduction/String/NameManagement/NameManagement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/IdeaProjects/Introduction/Operator/Operator.iml" filepath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/Operator/Operator.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/IdeaProjects/Introduction/Primitive/Primitive.iml" filepath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/Primitive/Primitive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Assignments/Introduction/Operator/SortNum/SortNum.iml" filepath="$PROJECT_DIR$/Java/Assignments/Introduction/Operator/SortNum/SortNum.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/IdeaProjects/Introduction/String/String.iml" filepath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/String/String.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/IdeaProjects/Introduction/System/System.iml" filepath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/System/System.iml" />
     </modules>

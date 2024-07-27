@@ -1,5 +1,15 @@
 import java.util.Scanner;
 
+/**
+ * Se requiere desarrollar un programa que reciba datos de la factura utilizando la clase Scanner de la siguiente manera:
+ *
+ * - Reciba el nombre de la factura o descripción, utilizar el método nextLine() para obtener el nombre de la factura con espacios.
+ * - Reciba 2 precios de productos de tipo double, utilizar el método nextDouble() para obtener precios con decimales (,).
+ * - Calcule el total, sume ambos precios y agregue un valor de impuesto del 19%.
+ *
+ * Se pide mostrar en un solo String el nombre de la factura, el monto total bruto (antes de impuesto), el impuesto y el monto total neto incluyendo impuesto.
+ */
+
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
