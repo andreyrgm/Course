@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/Java/IdeaProjects/Introduction/HelloWord/HelloWord.iml" filepath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/HelloWord/HelloWord.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/Assignments/Introduction/var/InvoiceDetail/InvoiceDetail.iml" filepath="$PROJECT_DIR$/Java/Assignments/Introduction/var/InvoiceDetail/InvoiceDetail.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/Assignments/Introduction/Operator/LongestName/LongestName.iml" filepath="$PROJECT_DIR$/Java/Assignments/Introduction/Operator/LongestName/LongestName.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Assignments/Introduction/Operator/MenuOptions/MenuOptions.iml" filepath="$PROJECT_DIR$/Java/Assignments/Introduction/Operator/MenuOptions/MenuOptions.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/Assignments/Introduction/ControlFlow/MinNum/MinNum.iml" filepath="$PROJECT_DIR$/Java/Assignments/Introduction/ControlFlow/MinNum/MinNum.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/Assignments/Introduction/ControlFlow/MultiplyNoSymbol/MultiplyNoSymbol.iml" filepath="$PROJECT_DIR$/Java/Assignments/Introduction/ControlFlow/MultiplyNoSymbol/MultiplyNoSymbol.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/Assignments/Introduction/String/NameManagement/NameManagement.iml" filepath="$PROJECT_DIR$/Java/Assignments/Introduction/String/NameManagement/NameManagement.iml" />
@@ -18,6 +19,7 @@
       <module fileurl="file://$PROJECT_DIR$/Java/IdeaProjects/Introduction/String/String.iml" filepath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/String/String.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/Assignments/Introduction/ControlFlow/StudentGradeAverage/StudentGradeAverage.iml" filepath="$PROJECT_DIR$/Java/Assignments/Introduction/ControlFlow/StudentGradeAverage/StudentGradeAverage.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/IdeaProjects/Introduction/System/System.iml" filepath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/System/System.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/IdeaProjects/Introduction/Wrapper/Wrapper.iml" filepath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/Wrapper/Wrapper.iml" />
     </modules>
   </component>
 </project>
