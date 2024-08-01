@@ -3,7 +3,7 @@
   <component name="SonarLintProjectSettings">
     <option name="moduleMapping">
       <map>
-        <entry key="Wrapper" value="Wrapper" />
+        <entry key="WrapperClasses" value="WrapperClases" />
       </map>
     </option>
   </component>

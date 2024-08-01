@@ -1,81 +1,106 @@
-# Complete Master in Java from zero to expert 2024 (+127 hrs) - Personal Course
+# Course Progress: Complete Mastery in Java from Zero to Expert 2024
 
-This repository contains my notes, exercises and projects from the course "Complete Master in Java from zero to expert 2024 (+127 hrs)" from Udemy. It is a personal space for learning and practice while I progress through the course.
+This repository contains my progress and exercises from the "Complete Mastery in Java from Zero to Expert 2024" course on Udemy. Here, I upload the code and examples corresponding to each module of the course for my own tracking and review.
 
-## Course Description
+## Project Structure
 
-The "Complete Master in Java from Zero to Expert 2024" course covers a wide range of topics from the basics to the most advanced concepts in Java. With more than 127 hours of content, it delves deeper into Java programming with practical examples and projects.
+The project is organized into thematic folders that correspond to the modules of the course. Each folder contains the code and materials associated with that module.
 
-## Repository Content
+### Main Packages
 
-### Course Modules
+1. **Introduction and Basics**
+    - Introduction
+    - Variables
+    - String Type: Strings
+    - Operators
+    - Control Flows
 
-1. **Introduction to Java**
- - Installation and configuration of the development environment
- - Java programming fundamentals
- - Conditional
- - Loops
+2. **Data Types and Basic Classes**
+    - Wrapper Classes
+    - Value vs. Reference
+    - Date and Calendar Classes
+    - SystemNum Class
+    - Math Class
+    - Command Line
 
-3. **Object Oriented Programming**
- - Classes and objects
- - Inheritance
- - Polymorphism
- - Interfaces
+3. **Data Structures**
+    - Arrays
+    - Matrices: Two-dimensional arrays
 
-4. **Collections in Java**
- - Lists
- - Sets
- - Maps
+4. **Object-Oriented Programming (OOP)**
+    - Classes and Objects
+    - Packages
+    - Example Invoices
+    - Method Overloading
+    - Inheritance
+    - Inheritance and Abstract Classes
+    - Interfaces
+    - Example Interface Repository
 
-5. **Exception Handling**
- - Types of exceptions
- - Catching and handling exceptions
+5. **Generics and Exceptions**
+    - Generics (Java Generics)
+    - Exception Handling
 
-6. **Input/Output (I/O) in Java**
- - Files and data streams
+6. **Functional Programming and Java 8**
+    - Lambda Expressions
+    - Stream API
+    - Optional
+    - Date Time
 
-7. **Concurrency and Multithreading**
- -Threads
- - Concurrent execution
+7. **Java Annotations and Other Features**
+    - Annotation Usage
+    - Recursion
+    - Design Patterns
 
-8. **Popular Libraries and Frameworks**
- -JavaFX
- -Spring Framework
+8. **File Handling and Databases**
+    - File Handling
+    - Databases with JDBC
+    - Connection Pooling
+    - Transactions
 
-### Repository Structure
+9. **Testing**
+    - Unit Testing: JUnit 5
+    - Unit Testing: Mockito
 
-The repository is organized in folders corresponding to each module of the course
+10. **Java EE / Jakarta EE**
+    - Servlet API: Introduction, form handling, HTTP headers, and more
+    - JPA and Hibernate: JPQL Queries, Criteria API, associations, and more
+    - Enterprise JavaBeans (EJB)
+    - JavaServer Faces (JSF3)
+    - Web Services (SOAP and RESTful)
+    - JAAS Security
 
+11. **Spring Framework 5**
+    - Creating webapps with Spring Boot
+    - Dependency Injection
+    - Thymeleaf Forms and Data Binding
+    - HTTP Interceptors
+    - Error Handling
+    - CRUD using Spring Data JPA
 
-Each folder contains:
-- **Source code:** examples and exercises.
-- **Personal notes:** summaries and explanations of the topics.
-- **Additional resources:** links, recommended readings, etc.
+12. **Angular & Spring**
+    - Creating full stack web apps
+    - Client Components
+    - Spring Backend API REST
+    - CRUD with Spring API REST
+    - Error Handling in Spring Backend
+    - Error Handling in Angular (Frontend)
+    - Backend Form Validation
+
+## How to Use
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/andreyrgm/Course.git
+    ```
+
+2. **Navigate to the folder of the module you want to explore.**
+
+3. **Open the files in your favorite IDE and review or modify the code according to your progress in the course.**
 
 ## Requirements
 
-To follow this course and run the examples in this repository, you need:
-
-- [Java JDK 17](https://www.oracle.com/java/technologies/javase-jdk17-downloads.html) or higher.
-- [Eclipse](https://www.eclipse.org/downloads/) or any IDE of your preference.
-- Basic programming knowledge (desirable, but not required).
-
-## Use of the Repository
-
-1. Clone the repository to your local machine:
-   ```bash
-   git clone https://github.com/andreyrgm/Course.git
-
-3. Navigate to the module folder corresponding to the topic you are studying.
-
-4. Open the files in your preferred IDE and follow the course instructions.
-
-5. Run and modify the examples to better understand the concepts.
-
----
-
-This repository is a personal study resource. If you have any questions or comments, please do not hesitate to contact me.
-
----
-
-Happy learning!
+- Java JDK 8 or higher
+- Maven (for dependency management, if needed)
+- An IDE such as IntelliJ IDEA or Eclipse

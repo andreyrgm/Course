@@ -2,25 +2,22 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Java/Assignments/Introduction/HelloWord/ConsoleName/ConsoleName.iml" filepath="$PROJECT_DIR$/Java/Assignments/Introduction/HelloWord/ConsoleName/ConsoleName.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/IdeaProjects/Introduction/ControlFlow/ControlFlow.iml" filepath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/ControlFlow/ControlFlow.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Course.iml" filepath="$PROJECT_DIR$/Course.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/Assignments/Introduction/Operator/FuelTank/FuelTank.iml" filepath="$PROJECT_DIR$/Java/Assignments/Introduction/Operator/FuelTank/FuelTank.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/IdeaProjects/Introduction/HelloWord/HelloWord.iml" filepath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/HelloWord/HelloWord.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/Assignments/Introduction/var/InvoiceDetail/InvoiceDetail.iml" filepath="$PROJECT_DIR$/Java/Assignments/Introduction/var/InvoiceDetail/InvoiceDetail.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/Assignments/Introduction/Operator/LongestName/LongestName.iml" filepath="$PROJECT_DIR$/Java/Assignments/Introduction/Operator/LongestName/LongestName.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/Assignments/Introduction/Operator/MenuOptions/MenuOptions.iml" filepath="$PROJECT_DIR$/Java/Assignments/Introduction/Operator/MenuOptions/MenuOptions.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/Assignments/Introduction/ControlFlow/MinNum/MinNum.iml" filepath="$PROJECT_DIR$/Java/Assignments/Introduction/ControlFlow/MinNum/MinNum.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/Assignments/Introduction/ControlFlow/MultiplyNoSymbol/MultiplyNoSymbol.iml" filepath="$PROJECT_DIR$/Java/Assignments/Introduction/ControlFlow/MultiplyNoSymbol/MultiplyNoSymbol.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/Assignments/Introduction/String/NameManagement/NameManagement.iml" filepath="$PROJECT_DIR$/Java/Assignments/Introduction/String/NameManagement/NameManagement.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/IdeaProjects/Introduction/Operator/Operator.iml" filepath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/Operator/Operator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/IdeaProjects/Introduction/PassBy/PassBy.iml" filepath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/PassBy/PassBy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/IdeaProjects/Introduction/Primitive/Primitive.iml" filepath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/Primitive/Primitive.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/Assignments/Introduction/Operator/SortNum/SortNum.iml" filepath="$PROJECT_DIR$/Java/Assignments/Introduction/Operator/SortNum/SortNum.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/IdeaProjects/Introduction/String/String.iml" filepath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/String/String.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/Assignments/Introduction/ControlFlow/StudentGradeAverage/StudentGradeAverage.iml" filepath="$PROJECT_DIR$/Java/Assignments/Introduction/ControlFlow/StudentGradeAverage/StudentGradeAverage.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/IdeaProjects/Introduction/System/System.iml" filepath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/System/System.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/IdeaProjects/Introduction/Wrapper/Wrapper.iml" filepath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/Wrapper/Wrapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modules/Introdution/Fundamentals/ControlFlows/ControlFlows.iml" filepath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/ControlFlows/ControlFlows.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Course.iml" filepath="$PROJECT_DIR$/.idea/Course.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/FuelTank/FuelTank.iml" filepath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/FuelTank/FuelTank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks/Introdution/Fundamentals/Variables/InvoiceDetail/InvoiceDetail.iml" filepath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Variables/InvoiceDetail/InvoiceDetail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/LongestName/LongestName.iml" filepath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/LongestName/LongestName.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/MenuOptions/MenuOptions.iml" filepath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/MenuOptions/MenuOptions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks/Introdution/Fundamentals/ControlFlows/MinNum/MinNum.iml" filepath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/ControlFlows/MinNum/MinNum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks/Introdution/Fundamentals/ControlFlows/MultiplyNoSymbol/MultiplyNoSymbol.iml" filepath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/ControlFlows/MultiplyNoSymbol/MultiplyNoSymbol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks/Introdution/Fundamentals/Strings/NameManagement/NameManagement.iml" filepath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Strings/NameManagement/NameManagement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modules/Introdution/Fundamentals/Operators/Operators.iml" filepath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Operators/Operators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SortNum2/SortNum2.iml" filepath="$PROJECT_DIR$/SortNum2/SortNum2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modules/Introdution/Fundamentals/Strings/Strings.iml" filepath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Strings/Strings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks/Introdution/Fundamentals/ControlFlows/StudentGradeAverage/StudentGradeAverage.iml" filepath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/ControlFlows/StudentGradeAverage/StudentGradeAverage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modules/Introdution/BasicElements/ValueVsReference/ValueVsReference.iml" filepath="$PROJECT_DIR$/Modules/Introdution/BasicElements/ValueVsReference/ValueVsReference.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modules/Introdution/Fundamentals/Variables/Variables.iml" filepath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Variables/Variables.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modules/Introdution/BasicElements/WrapperClasses/WrapperClasses.iml" filepath="$PROJECT_DIR$/Modules/Introdution/BasicElements/WrapperClasses/WrapperClasses.iml" />
     </modules>
   </component>
 </project>
