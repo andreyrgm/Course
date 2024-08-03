@@ -90,6 +90,27 @@ code and materials associated with that module.
     - Error Handling in Angular (Frontend)
     - Backend Form Validation
 
+
+## What will you find in this repository?
+
+- **Code examples**: Each module contains code examples that illustrate the concepts taught.
+- **Tasks and exercises**: In the *Assignments* folder of each module, you will find the solutions to the tasks and exercises proposed in the course.
+- **Projects**: Some complete projects that integrate multiple topics covered in the course.
+
+## Tools and Technologies
+
+During the course, various tools and technologies are used, including but not limited to:
+
+- **Java SE**
+- **Jakarta EE**
+- **Spring Framework**
+- **JUnit 5**
+- **Mockito**
+- **MySQL**
+- **Angular**
+- **Maven**
+- **Git**
+
 ## How to Use
 
 1. **Clone the repository:**
