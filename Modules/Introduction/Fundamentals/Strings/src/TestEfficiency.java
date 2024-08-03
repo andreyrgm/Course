@@ -20,6 +20,7 @@ public class TestEfficiency {
             sb.append(a).append(b).append("\n"); // Método 3: usando StringBuilder
         }
 
+        gc();
 
         long end = currentTimeMillis();
         out.println("Time elapsed: " + (end - start) + " ms");

@@ -2,6 +2,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
+
 import static java.lang.System.*;
 
 /**
@@ -43,7 +44,8 @@ public class JavaUtilDateParse {
             }
 
         } catch (ParseException e) {
-            out.println("Invalid date format. Please enter a date in yyyy-MM-dd format.");
+            err.println("Invalid date format. Please enter a date in yyyy-MM-dd format.");
+            main(args);
         }
     }
 }
