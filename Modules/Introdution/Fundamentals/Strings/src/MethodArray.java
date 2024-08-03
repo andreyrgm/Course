@@ -1,4 +1,4 @@
-import static java.lang.System.*;
+import static java.lang.System.out;
 
 /**
  * Ejemplo de uso de métodos de la clase String y manejo de arreglos de caracteres en Java.

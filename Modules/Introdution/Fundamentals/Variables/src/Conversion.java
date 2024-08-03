@@ -1,4 +1,4 @@
-import static java.lang.System.*;
+import static java.lang.System.out;
 
 /**
  * Ejemplo de conversiones de tipos en Java.

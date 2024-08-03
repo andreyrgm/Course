@@ -1,6 +1,6 @@
 import javax.swing.*;
 
-import static java.lang.System.*;
+import static java.lang.System.out;
 
 /**
  * Clase para demostrar la conversión de un número decimal a diferentes sistemas numéricos.

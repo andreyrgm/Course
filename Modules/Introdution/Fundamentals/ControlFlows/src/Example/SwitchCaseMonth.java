@@ -2,7 +2,8 @@ package Example;
 
 import java.util.Scanner;
 
-import static java.lang.System.*;
+import static java.lang.System.in;
+import static java.lang.System.out;
 
 /**
  * Clase que determina el número de días de un mes en un año específico.
@@ -19,10 +20,19 @@ public class SwitchCaseMonth {
 
         int numDays;
         switch (month) {
-            case 1: case 3: case 5: case 7: case 8: case 10: case 12:
+            case 1:
+            case 3:
+            case 5:
+            case 7:
+            case 8:
+            case 10:
+            case 12:
                 numDays = 31;
                 break;
-            case 4: case 6: case 9: case 11:
+            case 4:
+            case 6:
+            case 9:
+            case 11:
                 numDays = 30;
                 break;
             case 2:

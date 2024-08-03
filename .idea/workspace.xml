@@ -4,157 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ec5abc6-dc75-42c3-9240-6c8d47314d81" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introdution/BasicElements/ValueVsReference/ValueVsReference.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introdution/BasicElements/ValueVsReference/src/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introdution/BasicElements/ValueVsReference/src/Reference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introdution/BasicElements/ValueVsReference/src/Value.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introdution/BasicElements/WrapperClasses/WrapperClasses.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introdution/BasicElements/WrapperClasses/src/AutoboxingInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introdution/BasicElements/WrapperClasses/src/BooleanWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introdution/BasicElements/WrapperClasses/src/GetClassMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introdution/BasicElements/WrapperClasses/src/IntegerWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introdution/BasicElements/WrapperClasses/src/RelationalOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/ControlFlows/ControlFlows.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/ControlFlows/src/Example/ForArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/ControlFlows/src/Example/LoopTagsSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/ControlFlows/src/Example/SwitchCaseMonth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/ControlFlows/src/For.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/ControlFlows/src/ForEach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/ControlFlows/src/IfElse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/ControlFlows/src/LoopTags.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/ControlFlows/src/SwitchCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/ControlFlows/src/While.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Operators/Operators.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Operators/src/Arithmetic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Operators/src/Assignation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Operators/src/Example/LogicalLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Operators/src/Example/TernaryMaxNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Operators/src/Incremental.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Operators/src/InstanceOf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Operators/src/Logical.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Operators/src/Precedence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Operators/src/Relational.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Operators/src/Ternary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Operators/src/Unary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Strings/Strings.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Strings/src/Concatenation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Strings/src/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Strings/src/Immutable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Strings/src/Method.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Strings/src/MethodArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Strings/src/TestEfficiency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Strings/src/Validate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Variables/Variables.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Variables/src/Conversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Variables/src/Primitive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Variables/src/SystemNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SortNum2/SortNum2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/ControlFlows/ControlFlows.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/ControlFlows/MinNum/MinNum.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/ControlFlows/MinNum/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/ControlFlows/MultiplyNoSymbol/MultiplyNoSymbol.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/ControlFlows/MultiplyNoSymbol/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/ControlFlows/StudentGradeAverage/StudentGradeAverage.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/ControlFlows/StudentGradeAverage/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/FuelTank/FuelTank.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/FuelTank/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/LongestName/LongestName.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/LongestName/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/MenuOptions/MenuOptions.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/MenuOptions/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/Operators.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/SortNum/SortNum.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/SortNum/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Strings/NameManagement/NameManagement.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Strings/NameManagement/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Strings/Strings.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Variables/InvoiceDetail/InvoiceDetail.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Variables/InvoiceDetail/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Variables/Variables.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+    <list default="true" id="6ec5abc6-dc75-42c3-9240-6c8d47314d81" name="Changes" comment="Full change">
+      <change afterPath="$PROJECT_DIR$/Modules/Introdution/BasicElements/DateAndCalendar/DateAndCalendar.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Introdution/BasicElements/DateAndCalendar/src/JavaUtilCalendar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Introdution/BasicElements/DateAndCalendar/src/JavaUtilDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Introdution/BasicElements/DateAndCalendar/src/JavaUtilDateParse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/Introdution/BasicElements/DateAndCalendar/AgeCalculation/AgeCalculation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/Introdution/BasicElements/DateAndCalendar/AgeCalculation/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Assignments/Introduction/ControlFlow/MinNum/MinNum.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Assignments/Introduction/ControlFlow/MinNum/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Assignments/Introduction/ControlFlow/MultiplyNoSymbol/MultiplyNoSymbol.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Assignments/Introduction/ControlFlow/MultiplyNoSymbol/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Assignments/Introduction/ControlFlow/StudentGradeAverage/StudentGradeAverage.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Assignments/Introduction/ControlFlow/StudentGradeAverage/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Assignments/Introduction/HelloWord/ConsoleName/ConsoleName.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Assignments/Introduction/HelloWord/ConsoleName/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Assignments/Introduction/Operator/FuelTank/FuelTank.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Assignments/Introduction/Operator/FuelTank/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Assignments/Introduction/Operator/LongestName/LongestName.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Assignments/Introduction/Operator/LongestName/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Assignments/Introduction/Operator/MenuOptions/MenuOptions.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Assignments/Introduction/Operator/MenuOptions/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Assignments/Introduction/Operator/SortNum/SortNum.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Assignments/Introduction/Operator/SortNum/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Assignments/Introduction/String/NameManagement/NameManagement.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Assignments/Introduction/String/NameManagement/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Assignments/Introduction/var/InvoiceDetail/InvoiceDetail.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Assignments/Introduction/var/InvoiceDetail/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/ControlFlow/ControlFlow.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/ControlFlow/src/For.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/ControlFlow/src/ForArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/ControlFlow/src/ForEach.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/ControlFlow/src/IfElse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/ControlFlow/src/LoopTag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/ControlFlow/src/LoopTagSearch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/ControlFlow/src/SwitchCase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/ControlFlow/src/SwitchCaseMonth.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/ControlFlow/src/While.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/HelloWord/HelloWord.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/HelloWord/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/Operator/Operator.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/Operator/src/Arithmetic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/Operator/src/Assignment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/Operator/src/ExampleLogin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/Operator/src/ExampleNum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/Operator/src/Incremental.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/Operator/src/InstanceOf.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/Operator/src/Logical.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/Operator/src/Precedence.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/Operator/src/Relational.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/Operator/src/Ternary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/Operator/src/Unary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/PassBy/PassBy.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/PassBy/src/Reference.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/PassBy/src/Reference2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/PassBy/src/Value.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/Primitive/Primitive.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/Primitive/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/String/String.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/String/src/ArrayMethod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/String/src/Concat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/String/src/Equal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/String/src/Example.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/String/src/Immutable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/String/src/Method.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/String/src/TestEfficiency.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/String/src/Validate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/System/System.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/System/src/Conversion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/System/src/NumJOption.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/System/src/NumScanner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/Wrapper/Wrapper.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/Wrapper/src/Autoboxing.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/Wrapper/src/Bool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/Wrapper/src/GetClassMethod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/Wrapper/src/Int.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/IdeaProjects/Introduction/Wrapper/src/RelationalOperator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/ControlFlows/src/Example/ForArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/ControlFlows/src/Example/ForArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/ControlFlows/src/Example/LoopTagsSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/ControlFlows/src/Example/LoopTagsSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/ControlFlows/src/Example/SwitchCaseMonth.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/ControlFlows/src/Example/SwitchCaseMonth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/ControlFlows/src/For.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/ControlFlows/src/For.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/ControlFlows/src/ForEach.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/ControlFlows/src/ForEach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/ControlFlows/src/IfElse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/ControlFlows/src/IfElse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/ControlFlows/src/LoopTags.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/ControlFlows/src/LoopTags.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/ControlFlows/src/SwitchCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/ControlFlows/src/SwitchCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/ControlFlows/src/While.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/ControlFlows/src/While.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Operators/src/Assignation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Operators/src/Assignation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Operators/src/Example/LogicalLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Operators/src/Example/LogicalLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Operators/src/Example/TernaryMaxNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Operators/src/Example/TernaryMaxNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Operators/src/Incremental.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Operators/src/Incremental.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Operators/src/InstanceOf.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Operators/src/InstanceOf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Operators/src/Logical.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Operators/src/Logical.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Operators/src/Precedence.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Operators/src/Precedence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Operators/src/Relational.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Operators/src/Relational.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Operators/src/Ternary.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Operators/src/Ternary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Operators/src/Unary.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Operators/src/Unary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Strings/src/Concatenation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Strings/src/Concatenation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Strings/src/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Strings/src/Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Strings/src/Method.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Strings/src/Method.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Strings/src/MethodArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Strings/src/MethodArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Strings/src/Validate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Strings/src/Validate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Variables/src/Conversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Variables/src/Conversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Variables/src/Primitive.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Variables/src/Primitive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Variables/src/SystemNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introdution/Fundamentals/Variables/src/SystemNum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -193,6 +92,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.Arithmetic.executor": "Run",
     "Application.ArrayMethod.executor": "Run",
     "Application.Assignation.executor": "Run",
@@ -211,10 +111,14 @@
     "Application.IfElse.executor": "Run",
     "Application.Immutable.executor": "Run",
     "Application.InstanceOf.executor": "Run",
+    "Application.JavaUtilCalendar.executor": "Run",
+    "Application.JavaUtilDate.executor": "Run",
+    "Application.JavaUtilDateParse.executor": "Run",
     "Application.Logical.executor": "Run",
     "Application.LogicalLogin.executor": "Run",
     "Application.LoopTags.executor": "Run",
     "Application.LoopTagsSearch.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.Method.executor": "Run",
     "Application.MethodArray.executor": "Run",
     "Application.OperadorInstanceOf.executor": "Run",
@@ -238,6 +142,7 @@
     "Application.While.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -250,7 +155,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.selected.configurable": "settings.sync",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -261,28 +166,14 @@
       <recent name="C:\Users\andre\Downloads\Course\Fundamentals" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\tasks\Introdution\BasicElements\DateAndCalendar" />
+      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\Introdution\BasicElements" />
+      <recent name="C:\Users\andre\Downloads\Course\tasks\Introdution\Fundamentals\Operators" />
+      <recent name="C:\Users\andre\Downloads\Course\SortNum\src" />
       <recent name="C:\Users\andre\Downloads\Course\SortNum2\src" />
-      <recent name="C:\Users\andre\Downloads\Course\tasks\Introdution\Fundamentals\ControlFlows" />
-      <recent name="C:\Users\andre\Downloads\Course\StudentGradeAverage\src" />
-      <recent name="C:\Users\andre\Downloads\Course\MinNum\src" />
-      <recent name="C:\Users\andre\Downloads\Course\tasks\Introdution\Fundamentals\Variables" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Conversion">
-    <configuration name="Arithmetic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arithmetic" />
-      <module name="Operators" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AutoboxingInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AutoboxingInteger" />
-      <module name="WrapperClasses" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Conversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Conversion" />
       <module name="Variables" />
@@ -290,33 +181,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Example" />
-      <module name="Strings" />
+    <configuration name="JavaUtilCalendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaUtilCalendar" />
+      <module name="DateAndCalendar" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Example.ForArray" />
-      <module name="ControlFlows" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="JavaUtilDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaUtilDate" />
+      <module name="DateAndCalendar" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaUtilDateParse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaUtilDateParse" />
+      <module name="DateAndCalendar" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="AgeCalculation" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.JavaUtilDateParse" />
+        <item itemvalue="Application.JavaUtilCalendar" />
+        <item itemvalue="Application.JavaUtilDate" />
         <item itemvalue="Application.Conversion" />
-        <item itemvalue="Application.Example (1)" />
-        <item itemvalue="Application.Arithmetic" />
-        <item itemvalue="Application.ForArray" />
-        <item itemvalue="Application.AutoboxingInteger" />
       </list>
     </recent_temporary>
   </component>
@@ -345,11 +244,41 @@
       <workItem from="1722514988727" duration="738000" />
       <workItem from="1722515934422" duration="8257000" />
       <workItem from="1722551077315" duration="4244000" />
-      <workItem from="1722556292729" duration="308000" />
+      <workItem from="1722556292729" duration="555000" />
+      <workItem from="1722557018029" duration="236000" />
+      <workItem from="1722557418436" duration="7000" />
+      <workItem from="1722572199785" duration="180000" />
+      <workItem from="1722600151336" duration="3558000" />
+      <workItem from="1722604934741" duration="1379000" />
+      <workItem from="1722618114536" duration="2085000" />
+      <workItem from="1722636332540" duration="1215000" />
+      <workItem from="1722641383631" duration="1579000" />
     </task>
+    <task id="LOCAL-00001" summary="Full change">
+      <option name="closed" value="true" />
+      <created>1722556677615</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722556677615</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Full change">
+      <option name="closed" value="true" />
+      <created>1722556733023</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722556733023</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Full change" />
+    <option name="LAST_COMMIT_MESSAGE" value="Full change" />
   </component>
 </project>

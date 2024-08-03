@@ -1,6 +1,6 @@
 import java.util.Objects;
 
-import static java.lang.System.*;
+import static java.lang.System.out;
 
 /**
  * Ejemplo de validación y manipulación de cadenas en Java.

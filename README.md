@@ -1,10 +1,13 @@
 # Course Progress: Complete Mastery in Java from Zero to Expert 2024
 
-This repository contains my progress and exercises from the "Complete Mastery in Java from Zero to Expert 2024" course on Udemy. Here, I upload the code and examples corresponding to each module of the course for my own tracking and review.
+This repository contains my progress and exercises from the "Complete Mastery in Java from Zero to Expert 2024" course
+on Udemy. Here, I upload the code and examples corresponding to each module of the course for my own tracking and
+review.
 
 ## Project Structure
 
-The project is organized into thematic folders that correspond to the modules of the course. Each folder contains the code and materials associated with that module.
+The project is organized into thematic folders that correspond to the modules of the course. Each folder contains the
+code and materials associated with that module.
 
 ### Main Packages
 

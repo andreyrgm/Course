@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-import static java.lang.System.*;
+import static java.lang.System.out;
 
 /**
  * Ejemplo de uso de la sentencia switch en Java para manejar diferentes casos.
@@ -33,7 +33,7 @@ public class SwitchCase {
         out.println("\nExample 2: Evaluation of a character");
         char character = 'z';
 
-        switch(character){
+        switch (character) {
             case '0':
                 out.println("The number is zero");
                 break;
@@ -55,7 +55,7 @@ public class SwitchCase {
 
         out.println("\nExample 3: Evaluation of a username");
         String name = "juan";
-        switch(name){
+        switch (name) {
             case "admin":
                 out.println("Hello admin, welcome!");
                 break;

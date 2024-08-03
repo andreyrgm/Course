@@ -1,4 +1,4 @@
-import static java.lang.System.*;
+import static java.lang.System.out;
 
 /**
  * Ejemplo de obtención de la extensión de un archivo a partir de su nombre en una cadena.

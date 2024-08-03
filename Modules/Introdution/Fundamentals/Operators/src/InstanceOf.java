@@ -1,4 +1,4 @@
-import static java.lang.System.*;
+import static java.lang.System.out;
 
 /**
  * Ejemplo del uso del operador instanceof con tipos genéricos en Java.

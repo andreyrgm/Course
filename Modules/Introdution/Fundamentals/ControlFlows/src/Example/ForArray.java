@@ -2,7 +2,7 @@ package Example;
 
 import javax.swing.*;
 
-import static java.lang.System.*;
+import static java.lang.System.out;
 
 /**
  * Ejemplo de uso de un arreglo y bucles for en Java para buscar nombres.
@@ -13,8 +13,8 @@ public class ForArray {
         String[] names = {"Andres", "Pepe", "Maria", "Paco", "Lilo", "Bea", "Pato", "Pepa"};
         int count = names.length;
 
-        for(int i = 0; i < count; i++){
-            if(names[i].equalsIgnoreCase("Andres") || names[i].equalsIgnoreCase("Pepa")){
+        for (int i = 0; i < count; i++) {
+            if (names[i].equalsIgnoreCase("Andres") || names[i].equalsIgnoreCase("Pepa")) {
                 continue; // Salta la iteración si el nombre es "Andres" o "Pepa"
             }
             out.println(i + ".- " + names[i]);
@@ -33,7 +33,7 @@ public class ForArray {
             out.println("names = " + name);
         }
 
-        if(found){
+        if (found) {
             JOptionPane.showMessageDialog(null, search + " it was found!");
         } else {
             JOptionPane.showMessageDialog(null, search + " does not exist in the system!");

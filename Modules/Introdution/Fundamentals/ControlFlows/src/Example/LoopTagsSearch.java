@@ -1,6 +1,6 @@
 package Example;
 
-import static java.lang.System.*;
+import static java.lang.System.out;
 
 /**
  * Clase que busca cuántas veces una palabra específica aparece en una frase.
@@ -17,10 +17,10 @@ public class LoopTagsSearch {
         int quantity = 0; // Contador de coincidencias
 
         search:
-        for(int i = 0; i <= maxPhrase; ) {
+        for (int i = 0; i <= maxPhrase; ) {
             int k = i;
             // Bucle para comparar cada carácter de la palabra con la sub secuencia de la frase
-            for(int j = 0; j < maxWord; j++) {
+            for (int j = 0; j < maxWord; j++) {
                 if (phrase.charAt(k++) != word.charAt(j)) {
                     i++; // Avanza al siguiente carácter en la frase
                     continue search; // Salta al siguiente ciclo del bucle 'buscar'

@@ -3,6 +3,8 @@
   <component name="SonarLintProjectSettings">
     <option name="moduleMapping">
       <map>
+        <entry key="DateAndCalendar" value="ClassesDateAndCalendar" />
+        <entry key="SortNum" value="SortNum2" />
         <entry key="WrapperClasses" value="WrapperClases" />
       </map>
     </option>

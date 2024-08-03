@@ -1,4 +1,4 @@
-import static java.lang.System.*;
+import static java.lang.System.out;
 
 /**
  * Ejemplo de uso de las estructuras de control 'while' y 'do-while' en Java.
@@ -7,7 +7,7 @@ public class While {
     public static void main(String[] args) {
         out.println("Example 1: 'while' loop that prints values of i from 0 to 5");
         int i = 0;
-        while(i <= 5){
+        while (i <= 5) {
             out.println("i = " + i);
             i++;
         }
@@ -16,8 +16,8 @@ public class While {
         i = 0;
         boolean test = true;
 
-        while(test){
-            if(i == 7){
+        while (test) {
+            if (i == 7) {
                 test = false; // Cambia la condición para salir del bucle
             }
             out.println("i = " + i);
@@ -35,7 +35,7 @@ public class While {
         i = 0;
 
         do {
-            if(i == 10){
+            if (i == 10) {
                 test = false; // Cambia la condición para salir del bucle
             }
             out.println("i = " + i);
