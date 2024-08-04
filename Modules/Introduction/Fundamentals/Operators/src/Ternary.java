@@ -12,7 +12,10 @@ public class Ternary {
         String variable = 7 == 5 ? "if true" : "if false";
         out.println("variable = " + variable);
 
-        double math, science, history, average;
+        double math;
+        double science;
+        double history;
+        double average;
         String state = "";
 
         Scanner sc = new Scanner(in);

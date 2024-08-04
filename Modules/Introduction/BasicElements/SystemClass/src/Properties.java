@@ -17,7 +17,6 @@ public class Properties {
         String javaVersion = getProperty("java.version");
         out.println("Java version: " + javaVersion);
 
-        String lineSeparator = getProperty("line.separator");
         String lineSeparator2 = lineSeparator();
         out.println("Line separator: " + lineSeparator2 + "una nueva línea\n");
 

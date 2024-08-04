@@ -3,12 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/tasks/Introdution/BasicElements/DateAndCalendar/AgeCalculation/AgeCalculation.iml" filepath="$PROJECT_DIR$/tasks/Introdution/BasicElements/DateAndCalendar/AgeCalculation/AgeCalculation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks/Introdution/BasicElements/MathClass/CircleArea/CircleArea.iml" filepath="$PROJECT_DIR$/tasks/Introdution/BasicElements/MathClass/CircleArea/CircleArea.iml" />
       <module fileurl="file://$PROJECT_DIR$/Modules/Introduction/Fundamentals/ControlFlows/ControlFlows.iml" filepath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/ControlFlows/ControlFlows.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Course.iml" filepath="$PROJECT_DIR$/.idea/Course.iml" />
       <module fileurl="file://$PROJECT_DIR$/Modules/Introduction/BasicElements/DateAndCalendar/DateAndCalendar.iml" filepath="$PROJECT_DIR$/Modules/Introduction/BasicElements/DateAndCalendar/DateAndCalendar.iml" />
       <module fileurl="file://$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/FuelTank/FuelTank.iml" filepath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/FuelTank/FuelTank.iml" />
       <module fileurl="file://$PROJECT_DIR$/tasks/Introdution/Fundamentals/Variables/InvoiceDetail/InvoiceDetail.iml" filepath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Variables/InvoiceDetail/InvoiceDetail.iml" />
       <module fileurl="file://$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/LongestName/LongestName.iml" filepath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/LongestName/LongestName.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modules/Introduction/BasicElements/MathClass/MathClass.iml" filepath="$PROJECT_DIR$/Modules/Introduction/BasicElements/MathClass/MathClass.iml" />
       <module fileurl="file://$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/MenuOptions/MenuOptions.iml" filepath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/MenuOptions/MenuOptions.iml" />
       <module fileurl="file://$PROJECT_DIR$/tasks/Introdution/Fundamentals/ControlFlows/MinNum/MinNum.iml" filepath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/ControlFlows/MinNum/MinNum.iml" />
       <module fileurl="file://$PROJECT_DIR$/tasks/Introdution/Fundamentals/ControlFlows/MultiplyNoSymbol/MultiplyNoSymbol.iml" filepath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/ControlFlows/MultiplyNoSymbol/MultiplyNoSymbol.iml" />

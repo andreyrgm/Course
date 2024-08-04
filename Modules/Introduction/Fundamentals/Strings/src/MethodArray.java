@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 import static java.lang.System.out;
 
 /**
@@ -9,7 +11,7 @@ public class MethodArray {
         out.println("Example 1: Converting a string to a character array");
         String tongueTwister = "tongue twister";
         out.println("Length of 'tongueTwister': " + tongueTwister.length());
-        out.println("Character array: " + tongueTwister.toCharArray());
+        out.println("Character array: " + Arrays.toString(tongueTwister.toCharArray()));
 
         char[] array = tongueTwister.toCharArray();
         int length = array.length;

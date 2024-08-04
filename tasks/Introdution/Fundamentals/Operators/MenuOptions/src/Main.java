@@ -18,7 +18,6 @@ import static java.lang.System.out;
  * bucle do-while para iterar hasta que se seleccione la opción de salir,
  * mostrando un mensaje final al salir del programa.
  */
-
 public class Main {
     public static void main(String[] args) {
         int indexOption = 0;

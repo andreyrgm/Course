@@ -24,9 +24,9 @@ public class TernaryMaxNum {
         out.println("Enter a fourth number:");
         int num4 = sc.nextInt();
 
-        int max = (num1 > num2) ? num1 : num2;
-        max = (max > num3) ? max : num3;
-        max = (max > num4) ? max : num4;
+        int max = Math.max(num1, num2);
+        max = Math.max(max, num3);
+        max = Math.max(max, num4);
 
         out.println("Number 1 = " + num1);
         out.println("Number 2 = " + num2);

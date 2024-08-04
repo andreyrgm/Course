@@ -1,5 +1,7 @@
 import javax.swing.*;
 
+import static java.lang.System.out;
+
 /**
  * Obtener el nombre más largo de tres personas, según los siguientes requerimientos:
  * <p>
@@ -13,7 +15,6 @@ import javax.swing.*;
  * <p>
  * Restricción: no usar loops en el desarrollo de la tarea.
  */
-
 public class Main {
     public static void main(String[] args) {
         String person1 = JOptionPane.showInputDialog("Write the first and last name of the first person.");
@@ -23,6 +24,6 @@ public class Main {
         String max = (person1.split(" ")[0].length() < person2.split(" ")[0].length()) ? person2 : person1;
         max = (person3.split(" ")[0].length() < max.split(" ")[0].length()) ? max : person3;
 
-        System.out.println("the person with the longest name " + max);
+        out.println("the person with the longest name " + max);
     }
 }
