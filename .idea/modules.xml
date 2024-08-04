@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/tasks/Introdution/BasicElements/DateAndCalendar/AgeCalculation/AgeCalculation.iml" filepath="$PROJECT_DIR$/tasks/Introdution/BasicElements/DateAndCalendar/AgeCalculation/AgeCalculation.iml" />
       <module fileurl="file://$PROJECT_DIR$/tasks/Introdution/BasicElements/MathClass/CircleArea/CircleArea.iml" filepath="$PROJECT_DIR$/tasks/Introdution/BasicElements/MathClass/CircleArea/CircleArea.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modules/Introduction/BasicElements/CommandLine/CommandLine.iml" filepath="$PROJECT_DIR$/Modules/Introduction/BasicElements/CommandLine/CommandLine.iml" />
       <module fileurl="file://$PROJECT_DIR$/Modules/Introduction/Fundamentals/ControlFlows/ControlFlows.iml" filepath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/ControlFlows/ControlFlows.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Course.iml" filepath="$PROJECT_DIR$/.idea/Course.iml" />
       <module fileurl="file://$PROJECT_DIR$/Modules/Introduction/BasicElements/DateAndCalendar/DateAndCalendar.iml" filepath="$PROJECT_DIR$/Modules/Introduction/BasicElements/DateAndCalendar/DateAndCalendar.iml" />

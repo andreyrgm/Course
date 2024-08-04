@@ -4,28 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ec5abc6-dc75-42c3-9240-6c8d47314d81" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Modules/Introduction/BasicElements/MathClass/MathClass.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introduction/BasicElements/MathClass/src/Methods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introduction/BasicElements/MathClass/src/Randoms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/Introdution/BasicElements/MathClass/CircleArea/CircleArea.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/Introdution/BasicElements/MathClass/CircleArea/src/Main.java" afterDir="false" />
+    <list default="true" id="6ec5abc6-dc75-42c3-9240-6c8d47314d81" name="Changes" comment="Math class module">
+      <change afterPath="$PROJECT_DIR$/Modules/Introduction/BasicElements/CommandLine/CommandLine.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Introduction/BasicElements/CommandLine/src/Argument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Introduction/BasicElements/CommandLine/src/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/BasicElements/SystemClass/src/Properties.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/BasicElements/SystemClass/src/Properties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Operators/src/Example/TernaryMaxNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Operators/src/Example/TernaryMaxNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Operators/src/Ternary.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Operators/src/Ternary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Strings/src/MethodArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Strings/src/MethodArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/ControlFlows/MinNum/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/ControlFlows/MinNum/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/ControlFlows/MultiplyNoSymbol/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/ControlFlows/MultiplyNoSymbol/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/ControlFlows/StudentGradeAverage/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/ControlFlows/StudentGradeAverage/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/FuelTank/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/FuelTank/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/LongestName/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/LongestName/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/MenuOptions/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/MenuOptions/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/SortNum/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/SortNum/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Strings/NameManagement/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Strings/NameManagement/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Variables/InvoiceDetail/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Variables/InvoiceDetail/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,12 +61,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Argument.executor": "Run",
     "Application.Arithmetic.executor": "Run",
     "Application.ArrayMethod.executor": "Run",
     "Application.AssignProperties.executor": "Run",
     "Application.Assignation.executor": "Run",
     "Application.AutoboxingInteger.executor": "Run",
     "Application.BooleanWrapper.executor": "Run",
+    "Application.Calculator.executor": "Run",
     "Application.Concatenation.executor": "Run",
     "Application.Conversion.executor": "Run",
     "Application.EjemploMetodoGetClass.executor": "Run",
@@ -152,7 +138,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "settings.sync",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -163,17 +149,26 @@
       <recent name="C:\Users\andre\Downloads\Course\Fundamentals" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\Introduction\BasicElements" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\tasks\Introdution\BasicElements\MathClass" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\tasks\Introdution\BasicElements" />
-      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\Introduction\BasicElements" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\Introdution\BasicElements" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\tasks\Introdution\BasicElements\DateAndCalendar" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="MenuOptions" />
+  <component name="RunManager" selected="Application.Argument">
+    <configuration name="Argument" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Argument" />
+      <module name="CommandLine" />
+      <option name="PROGRAM_PARAMETERS" value="andrey pepe juan lalo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Calculator" />
+      <module name="CommandLine" />
+      <option name="PROGRAM_PARAMETERS" value="multi 10 5" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -199,20 +194,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="LongestName" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.Argument" />
+      <item itemvalue="Application.Calculator" />
+      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Main (3)" />
+      <item itemvalue="Application.Main (4)" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Argument" />
+        <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +250,8 @@
       <workItem from="1722696829630" duration="3218000" />
       <workItem from="1722700918972" duration="3336000" />
       <workItem from="1722725152839" duration="3169000" />
-      <workItem from="1722778889523" duration="2736000" />
+      <workItem from="1722778889523" duration="4967000" />
+      <workItem from="1722784615534" duration="2334000" />
     </task>
     <task id="LOCAL-00001" summary="Full change">
       <option name="closed" value="true" />
@@ -305,7 +301,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722725975994</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Math class module">
+      <option name="closed" value="true" />
+      <created>1722781954751</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1722781954751</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,6 +321,7 @@
     <MESSAGE value="Modules date and calendar classes" />
     <MESSAGE value="Module the system class" />
     <MESSAGE value="Update README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update README.md" />
+    <MESSAGE value="Math class module" />
+    <option name="LAST_COMMIT_MESSAGE" value="Math class module" />
   </component>
 </project>
