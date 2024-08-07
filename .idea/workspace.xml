@@ -5,10 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ec5abc6-dc75-42c3-9240-6c8d47314d81" name="Changes" comment="Math class module">
-      <change afterPath="$PROJECT_DIR$/Modules/Introduction/BasicElements/CommandLine/CommandLine.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introduction/BasicElements/CommandLine/src/Argument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introduction/BasicElements/CommandLine/src/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Arrangements.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/src/BiggerNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/src/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/src/Combined.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/src/DeleteItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/src/DetectOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/src/EvenOdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/src/Iteration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/src/MovePosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/src/MovePosition2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/src/MovePosition3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/src/OrderStartEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/src/ReverseFor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/src/ReverseMutable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/src/SearchNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/src/SearchString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/src/StudentNotes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Arrangements.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/MoreOccurrences/MoreOccurrences.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/MoreOccurrences/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/PrintHigher/PrintHigher.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/PrintHigher/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/PrintHistogram/PrintHistogram.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/PrintHistogram/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Sort/Sort.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Sort/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/StatisticalSystem/StatisticalSystem.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/StatisticalSystem/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,90 +84,90 @@
     <option name="showScratchesAndConsoles" value="false" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.Argument.executor": "Run",
-    "Application.Arithmetic.executor": "Run",
-    "Application.ArrayMethod.executor": "Run",
-    "Application.AssignProperties.executor": "Run",
-    "Application.Assignation.executor": "Run",
-    "Application.AutoboxingInteger.executor": "Run",
-    "Application.BooleanWrapper.executor": "Run",
-    "Application.Calculator.executor": "Run",
-    "Application.Concatenation.executor": "Run",
-    "Application.Conversion.executor": "Run",
-    "Application.EjemploMetodoGetClass.executor": "Run",
-    "Application.EnvironmentVars.executor": "Run",
-    "Application.Example (1).executor": "Run",
-    "Application.Example.executor": "Run",
-    "Application.ExampleReference.executor": "Run",
-    "Application.For.executor": "Run",
-    "Application.ForArray.executor": "Run",
-    "Application.ForEach.executor": "Run",
-    "Application.GetClassMethod.executor": "Run",
-    "Application.IfElse.executor": "Run",
-    "Application.Immutable.executor": "Run",
-    "Application.InstanceOf.executor": "Run",
-    "Application.JavaUtilCalendar.executor": "Run",
-    "Application.JavaUtilDate.executor": "Run",
-    "Application.JavaUtilDateParse.executor": "Run",
-    "Application.Logical.executor": "Run",
-    "Application.LogicalLogin.executor": "Run",
-    "Application.LoopTags.executor": "Run",
-    "Application.LoopTagsSearch.executor": "Run",
-    "Application.Main (1).executor": "Run",
-    "Application.Main (2).executor": "Run",
-    "Application.Main (3).executor": "Run",
-    "Application.Main (4).executor": "Run",
-    "Application.Main (5).executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Method.executor": "Run",
-    "Application.MethodArray.executor": "Run",
-    "Application.Methods.executor": "Run",
-    "Application.OperadorInstanceOf.executor": "Run",
-    "Application.Precedence.executor": "Run",
-    "Application.Primitive.executor": "Run",
-    "Application.Properties.executor": "Run",
-    "Application.Ramdom.executor": "Run",
-    "Application.Random.executor": "Run",
-    "Application.Randoms.executor": "Run",
-    "Application.Reference.executor": "Run",
-    "Application.Relational.executor": "Run",
-    "Application.RelationalOperators.executor": "Run",
-    "Application.SentenciasBucleEtiquetas.executor": "Run",
-    "Application.SentenciasBucleEtiquetasBuscar.executor": "Run",
-    "Application.SistemasNumericos.executor": "Run",
-    "Application.SistemasNumericosEntradaScanner.executor": "Run",
-    "Application.SwitchCaseMonth.executor": "Run",
-    "Application.SystemNum.executor": "Run",
-    "Application.SystemProperties.executor": "Run",
-    "Application.Ternary.executor": "Run",
-    "Application.TernaryMaxNum.executor": "Run",
-    "Application.TestEfficiency.executor": "Run",
-    "Application.Unary.executor": "Run",
-    "Application.Validate.executor": "Run",
-    "Application.Value.executor": "Run",
-    "Application.While.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/andre/Downloads/Course/tasks/Introdution/Fundamentals/Variables",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Argument.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Arithmetic.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayMethod.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AssignProperties.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Assignation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AutoboxingInteger.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BooleanWrapper.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Concatenation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Conversion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EjemploMetodoGetClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EnvironmentVars.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Example (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Example.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExampleReference.executor&quot;: &quot;Run&quot;,
+    &quot;Application.For.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ForArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ForEach.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GetClassMethod.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IfElse.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Immutable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InstanceOf.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JavaUtilCalendar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JavaUtilDate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JavaUtilDateParse.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Logical.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LogicalLogin.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoopTags.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoopTagsSearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (4).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (5).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Method.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Methods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OperadorInstanceOf.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Precedence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Primitive.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Properties.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ramdom.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Random.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Randoms.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Reference.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Relational.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RelationalOperators.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SentenciasBucleEtiquetas.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SentenciasBucleEtiquetasBuscar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SistemasNumericos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SistemasNumericosEntradaScanner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SwitchCaseMonth.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SystemNum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SystemProperties.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ternary.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TernaryMaxNum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestEfficiency.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Unary.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Validate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Value.executor&quot;: &quot;Run&quot;,
+    &quot;Application.While.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/andre/Downloads/Course/tasks/Introdution/Fundamentals/Variables&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\andre\Downloads\Course\tasks\Introdution\Fundamentals\Variables" />
@@ -149,65 +175,63 @@
       <recent name="C:\Users\andre\Downloads\Course\Fundamentals" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\tasks\DataStructures\Arrangements" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\Introduction\BasicElements" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\tasks\Introdution\BasicElements\MathClass" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\tasks\Introdution\BasicElements" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\Introdution\BasicElements" />
-      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\tasks\Introdution\BasicElements\DateAndCalendar" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Argument">
-    <configuration name="Argument" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Argument" />
-      <module name="CommandLine" />
-      <option name="PROGRAM_PARAMETERS" value="andrey pepe juan lalo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Calculator" />
-      <module name="CommandLine" />
-      <option name="PROGRAM_PARAMETERS" value="multi 10 5" />
+  <component name="RunManager" selected="Application.Main (4)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="MoreOccurrences" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="SortNum" />
+      <module name="Sort" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="NameManagement" />
+      <module name="PrintHigher" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="InvoiceDetail" />
+      <module name="PrintHistogram" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="StatisticalSystem" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Argument" />
-      <item itemvalue="Application.Calculator" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main (4)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Argument" />
-        <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -252,6 +276,13 @@
       <workItem from="1722725152839" duration="3169000" />
       <workItem from="1722778889523" duration="4967000" />
       <workItem from="1722784615534" duration="2334000" />
+      <workItem from="1723062473339" duration="36000" />
+      <workItem from="1723063276963" duration="4000" />
+      <workItem from="1723063315882" duration="6000" />
+      <workItem from="1723063324914" duration="155000" />
+      <workItem from="1723063500780" duration="7000" />
+      <workItem from="1723063511787" duration="479000" />
+      <workItem from="1723064012718" duration="2712000" />
     </task>
     <task id="LOCAL-00001" summary="Full change">
       <option name="closed" value="true" />

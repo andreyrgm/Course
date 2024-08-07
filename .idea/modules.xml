@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/tasks/Introdution/BasicElements/DateAndCalendar/AgeCalculation/AgeCalculation.iml" filepath="$PROJECT_DIR$/tasks/Introdution/BasicElements/DateAndCalendar/AgeCalculation/AgeCalculation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modules/DataStructures/Arrangements/Arrangements.iml" filepath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Arrangements.iml" />
       <module fileurl="file://$PROJECT_DIR$/tasks/Introdution/BasicElements/MathClass/CircleArea/CircleArea.iml" filepath="$PROJECT_DIR$/tasks/Introdution/BasicElements/MathClass/CircleArea/CircleArea.iml" />
       <module fileurl="file://$PROJECT_DIR$/Modules/Introduction/BasicElements/CommandLine/CommandLine.iml" filepath="$PROJECT_DIR$/Modules/Introduction/BasicElements/CommandLine/CommandLine.iml" />
       <module fileurl="file://$PROJECT_DIR$/Modules/Introduction/Fundamentals/ControlFlows/ControlFlows.iml" filepath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/ControlFlows/ControlFlows.iml" />
@@ -14,10 +15,15 @@
       <module fileurl="file://$PROJECT_DIR$/Modules/Introduction/BasicElements/MathClass/MathClass.iml" filepath="$PROJECT_DIR$/Modules/Introduction/BasicElements/MathClass/MathClass.iml" />
       <module fileurl="file://$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/MenuOptions/MenuOptions.iml" filepath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/MenuOptions/MenuOptions.iml" />
       <module fileurl="file://$PROJECT_DIR$/tasks/Introdution/Fundamentals/ControlFlows/MinNum/MinNum.iml" filepath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/ControlFlows/MinNum/MinNum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks/DataStructures/Arrangements/MoreOccurrences/MoreOccurrences.iml" filepath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/MoreOccurrences/MoreOccurrences.iml" />
       <module fileurl="file://$PROJECT_DIR$/tasks/Introdution/Fundamentals/ControlFlows/MultiplyNoSymbol/MultiplyNoSymbol.iml" filepath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/ControlFlows/MultiplyNoSymbol/MultiplyNoSymbol.iml" />
       <module fileurl="file://$PROJECT_DIR$/tasks/Introdution/Fundamentals/Strings/NameManagement/NameManagement.iml" filepath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Strings/NameManagement/NameManagement.iml" />
       <module fileurl="file://$PROJECT_DIR$/Modules/Introduction/Fundamentals/Operators/Operators.iml" filepath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Operators/Operators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks/DataStructures/Arrangements/PrintHigher/PrintHigher.iml" filepath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/PrintHigher/PrintHigher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks/DataStructures/Arrangements/PrintHistogram/PrintHistogram.iml" filepath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/PrintHistogram/PrintHistogram.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks/DataStructures/Arrangements/Sort/Sort.iml" filepath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Sort/Sort.iml" />
       <module fileurl="file://$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/SortNum/SortNum.iml" filepath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/SortNum/SortNum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks/DataStructures/Arrangements/StatisticalSystem/StatisticalSystem.iml" filepath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/StatisticalSystem/StatisticalSystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/Modules/Introduction/Fundamentals/Strings/Strings.iml" filepath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Strings/Strings.iml" />
       <module fileurl="file://$PROJECT_DIR$/tasks/Introdution/Fundamentals/ControlFlows/StudentGradeAverage/StudentGradeAverage.iml" filepath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/ControlFlows/StudentGradeAverage/StudentGradeAverage.iml" />
       <module fileurl="file://$PROJECT_DIR$/Modules/Introduction/BasicElements/SystemClass/SystemClass.iml" filepath="$PROJECT_DIR$/Modules/Introduction/BasicElements/SystemClass/SystemClass.iml" />

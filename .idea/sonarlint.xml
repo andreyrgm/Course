@@ -5,8 +5,10 @@
       <map>
         <entry key="CircleArea" value="a" />
         <entry key="DateAndCalendar" value="ClassesDateAndCalendar" />
+        <entry key="MoreOccurrences" value="PrintMoreOccurrences" />
         <entry key="SortNum" value="SortNum2" />
         <entry key="WrapperClasses" value="WrapperClases" />
+        <entry key="course" value="Course" />
       </map>
     </option>
   </component>
