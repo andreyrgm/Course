@@ -4,9 +4,10 @@
     <option name="moduleMapping">
       <map>
         <entry key="CircleArea" value="a" />
-        <entry key="Classes&amp;Objects" value="ClassesAndobjects" />
         <entry key="Date&amp;Calendar" value="ClassesDateAndCalendar" />
         <entry key="MoreOccurrences" value="PrintMoreOccurrences" />
+        <entry key="Objects" value="ClassesAndobjects" />
+        <entry key="Packages" value="Pacakages" />
         <entry key="PrintChair" value="a" />
         <entry key="PurchaseOrder" value="a" />
         <entry key="SortNum" value="SortNum2" />

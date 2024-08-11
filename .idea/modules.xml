@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/tasks/Introdution/BasicElements/DateAndCalendar/AgeCalculation/AgeCalculation.iml" filepath="$PROJECT_DIR$/tasks/Introdution/BasicElements/DateAndCalendar/AgeCalculation/AgeCalculation.iml" />
       <module fileurl="file://$PROJECT_DIR$/Modules/DataStructures/Arrays/Arrangements/Arrangements.iml" filepath="$PROJECT_DIR$/Modules/DataStructures/Arrays/Arrangements/Arrangements.iml" />
       <module fileurl="file://$PROJECT_DIR$/tasks/Introdution/BasicElements/MathClass/CircleArea/CircleArea.iml" filepath="$PROJECT_DIR$/tasks/Introdution/BasicElements/MathClass/CircleArea/CircleArea.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Modules/ObjectOriented/Beginnings/Classes&amp;Objects/Classes&amp;Objects.iml" filepath="$PROJECT_DIR$/Modules/ObjectOriented/Beginnings/Classes&amp;Objects/Classes&amp;Objects.iml" />
       <module fileurl="file://$PROJECT_DIR$/Modules/Introduction/BasicElements/CommandLine/CommandLine.iml" filepath="$PROJECT_DIR$/Modules/Introduction/BasicElements/CommandLine/CommandLine.iml" />
       <module fileurl="file://$PROJECT_DIR$/Modules/Introduction/Fundamentals/ControlFlows/ControlFlows.iml" filepath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/ControlFlows/ControlFlows.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Course.iml" filepath="$PROJECT_DIR$/.idea/Course.iml" />
@@ -20,12 +19,14 @@
       <module fileurl="file://$PROJECT_DIR$/tasks/DataStructures/Arrays/Arrangements/MoreOccurrences/MoreOccurrences.iml" filepath="$PROJECT_DIR$/tasks/DataStructures/Arrays/Arrangements/MoreOccurrences/MoreOccurrences.iml" />
       <module fileurl="file://$PROJECT_DIR$/tasks/Introdution/Fundamentals/ControlFlows/MultiplyNoSymbol/MultiplyNoSymbol.iml" filepath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/ControlFlows/MultiplyNoSymbol/MultiplyNoSymbol.iml" />
       <module fileurl="file://$PROJECT_DIR$/tasks/Introdution/Fundamentals/Strings/NameManagement/NameManagement.iml" filepath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Strings/NameManagement/NameManagement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modules/ObjectOriented/ClassStructure/Objects/Objects.iml" filepath="$PROJECT_DIR$/Modules/ObjectOriented/ClassStructure/Objects/Objects.iml" />
       <module fileurl="file://$PROJECT_DIR$/Modules/Introduction/Fundamentals/Operators/Operators.iml" filepath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Operators/Operators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modules/ObjectOriented/ClassStructure/Packages/Packages.iml" filepath="$PROJECT_DIR$/Modules/ObjectOriented/ClassStructure/Packages/Packages.iml" />
       <module fileurl="file://$PROJECT_DIR$/tasks/DataStructures/Arrays/Matrices/PrintChair/PrintChair.iml" filepath="$PROJECT_DIR$/tasks/DataStructures/Arrays/Matrices/PrintChair/PrintChair.iml" />
       <module fileurl="file://$PROJECT_DIR$/tasks/DataStructures/Arrays/Arrangements/PrintHigher/PrintHigher.iml" filepath="$PROJECT_DIR$/tasks/DataStructures/Arrays/Arrangements/PrintHigher/PrintHigher.iml" />
       <module fileurl="file://$PROJECT_DIR$/tasks/DataStructures/Arrays/Arrangements/PrintHistogram/PrintHistogram.iml" filepath="$PROJECT_DIR$/tasks/DataStructures/Arrays/Arrangements/PrintHistogram/PrintHistogram.iml" />
       <module fileurl="file://$PROJECT_DIR$/tasks/DataStructures/Arrays/Matrices/PrintX/PrintX.iml" filepath="$PROJECT_DIR$/tasks/DataStructures/Arrays/Matrices/PrintX/PrintX.iml" />
-      <module fileurl="file://$PROJECT_DIR$/tasks/ObjectOriented/Beginnings/PurchaseOrder/PurchaseOrder.iml" filepath="$PROJECT_DIR$/tasks/ObjectOriented/Beginnings/PurchaseOrder/PurchaseOrder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks/ObjectOriented/ClassStructure/PurchaseOrder/PurchaseOrder.iml" filepath="$PROJECT_DIR$/tasks/ObjectOriented/ClassStructure/PurchaseOrder/PurchaseOrder.iml" />
       <module fileurl="file://$PROJECT_DIR$/tasks/DataStructures/Arrays/Arrangements/Sort/Sort.iml" filepath="$PROJECT_DIR$/tasks/DataStructures/Arrays/Arrangements/Sort/Sort.iml" />
       <module fileurl="file://$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/SortNum/SortNum.iml" filepath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/SortNum/SortNum.iml" />
       <module fileurl="file://$PROJECT_DIR$/tasks/DataStructures/Arrays/Arrangements/StatisticalSystem/StatisticalSystem.iml" filepath="$PROJECT_DIR$/tasks/DataStructures/Arrays/Arrangements/StatisticalSystem/StatisticalSystem.iml" />
