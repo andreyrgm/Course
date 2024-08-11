@@ -5,32 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ec5abc6-dc75-42c3-9240-6c8d47314d81" name="Changes" comment="Object-oriented programming module: Classes and objects">
-      <change afterPath="$PROJECT_DIR$/Modules/ObjectOriented/ClassStructure/Objects/src/doc/UML.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/ObjectOriented/ClassStructure/Packages/src/co/argm/app/garden/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/ObjectOriented/ClassStructure/Packages/src/co/argm/app/garden/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/ObjectOriented/ClassStructure/Packages/src/co/argm/app/home/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/ObjectOriented/ClassStructure/Packages/src/co/argm/app/home/HairColor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/ObjectOriented/ClassStructure/Packages/src/co/argm/app/home/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/ObjectOriented/ClassStructure/Packages/src/co/argm/app/home/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/ObjectOriented/ClassStructure/PurchaseOrder/PurchaseOrder.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/ObjectOriented/ClassStructure/Example/Example.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/ObjectOriented/ClassStructure/Example/src/co/argm/app/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/ObjectOriented/ClassStructure/Example/src/co/argm/app/doc/UML.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/ObjectOriented/ClassStructure/Example/src/co/argm/app/model/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/ObjectOriented/ClassStructure/Example/src/co/argm/app/model/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/ObjectOriented/ClassStructure/Example/src/co/argm/app/model/InvoiceItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/ObjectOriented/ClassStructure/Example/src/co/argm/app/model/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Beginnings/Classes&amp;Objects/Classes&amp;Objects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/ClassStructure/Objects/Objects.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Beginnings/Classes&amp;Objects/src/model/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/ClassStructure/Objects/src/model/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Beginnings/Classes&amp;Objects/src/model/Motor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/ClassStructure/Objects/src/model/Motor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Beginnings/Classes&amp;Objects/src/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/ClassStructure/Objects/src/model/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Beginnings/Classes&amp;Objects/src/model/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/ClassStructure/Objects/src/model/Tank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Beginnings/Classes&amp;Objects/src/model/Wheel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/ClassStructure/Objects/src/model/Wheel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Beginnings/Classes&amp;Objects/src/model/type/CarType.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/ClassStructure/Objects/src/model/type/CarType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Beginnings/Classes&amp;Objects/src/model/type/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/ClassStructure/Objects/src/model/type/Color.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Beginnings/Classes&amp;Objects/src/model/type/MotorType.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/ClassStructure/Objects/src/model/type/MotorType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Beginnings/Classes&amp;Objects/src/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/ClassStructure/Objects/src/ui/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/ObjectOriented/Beginnings/PurchaseOrder/PurchaseOrder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/ClassStructure/Packages/Packages.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/ObjectOriented/Beginnings/PurchaseOrder/src/model/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/ObjectOriented/ClassStructure/PurchaseOrder/src/model/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/ObjectOriented/Beginnings/PurchaseOrder/src/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/ObjectOriented/ClassStructure/PurchaseOrder/src/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/ObjectOriented/Beginnings/PurchaseOrder/src/model/PurchaseOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/ObjectOriented/ClassStructure/PurchaseOrder/src/model/PurchaseOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/ObjectOriented/Beginnings/PurchaseOrder/src/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/ObjectOriented/ClassStructure/PurchaseOrder/src/ui/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -160,6 +143,7 @@
     "Application.Value.executor": "Run",
     "Application.VariableSize.executor": "Run",
     "Application.While.executor": "Run",
+    "Application.co.argm.app.Main.executor": "Run",
     "Application.ui.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -167,7 +151,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/andre/OneDrive/Escritorio/Course/tasks",
+    "last_opened_file_path": "C:/Users/andre/OneDrive/Escritorio/Course/Modules/ObjectOriented/ClassStructure/Example/src/co/argm/app",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -182,24 +166,24 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\ObjectOriented\ClassStructure\Example\src\co\argm\app" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\tasks" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\tasks\DataStructures\Arrays" />
       <recent name="C:\Users\andre\Downloads\Course\tasks\Introdution\Fundamentals\Variables" />
       <recent name="C:\Users\andre\Downloads\Course\tasks" />
-      <recent name="C:\Users\andre\Downloads\Course\Fundamentals" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\ObjectOriented\ClassStructure\Objects\src\doc" />
+      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\ObjectOriented\ClassStructure\Example\src\co\argm\app\doc" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\ObjectOriented\ClassStructure" />
+      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\ObjectOriented\ClassStructure\Objects\src\doc" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\tasks\ObjectOriented\Beginnings" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\tasks\ObjectOriented\Beginnings\Classes&amp;Objects" />
-      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\ObjectOriented\Beginnings" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ui.Main">
+  <component name="RunManager" selected="Application.co.argm.app.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="PrintChair" />
@@ -228,6 +212,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="co.argm.app.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.argm.app.Main" />
+      <module name="Example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.argm.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ui.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ui.Main" />
       <module name="Objects" />
@@ -243,6 +240,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.co.argm.app.Main" />
       <item itemvalue="Application.ui.Main" />
       <item itemvalue="Application.Static" />
       <item itemvalue="Application.Main (1)" />
@@ -250,11 +248,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.co.argm.app.Main" />
         <item itemvalue="Application.ui.Main" />
         <item itemvalue="Application.ui.Main" />
         <item itemvalue="Application.Static" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -321,6 +319,7 @@
       <workItem from="1723383520662" duration="1517000" />
       <workItem from="1723386890115" duration="107000" />
       <workItem from="1723387009678" duration="3704000" />
+      <workItem from="1723413195983" duration="6528000" />
     </task>
     <task id="LOCAL-00001" summary="Full change">
       <option name="closed" value="true" />
