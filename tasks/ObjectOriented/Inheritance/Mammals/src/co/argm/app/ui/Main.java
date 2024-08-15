@@ -2,7 +2,7 @@ package co.argm.app.ui;
 
 import co.argm.app.model.*;
 
-import static java.lang.System.*;
+import static java.lang.System.out;
 
 /**
  * Clase principal que ejecuta el programa y muestra la información de los animales.
