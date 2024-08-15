@@ -3,9 +3,12 @@
   <component name="SonarLintProjectSettings">
     <option name="moduleMapping">
       <map>
+        <entry key="Abstract" value="Adstract" />
         <entry key="CircleArea" value="a" />
+        <entry key="Course" value="Course" />
         <entry key="Date&amp;Calendar" value="ClassesDateAndCalendar" />
         <entry key="Heredity" value="Inheritance" />
+        <entry key="Mammals" value="a" />
         <entry key="MoreOccurrences" value="PrintMoreOccurrences" />
         <entry key="Objects" value="ClassesAndobjects" />
         <entry key="Overload" value="MethodOverload" />
