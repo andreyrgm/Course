@@ -3,10 +3,12 @@
   <component name="SonarLintProjectSettings">
     <option name="moduleMapping">
       <map>
+        <entry key="Arrangements" value="Arrangements" />
         <entry key="CircleArea" value="a" />
         <entry key="Course" value="Course" />
         <entry key="Date&amp;Calendar" value="ClassesDateAndCalendar" />
         <entry key="Form" value="Adstract" />
+        <entry key="Invoice" value="Example" />
         <entry key="Mammals" value="a" />
         <entry key="MoreOccurrences" value="PrintMoreOccurrences" />
         <entry key="Objects" value="ClassesAndobjects" />
@@ -14,7 +16,7 @@
         <entry key="Packages" value="Pacakages" />
         <entry key="PrintChair" value="a" />
         <entry key="PurchaseOrder" value="a" />
-        <entry key="Repo" value="Repository" />
+        <entry key="Repo" value="Generics" />
         <entry key="School" value="Inheritance" />
         <entry key="Sheet" value="Interface" />
         <entry key="SortNum" value="SortNum2" />

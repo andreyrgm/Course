@@ -1,20 +1,18 @@
 package co.argm.app.model.Repository;
 
-import co.argm.app.model.Client;
-
 import java.util.List;
 
 /**
  * Interfaz que define el contrato para operaciones CRUD (Crear, Leer, Actualizar, Eliminar).
  */
-public interface Crud {
-    List<Client> list();
+public interface Crud<T> {
+    List<T> list();
 
-    Client get(int id);
+    T get(int id);
 
-    ClientList create(Client client);
+    void create(T t);
 
-    void update(Client client);
+    void update(T t);
 
     void delete(int id);
 }
