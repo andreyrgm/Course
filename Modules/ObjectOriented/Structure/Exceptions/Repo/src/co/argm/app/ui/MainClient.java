@@ -1,15 +1,15 @@
 package co.argm.app.ui;
 
 import co.argm.app.model.Client;
-import co.argm.app.model.Exceptions.DataAccessException;
-import co.argm.app.model.Exceptions.DuplicateRecordException;
-import co.argm.app.model.Exceptions.ReadException;
-import co.argm.app.model.Exceptions.WritingException;
-import co.argm.app.model.Repository.Full;
-import co.argm.app.model.Repository.list.ClientList;
+import co.argm.app.model.exceptions.DataAccessException;
+import co.argm.app.model.exceptions.DuplicateRecordException;
+import co.argm.app.model.exceptions.ReadException;
+import co.argm.app.model.exceptions.WritingException;
+import co.argm.app.model.repository.Full;
+import co.argm.app.model.repository.list.ClientList;
 
-import static co.argm.app.model.Repository.Direction.ASC;
-import static co.argm.app.model.Repository.Direction.DESC;
+import static co.argm.app.model.repository.Direction.ASC;
+import static co.argm.app.model.repository.Direction.DESC;
 import static java.lang.System.err;
 import static java.lang.System.out;
 

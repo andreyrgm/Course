@@ -1,4 +1,4 @@
-package co.argm.app.model.Exceptions;
+package co.argm.app.model.exceptions;
 
 /**
  * Excepción lanzada cuando ocurre un error de acceso a datos.

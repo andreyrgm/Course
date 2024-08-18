@@ -1,4 +1,4 @@
-package co.argm.app.model.Repository;
+package co.argm.app.model.repository;
 
 /**
  * Enum que define las direcciones de ordenación.

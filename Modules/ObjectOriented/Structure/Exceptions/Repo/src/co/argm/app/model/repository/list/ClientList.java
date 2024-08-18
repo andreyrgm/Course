@@ -1,9 +1,9 @@
-package co.argm.app.model.Repository.list;
+package co.argm.app.model.repository.list;
 
 import co.argm.app.model.Client;
-import co.argm.app.model.Exceptions.ReadException;
-import co.argm.app.model.Repository.AbstractList;
-import co.argm.app.model.Repository.Direction;
+import co.argm.app.model.exceptions.ReadException;
+import co.argm.app.model.repository.AbstractList;
+import co.argm.app.model.repository.Direction;
 
 import java.util.ArrayList;
 import java.util.List;

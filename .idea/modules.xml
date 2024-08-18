@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/Modules/DataStructures/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Modules/DataStructures/Arrays/Arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/tasks/ObjectOriented/Inheritance/Catalog/Catalog.iml" filepath="$PROJECT_DIR$/tasks/ObjectOriented/Inheritance/Catalog/Catalog.iml" />
       <module fileurl="file://$PROJECT_DIR$/tasks/Introdution/BasicElements/MathClass/CircleArea/CircleArea.iml" filepath="$PROJECT_DIR$/tasks/Introdution/BasicElements/MathClass/CircleArea/CircleArea.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modules/DataStructures/Collections/Collections.iml" filepath="$PROJECT_DIR$/Modules/DataStructures/Collections/Collections.iml" />
       <module fileurl="file://$PROJECT_DIR$/Modules/Introduction/BasicElements/CommandLine/CommandLine.iml" filepath="$PROJECT_DIR$/Modules/Introduction/BasicElements/CommandLine/CommandLine.iml" />
       <module fileurl="file://$PROJECT_DIR$/Modules/Introduction/Fundamentals/ControlFlows/ControlFlows.iml" filepath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/ControlFlows/ControlFlows.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Course.iml" filepath="$PROJECT_DIR$/.idea/Course.iml" />

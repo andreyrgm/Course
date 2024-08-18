@@ -1,7 +1,5 @@
 package co.argm.app.ui;
 
-import co.argm.app.model.*;
-
 import static co.argm.app.model.Genre.PROGRAMMING;
 import static java.lang.System.out;
 

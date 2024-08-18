@@ -1,6 +1,6 @@
-package co.argm.app.model.Repository;
+package co.argm.app.model.repository;
 
-import co.argm.app.model.Exceptions.DataAccessException;
+import co.argm.app.model.exceptions.DataAccessException;
 
 import java.util.List;
 

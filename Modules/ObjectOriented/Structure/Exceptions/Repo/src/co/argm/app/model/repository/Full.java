@@ -1,4 +1,4 @@
-package co.argm.app.model.Repository;
+package co.argm.app.model.repository;
 
 /**
  * Interfaz que extiende Counter, Crud, Pageable y Sort.

@@ -1,4 +1,4 @@
-package co.argm.app.model.Exceptions;
+package co.argm.app.model.exceptions;
 
 /**
  * Excepción lanzada cuando se intenta crear un registro duplicado.

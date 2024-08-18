@@ -1,4 +1,4 @@
-package co.argm.app.model.Repository;
+package co.argm.app.model.repository;
 
 /**
  * Interfaz que proporciona el método para obtener el total de registros.

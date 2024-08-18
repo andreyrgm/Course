@@ -4,73 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ec5abc6-dc75-42c3-9240-6c8d47314d81" name="Changes" comment="Object-oriented programming module: Generic Types (Java Generics)">
-      <change afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Example/src/co/argm/app/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Example/src/co/argm/app/DivisionByZeroException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Example/src/co/argm/app/FormatNumberException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Example/src/co/argm/app/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/Repo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/model/Exceptions/DataAccessException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/model/Exceptions/DuplicateRecordException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/model/Exceptions/ReadException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/model/Exceptions/WritingException.java" afterDir="false" />
+    <list default="true" id="6ec5abc6-dc75-42c3-9240-6c8d47314d81" name="Changes" comment="Object-oriented programming module: Exception Handling">
+      <change afterPath="$PROJECT_DIR$/Modules/DataStructures/Collections/Collections.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/DataStructures/Collections/src/co/argm/app/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/DataStructures/Collections/src/co/argm/app/ui/list/array/Methods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/DataStructures/Collections/src/co/argm/app/ui/list/linked/Comparable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/DataStructures/Collections/src/co/argm/app/ui/list/linked/Methods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/DataStructures/Collections/src/co/argm/app/ui/map/hash/Methods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/DataStructures/Collections/src/co/argm/app/ui/map/tree/Methods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/DataStructures/Collections/src/co/argm/app/ui/set/hash/Add.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/DataStructures/Collections/src/co/argm/app/ui/set/hash/FindDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/DataStructures/Collections/src/co/argm/app/ui/set/hash/Uniqueness.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/DataStructures/Collections/src/co/argm/app/ui/set/tree/Add.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/DataStructures/Collections/src/co/argm/app/ui/set/tree/Comparable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrays/Arrangements/Arrangements.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrays/Arrays.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrays/Arrangements/src/BiggerNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrays/src/BiggerNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrays/Arrangements/src/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrays/src/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrays/Arrangements/src/Combined.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrays/src/Combined.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrays/Arrangements/src/DeleteItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrays/src/DeleteItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrays/Arrangements/src/DetectOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrays/src/DetectOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrays/Arrangements/src/EvenOdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrays/src/EvenOdd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrays/Arrangements/src/Iteration.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrays/src/Iteration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrays/Arrangements/src/MovePosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrays/src/MovePosition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrays/Arrangements/src/MovePosition2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrays/src/MovePosition2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrays/Arrangements/src/MovePosition3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrays/src/MovePosition3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrays/Arrangements/src/OrderStartEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrays/src/OrderStartEnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrays/Arrangements/src/ReverseFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrays/src/ReverseFor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrays/Arrangements/src/ReverseMutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrays/src/ReverseMutable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrays/Arrangements/src/SearchNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrays/src/SearchNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrays/Arrangements/src/SearchString.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrays/src/SearchString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrays/Arrangements/src/StudentNotes.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrays/src/StudentNotes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrays/Matrices/Matrices.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Generics/Generics.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrays/Matrices/src/AddRowColumn.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Matrices/src/AddRowColumn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrays/Matrices/src/Adding.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Matrices/src/Adding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrays/Matrices/src/Frame.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Matrices/src/Frame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrays/Matrices/src/Identity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Matrices/src/Identity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrays/Matrices/src/Iteration.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Matrices/src/Iteration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrays/Matrices/src/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Matrices/src/Search.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrays/Matrices/src/Symmetrical.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Matrices/src/Symmetrical.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrays/Matrices/src/TransposeMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Matrices/src/TransposeMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrays/Matrices/src/Transposed.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Matrices/src/Transposed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrays/Matrices/src/VariableSize.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Matrices/src/VariableSize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Generics/Example/Example.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Matrices/Matrices.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Generics/Example/src/co/argm/app/model/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Generics/src/co/argm/app/model/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Generics/Example/src/co/argm/app/model/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Generics/src/co/argm/app/model/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Generics/Example/src/co/argm/app/model/Machinery.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Generics/src/co/argm/app/model/Machinery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Generics/Example/src/co/argm/app/model/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Generics/src/co/argm/app/model/Truck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Generics/Example/src/co/argm/app/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Generics/src/co/argm/app/ui/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Generics/Repo/Repo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Example/Example.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Generics/Repo/src/co/argm/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Generics/Repo/src/co/argm/app/model/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/model/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Generics/Repo/src/co/argm/app/model/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/model/Entity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Generics/Repo/src/co/argm/app/model/PremiumClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/model/PremiumClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Generics/Repo/src/co/argm/app/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Generics/Repo/src/co/argm/app/model/Repository/AbstractList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/model/Repository/AbstractList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Generics/Repo/src/co/argm/app/model/Repository/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/model/Repository/Counter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Generics/Repo/src/co/argm/app/model/Repository/Crud.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/model/Repository/Crud.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Generics/Repo/src/co/argm/app/model/Repository/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/model/Repository/Direction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Generics/Repo/src/co/argm/app/model/Repository/Full.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/model/Repository/Full.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Generics/Repo/src/co/argm/app/model/Repository/Pageable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/model/Repository/Pageable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Generics/Repo/src/co/argm/app/model/Repository/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/model/Repository/Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Generics/Repo/src/co/argm/app/model/Repository/list/ClientList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/model/Repository/list/ClientList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Generics/Repo/src/co/argm/app/model/Repository/list/ProductList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/model/Repository/list/ProductList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Generics/Repo/src/co/argm/app/ui/MainClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/ui/MainClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Generics/Repo/src/co/argm/app/ui/MainProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/ui/MainProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Overload/Overload.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Inheritance/Overload/Overload.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Overload/src/co/argm/app/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Inheritance/Overload/src/co/argm/app/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Overload/src/co/argm/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Inheritance/Overload/src/co/argm/app/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Inheritance/Form/src/co/argm/app/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Inheritance/Form/src/co/argm/app/ui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Inheritance/Sheet/src/co/argm/app/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Inheritance/Sheet/src/co/argm/app/ui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/model/Exceptions/DataAccessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/model/exceptions/DataAccessException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/model/Exceptions/DuplicateRecordException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/model/exceptions/DuplicateRecordException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/model/Exceptions/ReadException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/model/exceptions/ReadException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/model/Exceptions/WritingException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/model/exceptions/WritingException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/model/Repository/AbstractList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/model/repository/AbstractList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/model/Repository/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/model/repository/Counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/model/Repository/Crud.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/model/repository/Crud.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/model/Repository/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/model/repository/Direction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/model/Repository/Full.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/model/repository/Full.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/model/Repository/Pageable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/model/repository/Pageable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/model/Repository/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/model/repository/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/model/Repository/list/ClientList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/model/repository/list/ClientList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/model/Repository/list/ProductList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/model/repository/list/ProductList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/ui/MainClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/ui/MainClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/ui/MainProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repo/src/co/argm/app/ui/MainProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Objects/src/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Objects/src/ui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/ObjectOriented/Inheritance/GreengrocerStore/src/co/argm/app/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/ObjectOriented/Inheritance/GreengrocerStore/src/co/argm/app/ui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/ObjectOriented/Inheritance/Mammals/src/co/argm/app/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/ObjectOriented/Inheritance/Mammals/src/co/argm/app/ui/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,111 +93,123 @@
     <option name="showScratchesAndConsoles" value="false" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.AddRowColumn.executor": "Run",
-    "Application.Adding.executor": "Run",
-    "Application.Argument.executor": "Run",
-    "Application.Arithmetic.executor": "Run",
-    "Application.ArrayMethod.executor": "Run",
-    "Application.AssignProperties.executor": "Run",
-    "Application.Assignation.executor": "Run",
-    "Application.AutoboxingInteger.executor": "Run",
-    "Application.BiggerNum.executor": "Run",
-    "Application.BooleanWrapper.executor": "Run",
-    "Application.BubbleSort.executor": "Run",
-    "Application.Calculator.executor": "Run",
-    "Application.Concatenation.executor": "Run",
-    "Application.Conversion.executor": "Run",
-    "Application.EjemploMetodoGetClass.executor": "Run",
-    "Application.EnvironmentVars.executor": "Run",
-    "Application.Example (1).executor": "Run",
-    "Application.Example.executor": "Run",
-    "Application.ExampleReference.executor": "Run",
-    "Application.For.executor": "Run",
-    "Application.ForArray.executor": "Run",
-    "Application.ForEach.executor": "Run",
-    "Application.Frame.executor": "Run",
-    "Application.GetClassMethod.executor": "Run",
-    "Application.Identity.executor": "Run",
-    "Application.IfElse.executor": "Run",
-    "Application.Immutable.executor": "Run",
-    "Application.InstanceOf.executor": "Run",
-    "Application.JavaUtilCalendar.executor": "Run",
-    "Application.JavaUtilDate.executor": "Run",
-    "Application.JavaUtilDateParse.executor": "Run",
-    "Application.Logical.executor": "Run",
-    "Application.LogicalLogin.executor": "Run",
-    "Application.LoopTags.executor": "Run",
-    "Application.LoopTagsSearch.executor": "Run",
-    "Application.Main (1).executor": "Run",
-    "Application.Main (2).executor": "Run",
-    "Application.Main (3).executor": "Run",
-    "Application.Main (4).executor": "Run",
-    "Application.Main (5).executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MainClient.executor": "Run",
-    "Application.Method.executor": "Run",
-    "Application.MethodArray.executor": "Run",
-    "Application.Methods.executor": "Run",
-    "Application.OperadorInstanceOf.executor": "Run",
-    "Application.Precedence.executor": "Run",
-    "Application.Primitive.executor": "Run",
-    "Application.Properties.executor": "Run",
-    "Application.Ramdom.executor": "Run",
-    "Application.Random.executor": "Run",
-    "Application.Randoms.executor": "Run",
-    "Application.Reference.executor": "Run",
-    "Application.Relational.executor": "Run",
-    "Application.RelationalOperators.executor": "Run",
-    "Application.SentenciasBucleEtiquetas.executor": "Run",
-    "Application.SentenciasBucleEtiquetasBuscar.executor": "Run",
-    "Application.SistemasNumericos.executor": "Run",
-    "Application.SistemasNumericosEntradaScanner.executor": "Run",
-    "Application.Static.executor": "Run",
-    "Application.StringFor.executor": "Run",
-    "Application.SwitchCaseMonth.executor": "Run",
-    "Application.Symmetrical.executor": "Run",
-    "Application.SystemNum.executor": "Run",
-    "Application.SystemProperties.executor": "Run",
-    "Application.Ternary.executor": "Run",
-    "Application.TernaryMaxNum.executor": "Run",
-    "Application.TestEfficiency.executor": "Run",
-    "Application.TransposeMatrix.executor": "Run",
-    "Application.Transposed.executor": "Run",
-    "Application.Unary.executor": "Run",
-    "Application.Validate.executor": "Run",
-    "Application.Value.executor": "Run",
-    "Application.VariableSize.executor": "Run",
-    "Application.While.executor": "Run",
-    "Application.co.argm.app.Example.ui.Main.executor": "Run",
-    "Application.co.argm.app.Main (1).executor": "Run",
-    "Application.co.argm.app.Main (2).executor": "Run",
-    "Application.co.argm.app.Main.executor": "Run",
-    "Application.co.argm.app.ui.Main.executor": "Run",
-    "Application.ui.Main.executor": "Run",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/Users/andre/OneDrive/Escritorio/Course/Modules/DataStructures/Generics/src/co/argm/app/model",
-    "last_opened_file_path": "C:/Users/andre/OneDrive/Escritorio/Course/Modules/DataStructures/Generics/src/co/argm/app",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "settings.sync",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.AddRowColumn.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Adding.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Argument.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Arithmetic.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayListMethods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayMethod.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AssignProperties.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Assignation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AutoboxingInteger.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BiggerNum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BooleanWrapper.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BubbleSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Comparable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Concatenation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Conversion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EjemploMetodoGetClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EnvironmentVars.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Example (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Example.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExampleReference.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindDuplicate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.For.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ForArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ForEach.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Frame.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GetClassMethod.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashSetAdd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashSetUniqueness.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Identity.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IfElse.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Immutable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InstanceOf.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JavaUtilCalendar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JavaUtilDate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JavaUtilDateParse.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedListMethods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Logical.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LogicalLogin.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoopTags.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoopTagsSearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (4).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (5).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Method.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Methods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OperadorInstanceOf.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Precedence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Primitive.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Properties.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ramdom.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Random.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Randoms.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Reference.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Relational.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RelationalOperators.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SentenciasBucleEtiquetas.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SentenciasBucleEtiquetasBuscar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SistemasNumericos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SistemasNumericosEntradaScanner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Static.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringFor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SwitchCaseMonth.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Symmetrical.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SystemNum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SystemProperties.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ternary.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TernaryMaxNum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestEfficiency.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TransposeMatrix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Transposed.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TreeSetAdd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TreeSetComparable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Unary.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Validate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Value.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VariableSize.executor&quot;: &quot;Run&quot;,
+    &quot;Application.While.executor&quot;: &quot;Run&quot;,
+    &quot;Application.co.argm.app.Example.ui.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.co.argm.app.Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.co.argm.app.Main (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.co.argm.app.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.co.argm.app.ui.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.co.argm.app.ui.list.array.Methods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.co.argm.app.ui.list.linked.Methods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.co.argm.app.ui.map.hash.Methods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.co.argm.app.ui.map.tree.Methods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ui.Main.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/andre/OneDrive/Escritorio/Course/Modules/DataStructures/Generics/src/co/argm/app/model&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/andre/OneDrive/Escritorio/Course/Modules/DataStructures/Generics/src/co/argm/app&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.grazie&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\DataStructures\Generics\src\co\argm\app" />
@@ -239,26 +219,66 @@
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\ObjectOriented\ClassStructure\Example\src\co\argm\app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\DataStructures\Collections\src\co\argm\app\ui" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\ObjectOriented\Structure\Exceptions" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\ObjectOriented" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\ObjectOriented\Structure" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\DataStructures" />
-      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="co.argm.app.ui.map.tree" />
+      <recent name="co.argm.app.set" />
       <recent name="co.argm.app.model.Exceptions" />
       <recent name="co.argm.app.ui" />
       <recent name="co.argm.app.model.Repository" />
-      <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainClient">
+  <component name="RunManager" selected="Application.co.argm.app.ui.map.tree.Methods">
+    <configuration name="Comparable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.argm.app.ui.list.linked.Comparable" />
+      <module name="Collections" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.argm.app.ui.list.linked.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="co.argm.app.Main" />
-      <module name="Repo" />
+      <module name="Overload" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.argm.app.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.argm.app.Main" />
+      <module name="PeopleCompany" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="co.argm.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.argm.app.Main" />
+      <module name="Example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.argm.app.model.IntStudent" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -279,38 +299,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.argm.app.ui.MainClient" />
-      <module name="Repo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.argm.app.ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="co.argm.app.Main" />
       <module name="Inheritance" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="co.argm.app.model.IntStudent" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.argm.app.ui.Main" />
-      <module name="Mammals" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.argm.app.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -341,19 +335,6 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="co.argm.app.Main" />
       <module name="Overload" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.argm.app.ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.argm.app.Main" />
-      <module name="Example" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="co.argm.app.ui.*" />
@@ -403,12 +384,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.argm.app.Main" />
-      <module name="PeopleCompany" />
+    <configuration name="co.argm.app.ui.list.array.Methods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.argm.app.ui.list.array.Methods" />
+      <module name="Collections" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="co.argm.app.*" />
+          <option name="PATTERN" value="co.argm.app.ui.list.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -416,12 +397,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.argm.app.Main" />
-      <module name="Example" />
+    <configuration name="co.argm.app.ui.list.linked.Methods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.argm.app.ui.list.linked.Methods" />
+      <module name="Collections" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="co.argm.app.model.IntStudent" />
+          <option name="PATTERN" value="co.argm.app.ui.list.linked.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -429,12 +410,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.argm.app.Main" />
-      <module name="Overload" />
+    <configuration name="co.argm.app.ui.map.hash.Methods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.argm.app.ui.map.hash.Methods" />
+      <module name="Collections" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="co.argm.app.model.*" />
+          <option name="PATTERN" value="co.argm.app.ui.map.hash.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -442,66 +423,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="co.argm.app.Example.ui.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.argm.app.Example.ui.Main" />
-      <module name="Repo" />
+    <configuration name="co.argm.app.ui.map.tree.Methods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.argm.app.ui.map.tree.Methods" />
+      <module name="Collections" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="co.argm.app.Example.ui.*" />
+          <option name="PATTERN" value="co.argm.app.ui.map.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="co.argm.app.ui.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.argm.app.ui.Main" />
-      <module name="Form" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.argm.app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="co.argm.app.ui.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.argm.app.ui.Main" />
-      <module name="Repo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.argm.app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ui.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ui.Main" />
-      <module name="PurchaseOrder" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.co.argm.app.Main (1)" />
-      <item itemvalue="Application.MainClient" />
-      <item itemvalue="Application.co.argm.app.Example.ui.Main" />
-      <item itemvalue="Application.co.argm.app.Main" />
-      <item itemvalue="Application.co.argm.app.ui.Main" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Comparable" />
+      <item itemvalue="Application.co.argm.app.ui.list.array.Methods" />
+      <item itemvalue="Application.co.argm.app.ui.list.linked.Methods" />
+      <item itemvalue="Application.co.argm.app.ui.map.hash.Methods" />
+      <item itemvalue="Application.co.argm.app.ui.map.tree.Methods" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainClient" />
-        <item itemvalue="Application.co.argm.app.Main (1)" />
-        <item itemvalue="Application.co.argm.app.Main" />
-        <item itemvalue="Application.co.argm.app.ui.Main" />
-        <item itemvalue="Application.co.argm.app.Example.ui.Main" />
+        <item itemvalue="Application.co.argm.app.ui.list.linked.Methods" />
+        <item itemvalue="Application.Comparable" />
+        <item itemvalue="Application.co.argm.app.ui.list.array.Methods" />
+        <item itemvalue="Application.co.argm.app.ui.map.tree.Methods" />
+        <item itemvalue="Application.co.argm.app.ui.map.hash.Methods" />
       </list>
     </recent_temporary>
   </component>
@@ -587,7 +536,13 @@
       <workItem from="1723807788412" duration="2520000" />
       <workItem from="1723842426751" duration="7878000" />
       <workItem from="1723853080524" duration="1704000" />
-      <workItem from="1723927488690" duration="10869000" />
+      <workItem from="1723927488690" duration="11073000" />
+      <workItem from="1723951347034" duration="172000" />
+      <workItem from="1723984960585" duration="1297000" />
+      <workItem from="1723990870150" duration="9060000" />
+      <workItem from="1724007799871" duration="1931000" />
+      <workItem from="1724009763139" duration="4667000" />
+      <workItem from="1724014492829" duration="669000" />
     </task>
     <task id="LOCAL-00001" summary="Full change">
       <option name="closed" value="true" />
@@ -717,7 +672,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723930383315</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Object-oriented programming module: Exception Handling">
+      <option name="closed" value="true" />
+      <created>1723939627483</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1723939627483</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -750,7 +713,8 @@
     <MESSAGE value="Object-oriented programming module: Interfaces" />
     <MESSAGE value="Object-oriented programming module: Example repository interfaces" />
     <MESSAGE value="Object-oriented programming module: Generic Types (Java Generics)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Object-oriented programming module: Generic Types (Java Generics)" />
+    <MESSAGE value="Object-oriented programming module: Exception Handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Object-oriented programming module: Exception Handling" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

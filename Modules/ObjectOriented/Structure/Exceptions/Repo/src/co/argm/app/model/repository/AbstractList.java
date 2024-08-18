@@ -1,9 +1,9 @@
-package co.argm.app.model.Repository;
+package co.argm.app.model.repository;
 
 import co.argm.app.model.Entity;
-import co.argm.app.model.Exceptions.DuplicateRecordException;
-import co.argm.app.model.Exceptions.ReadException;
-import co.argm.app.model.Exceptions.WritingException;
+import co.argm.app.model.exceptions.DuplicateRecordException;
+import co.argm.app.model.exceptions.ReadException;
+import co.argm.app.model.exceptions.WritingException;
 
 import java.util.ArrayList;
 import java.util.List;
