@@ -17,7 +17,7 @@ public class Main {
         List<Client> clients = new ArrayList<>();
         clients.add(new Client("Andrew", "Gomez"));
 
-        Client andrew = clients.get(0);
+        Client andrew = clients.getFirst();
 
         Client[] clientArray = {new Client("Luci", "Martinez"), new Client("Andrew", "Gomez")};
         Integer[] integersArray = {1, 2, 3};
