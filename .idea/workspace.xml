@@ -5,8 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ec5abc6-dc75-42c3-9240-6c8d47314d81" name="Changes" comment="Threads and Concurrency Module">
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Threads/src/co/argm/app/synced/model/Bakery.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Threads/src/co/argm/app/synced/model/Bakery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repository/src/co/argm/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Exceptions/Repository/src/co/argm/app/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/Lambda/src/co/argm/app/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/Lambda/src/co/argm/app/model/arithmetic/Arithmetic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/Lambda/src/co/argm/app/model/arithmetic/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/Lambda/src/co/argm/app/ui/Consume.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/Lambda/src/co/argm/app/ui/Functions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/Lambda/src/co/argm/app/ui/Interface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/Lambda/src/co/argm/app/ui/Preached.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Matrices/PrintX/PrintX.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/DataStructures/Arrays/Arrangements/Arrangements.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/Lambda/Lambda.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/DataStructures/Arrays/Arrangements/MoreOccurrences/MoreOccurrences.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Array/Arrangements.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/DataStructures/Arrays/Arrangements/MoreOccurrences/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Array/MoreOccurrences/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/DataStructures/Arrays/Arrangements/PrintHigher/PrintHigher.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Array/MoreOccurrences/MoreOccurrences.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/DataStructures/Arrays/Arrangements/PrintHigher/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Array/PrintHigher/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/DataStructures/Arrays/Arrangements/PrintHistogram/PrintHistogram.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Array/PrintHigher/PrintHigher.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/DataStructures/Arrays/Arrangements/PrintHistogram/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Array/PrintHistogram/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/DataStructures/Arrays/Arrangements/Sort/Sort.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Array/PrintHistogram/PrintHistogram.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/DataStructures/Arrays/Arrangements/Sort/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Array/Sort/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/DataStructures/Arrays/Arrangements/StatisticalSystem/StatisticalSystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Array/Sort/Sort.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/DataStructures/Arrays/Arrangements/StatisticalSystem/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Array/StatisticalSystem/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/DataStructures/Arrays/Matrices/Matrices.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Array/StatisticalSystem/StatisticalSystem.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/DataStructures/Arrays/Matrices/PrintChair/PrintChair.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Matrices/Matrices.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/DataStructures/Arrays/Matrices/PrintChair/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Matrices/PrintChair/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/DataStructures/Arrays/Matrices/PrintX/PrintX.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Matrices/PrintChair/PrintChair.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/DataStructures/Arrays/Matrices/PrintX/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Matrices/PrintX/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +104,7 @@
     "Application.Calculator.executor": "Run",
     "Application.Comparable.executor": "Run",
     "Application.Concatenation.executor": "Run",
+    "Application.Consume.executor": "Run",
     "Application.ConsumerProducer.executor": "Run",
     "Application.Conversion.executor": "Run",
     "Application.EjemploMetodoGetClass.executor": "Run",
@@ -92,6 +118,7 @@
     "Application.ForArray.executor": "Run",
     "Application.ForEach.executor": "Run",
     "Application.Frame.executor": "Run",
+    "Application.Functions.executor": "Run",
     "Application.GetClassMethod.executor": "Run",
     "Application.HashSetAdd.executor": "Run",
     "Application.HashSetUniqueness.executor": "Run",
@@ -99,6 +126,7 @@
     "Application.IfElse.executor": "Run",
     "Application.Immutable.executor": "Run",
     "Application.InstanceOf.executor": "Run",
+    "Application.Interface.executor": "Run",
     "Application.InterfaceRunnable.executor": "Run",
     "Application.JavaUtilCalendar.executor": "Run",
     "Application.JavaUtilDate.executor": "Run",
@@ -120,6 +148,7 @@
     "Application.Methods.executor": "Run",
     "Application.Methods2.executor": "Run",
     "Application.OperadorInstanceOf.executor": "Run",
+    "Application.Preached.executor": "Run",
     "Application.Precedence.executor": "Run",
     "Application.Primitive.executor": "Run",
     "Application.Properties.executor": "Run",
@@ -194,11 +223,11 @@
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\tasks\ObjectOriented\Inheritance\Heredity\GreengrocerStore\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\FunctionalProgram" />
+      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\Introduction" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\DataStructures" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\Threads\src\co\argm\app" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules" />
-      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\DataStructures\Threads" />
-      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\DataStructures\Arrangements" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="co.argm.app.ui.map.tree" />
@@ -208,13 +237,13 @@
       <recent name="co.argm.app.model.Repository" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Methods2">
-    <configuration name="ConsumerProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.argm.app.synced.ui.ConsumerProducer" />
-      <module name="Threads" />
+  <component name="RunManager" selected="Application.Interface">
+    <configuration name="Consume" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.argm.app.ui.Consume" />
+      <module name="Lambda" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="co.argm.app.synced.ui.ConsumerProducer" />
+          <option name="PATTERN" value="co.argm.app.ui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -222,12 +251,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.argm.app.Main" />
-      <module name="Synced" />
+    <configuration name="Functions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.argm.app.ui.Functions" />
+      <module name="Lambda" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="co.argm.app.*" />
+          <option name="PATTERN" value="co.argm.app.ui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -235,12 +264,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.argm.app.Main" />
-      <module name="Example" />
+    <configuration name="Interface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.argm.app.ui.Interface" />
+      <module name="Lambda" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="co.argm.app.model.Empleado" />
+          <option name="PATTERN" value="co.argm.app.ui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -333,32 +362,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.argm.app.Main" />
-      <module name="Overload" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.argm.app.ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Methods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.argm.app.executor.Methods" />
-      <module name="Threads" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.argm.app.synced.ui.ConsumerProducer" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Methods2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="co.argm.app.executor.Methods2" />
       <module name="Threads" />
@@ -372,12 +375,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="co.argm.app.timer.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.argm.app.timer.Main" />
-      <module name="Threads" />
+    <configuration name="Preached" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.argm.app.ui.Preached" />
+      <module name="Lambda" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="co.argm.app.timer.*" />
+          <option name="PATTERN" value="co.argm.app.ui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -386,19 +389,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ConsumerProducer" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Methods" />
+      <item itemvalue="Application.Interface" />
+      <item itemvalue="Application.Preached" />
+      <item itemvalue="Application.Consume" />
+      <item itemvalue="Application.Functions" />
       <item itemvalue="Application.Methods2" />
-      <item itemvalue="Application.co.argm.app.timer.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Interface" />
+        <item itemvalue="Application.Preached" />
+        <item itemvalue="Application.Functions" />
+        <item itemvalue="Application.Consume" />
         <item itemvalue="Application.Methods2" />
-        <item itemvalue="Application.ConsumerProducer" />
-        <item itemvalue="Application.Methods" />
-        <item itemvalue="Application.co.argm.app.timer.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -492,7 +495,12 @@
       <workItem from="1724009763139" duration="4667000" />
       <workItem from="1724014492829" duration="989000" />
       <workItem from="1724024580020" duration="6980000" />
-      <workItem from="1724069656740" duration="12461000" />
+      <workItem from="1724069656740" duration="13232000" />
+      <workItem from="1724090753831" duration="2647000" />
+      <workItem from="1724257062403" duration="47000" />
+      <workItem from="1724257118472" duration="26000" />
+      <workItem from="1724257175585" duration="1524000" />
+      <workItem from="1724274646847" duration="1412000" />
     </task>
     <task id="LOCAL-00001" summary="Full change">
       <option name="closed" value="true" />
@@ -646,7 +654,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724082125401</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Threads and Concurrency Module">
+      <option name="closed" value="true" />
+      <created>1724082282127</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1724082282127</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

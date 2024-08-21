@@ -13,6 +13,7 @@
         <entry key="Form" value="Adstract" />
         <entry key="Generics" value="Example" />
         <entry key="Invoice" value="Example" />
+        <entry key="Lambda" value="LambdaExpressions" />
         <entry key="Mammals" value="a" />
         <entry key="MoreOccurrences" value="PrintMoreOccurrences" />
         <entry key="Objects" value="ClassesAndobjects" />
