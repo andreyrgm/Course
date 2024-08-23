@@ -6,7 +6,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import static java.awt.Toolkit.*;
+import static java.awt.Toolkit.getDefaultToolkit;
 import static java.lang.System.out;
 
 /**

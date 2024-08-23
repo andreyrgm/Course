@@ -4,34 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ec5abc6-dc75-42c3-9240-6c8d47314d81" name="Changes" comment="Threads and Concurrency Module">
-      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/Lambda/src/co/argm/app/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/Lambda/src/co/argm/app/model/arithmetic/Arithmetic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/Lambda/src/co/argm/app/model/arithmetic/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/Lambda/src/co/argm/app/ui/Consume.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/Lambda/src/co/argm/app/ui/Functions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/Lambda/src/co/argm/app/ui/Interface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/Lambda/src/co/argm/app/ui/Preached.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Matrices/PrintX/PrintX.iml" afterDir="false" />
+    <list default="true" id="6ec5abc6-dc75-42c3-9240-6c8d47314d81" name="Changes" comment="Java 8 Functional Programming Module: Lambda Expressions">
+      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/StreamAPI/StreamAPI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/StreamAPI/src/co/argm/app/model/Bill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/StreamAPI/src/co/argm/app/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/StreamAPI/src/co/argm/app/ui/AnyMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/StreamAPI/src/co/argm/app/ui/Count.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/StreamAPI/src/co/argm/app/ui/Create.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/StreamAPI/src/co/argm/app/ui/Distinct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/StreamAPI/src/co/argm/app/ui/DistrictUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/StreamAPI/src/co/argm/app/ui/Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/StreamAPI/src/co/argm/app/ui/FlatMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/StreamAPI/src/co/argm/app/ui/Generate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/StreamAPI/src/co/argm/app/ui/ListToStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/StreamAPI/src/co/argm/app/ui/Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/StreamAPI/src/co/argm/app/ui/Parallel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/StreamAPI/src/co/argm/app/ui/Range.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/StreamAPI/src/co/argm/app/ui/Reduce.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/DataStructures/Arrays/Arrangements/Arrangements.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/Lambda/Lambda.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/DataStructures/Arrays/Arrangements/MoreOccurrences/MoreOccurrences.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Array/Arrangements.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/DataStructures/Arrays/Arrangements/MoreOccurrences/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Array/MoreOccurrences/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/DataStructures/Arrays/Arrangements/PrintHigher/PrintHigher.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Array/MoreOccurrences/MoreOccurrences.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/DataStructures/Arrays/Arrangements/PrintHigher/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Array/PrintHigher/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/DataStructures/Arrays/Arrangements/PrintHistogram/PrintHistogram.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Array/PrintHigher/PrintHigher.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/DataStructures/Arrays/Arrangements/PrintHistogram/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Array/PrintHistogram/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/DataStructures/Arrays/Arrangements/Sort/Sort.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Array/PrintHistogram/PrintHistogram.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/DataStructures/Arrays/Arrangements/Sort/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Array/Sort/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/DataStructures/Arrays/Arrangements/StatisticalSystem/StatisticalSystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Array/Sort/Sort.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/DataStructures/Arrays/Arrangements/StatisticalSystem/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Array/StatisticalSystem/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/DataStructures/Arrays/Matrices/Matrices.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Array/StatisticalSystem/StatisticalSystem.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/DataStructures/Arrays/Matrices/PrintChair/PrintChair.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Matrices/Matrices.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/DataStructures/Arrays/Matrices/PrintChair/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Matrices/PrintChair/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/DataStructures/Arrays/Matrices/PrintX/PrintX.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Matrices/PrintChair/PrintChair.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/DataStructures/Arrays/Matrices/PrintX/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Matrices/PrintX/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Threads/src/co/argm/app/timer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Threads/src/co/argm/app/timer/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/FunctionalProgram/Lambda/src/co/argm/app/ui/Consume.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/Lambda/src/co/argm/app/ui/Consume.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/FunctionalProgram/Lambda/src/co/argm/app/ui/Functions.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/Lambda/src/co/argm/app/ui/Functions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/FunctionalProgram/Lambda/src/co/argm/app/ui/Interface.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/Lambda/src/co/argm/app/ui/Interface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/FunctionalProgram/Lambda/src/co/argm/app/ui/Preached.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/Lambda/src/co/argm/app/ui/Preached.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,18 +103,21 @@
     "Application.Consume.executor": "Run",
     "Application.ConsumerProducer.executor": "Run",
     "Application.Conversion.executor": "Run",
+    "Application.DistrictUser.executor": "Run",
     "Application.EjemploMetodoGetClass.executor": "Run",
     "Application.EnvironmentVars.executor": "Run",
     "Application.Example (1).executor": "Run",
     "Application.Example.executor": "Run",
     "Application.ExampleReference.executor": "Run",
     "Application.Extends.executor": "Run",
+    "Application.Filter.executor": "Run",
     "Application.FindDuplicate.executor": "Run",
     "Application.For.executor": "Run",
     "Application.ForArray.executor": "Run",
     "Application.ForEach.executor": "Run",
     "Application.Frame.executor": "Run",
     "Application.Functions.executor": "Run",
+    "Application.Generate.executor": "Run",
     "Application.GetClassMethod.executor": "Run",
     "Application.HashSetAdd.executor": "Run",
     "Application.HashSetUniqueness.executor": "Run",
@@ -143,11 +142,13 @@
     "Application.Main (5).executor": "Run",
     "Application.Main.executor": "Debug",
     "Application.MainClient.executor": "Run",
+    "Application.Map.executor": "Run",
     "Application.Method.executor": "Run",
     "Application.MethodArray.executor": "Run",
     "Application.Methods.executor": "Run",
     "Application.Methods2.executor": "Run",
     "Application.OperadorInstanceOf.executor": "Run",
+    "Application.Parallel.executor": "Run",
     "Application.Preached.executor": "Run",
     "Application.Precedence.executor": "Run",
     "Application.Primitive.executor": "Run",
@@ -155,6 +156,7 @@
     "Application.Ramdom.executor": "Run",
     "Application.Random.executor": "Run",
     "Application.Randoms.executor": "Run",
+    "Application.Reduce.executor": "Run",
     "Application.Reference.executor": "Run",
     "Application.Relational.executor": "Run",
     "Application.RelationalOperators.executor": "Run",
@@ -230,17 +232,17 @@
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="co.argm.app.ui" />
+      <recent name="co.argm.app" />
       <recent name="co.argm.app.ui.map.tree" />
       <recent name="co.argm.app.set" />
       <recent name="co.argm.app.model.Exceptions" />
-      <recent name="co.argm.app.ui" />
-      <recent name="co.argm.app.model.Repository" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Interface">
-    <configuration name="Consume" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.argm.app.ui.Consume" />
-      <module name="Lambda" />
+  <component name="RunManager" selected="Application.Parallel">
+    <configuration name="DistrictUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.argm.app.ui.DistrictUser" />
+      <module name="StreamAPI" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="co.argm.app.ui.*" />
@@ -251,51 +253,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Functions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.argm.app.ui.Functions" />
-      <module name="Lambda" />
+    <configuration name="Generate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.argm.app.ui.Generate" />
+      <module name="StreamAPI" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="co.argm.app.ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Interface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.argm.app.ui.Interface" />
-      <module name="Lambda" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.argm.app.ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.argm.app.ui.Main" />
-      <module name="GreengrocerStore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.argm.app.ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.argm.app.Main" />
-      <module name="PeopleCompany" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.argm.app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -362,12 +325,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Methods2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.argm.app.executor.Methods2" />
-      <module name="Threads" />
+    <configuration name="Parallel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.argm.app.ui.Parallel" />
+      <module name="StreamAPI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="co.argm.app.executor.*" />
+          <option name="PATTERN" value="co.argm.app.ui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -388,20 +351,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Reduce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.argm.app.ui.Reduce" />
+      <module name="StreamAPI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.argm.app.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Interface" />
+      <item itemvalue="Application.DistrictUser" />
+      <item itemvalue="Application.Generate" />
+      <item itemvalue="Application.Parallel" />
+      <item itemvalue="Application.Reduce" />
       <item itemvalue="Application.Preached" />
-      <item itemvalue="Application.Consume" />
-      <item itemvalue="Application.Functions" />
-      <item itemvalue="Application.Methods2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Interface" />
+        <item itemvalue="Application.Parallel" />
+        <item itemvalue="Application.Generate" />
+        <item itemvalue="Application.DistrictUser" />
+        <item itemvalue="Application.Reduce" />
         <item itemvalue="Application.Preached" />
-        <item itemvalue="Application.Functions" />
-        <item itemvalue="Application.Consume" />
-        <item itemvalue="Application.Methods2" />
       </list>
     </recent_temporary>
   </component>
@@ -500,7 +476,9 @@
       <workItem from="1724257062403" duration="47000" />
       <workItem from="1724257118472" duration="26000" />
       <workItem from="1724257175585" duration="1524000" />
-      <workItem from="1724274646847" duration="1412000" />
+      <workItem from="1724274646847" duration="2184000" />
+      <workItem from="1724283979258" duration="4221000" />
+      <workItem from="1724360093148" duration="8808000" />
     </task>
     <task id="LOCAL-00001" summary="Full change">
       <option name="closed" value="true" />
@@ -662,7 +640,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724082282127</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Java 8 Functional Programming Module: Lambda Expressions">
+      <option name="closed" value="true" />
+      <created>1724276109829</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1724276109829</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -698,7 +684,8 @@
     <MESSAGE value="Object-oriented programming module: Exception Handling" />
     <MESSAGE value="Data Structure Module: Java Collections API" />
     <MESSAGE value="Threads and Concurrency Module" />
-    <option name="LAST_COMMIT_MESSAGE" value="Threads and Concurrency Module" />
+    <MESSAGE value="Java 8 Functional Programming Module: Lambda Expressions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java 8 Functional Programming Module: Lambda Expressions" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

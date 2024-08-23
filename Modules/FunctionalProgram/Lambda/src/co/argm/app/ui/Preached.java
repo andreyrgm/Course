@@ -5,7 +5,7 @@ import co.argm.app.model.User;
 import java.util.function.BiPredicate;
 import java.util.function.Predicate;
 
-import static java.lang.System.*;
+import static java.lang.System.out;
 
 /**
  * Clase que demuestra el uso de predicados en expresiones lambda.

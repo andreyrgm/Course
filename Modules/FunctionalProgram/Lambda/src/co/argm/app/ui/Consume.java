@@ -10,7 +10,7 @@ import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 import java.util.function.Supplier;
 
-import static java.lang.System.*;
+import static java.lang.System.out;
 
 /**
  * Clase que demuestra el uso de los consumidores y proveedores en expresiones lambda.

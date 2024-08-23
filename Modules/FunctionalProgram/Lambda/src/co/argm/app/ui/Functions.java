@@ -3,7 +3,7 @@ package co.argm.app.ui;
 import java.util.function.BiFunction;
 import java.util.function.Function;
 
-import static java.lang.System.*;
+import static java.lang.System.out;
 
 /**
  * Clase que demuestra el uso de funciones en expresiones lambda.

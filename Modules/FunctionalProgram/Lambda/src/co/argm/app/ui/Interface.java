@@ -3,7 +3,7 @@ package co.argm.app.ui;
 import co.argm.app.model.arithmetic.Arithmetic;
 import co.argm.app.model.arithmetic.Calculator;
 
-import static java.lang.System.*;
+import static java.lang.System.out;
 
 /**
  * Clase que demuestra el uso de una interfaz funcional personalizada para cálculos aritméticos.
