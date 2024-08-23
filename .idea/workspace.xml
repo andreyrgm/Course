@@ -4,30 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ec5abc6-dc75-42c3-9240-6c8d47314d81" name="Changes" comment="Java 8 Functional Programming Module: Lambda Expressions">
-      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/StreamAPI/StreamAPI.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/StreamAPI/src/co/argm/app/model/Bill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/StreamAPI/src/co/argm/app/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/StreamAPI/src/co/argm/app/ui/AnyMatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/StreamAPI/src/co/argm/app/ui/Count.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/StreamAPI/src/co/argm/app/ui/Create.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/StreamAPI/src/co/argm/app/ui/Distinct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/StreamAPI/src/co/argm/app/ui/DistrictUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/StreamAPI/src/co/argm/app/ui/Filter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/StreamAPI/src/co/argm/app/ui/FlatMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/StreamAPI/src/co/argm/app/ui/Generate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/StreamAPI/src/co/argm/app/ui/ListToStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/StreamAPI/src/co/argm/app/ui/Map.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/StreamAPI/src/co/argm/app/ui/Parallel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/StreamAPI/src/co/argm/app/ui/Range.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/StreamAPI/src/co/argm/app/ui/Reduce.java" afterDir="false" />
+    <list default="true" id="6ec5abc6-dc75-42c3-9240-6c8d47314d81" name="Changes" comment="Java 8 Functional Programming Module: Stream API">
+      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/OptionalClass/OptionalClass.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/OptionalClass/src/co/argm/app/model/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/OptionalClass/src/co/argm/app/model/Maker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/OptionalClass/src/co/argm/app/model/Processor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/OptionalClass/src/co/argm/app/model/repo/Repo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/OptionalClass/src/co/argm/app/model/repo/RepoPC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/OptionalClass/src/co/argm/app/ui/MapFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/OptionalClass/src/co/argm/app/ui/Methods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/OptionalClass/src/co/argm/app/ui/OrElseRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/OptionalClass/src/co/argm/app/ui/Repository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Threads/src/co/argm/app/timer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Threads/src/co/argm/app/timer/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/FunctionalProgram/Lambda/src/co/argm/app/ui/Consume.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/Lambda/src/co/argm/app/ui/Consume.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/FunctionalProgram/Lambda/src/co/argm/app/ui/Functions.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/Lambda/src/co/argm/app/ui/Functions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/FunctionalProgram/Lambda/src/co/argm/app/ui/Interface.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/Lambda/src/co/argm/app/ui/Interface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/FunctionalProgram/Lambda/src/co/argm/app/ui/Preached.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/FunctionalProgram/Lambda/src/co/argm/app/ui/Preached.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,140 +71,143 @@
     <option name="showScratchesAndConsoles" value="false" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.AddRowColumn.executor": "Run",
-    "Application.Adding.executor": "Run",
-    "Application.Argument.executor": "Run",
-    "Application.Arithmetic.executor": "Run",
-    "Application.ArrayListMethods.executor": "Run",
-    "Application.ArrayMethod.executor": "Run",
-    "Application.AssignProperties.executor": "Run",
-    "Application.Assignation.executor": "Run",
-    "Application.AutoboxingInteger.executor": "Run",
-    "Application.BiggerNum.executor": "Run",
-    "Application.BooleanWrapper.executor": "Run",
-    "Application.BubbleSort.executor": "Run",
-    "Application.Calculator.executor": "Run",
-    "Application.Comparable.executor": "Run",
-    "Application.Concatenation.executor": "Run",
-    "Application.Consume.executor": "Run",
-    "Application.ConsumerProducer.executor": "Run",
-    "Application.Conversion.executor": "Run",
-    "Application.DistrictUser.executor": "Run",
-    "Application.EjemploMetodoGetClass.executor": "Run",
-    "Application.EnvironmentVars.executor": "Run",
-    "Application.Example (1).executor": "Run",
-    "Application.Example.executor": "Run",
-    "Application.ExampleReference.executor": "Run",
-    "Application.Extends.executor": "Run",
-    "Application.Filter.executor": "Run",
-    "Application.FindDuplicate.executor": "Run",
-    "Application.For.executor": "Run",
-    "Application.ForArray.executor": "Run",
-    "Application.ForEach.executor": "Run",
-    "Application.Frame.executor": "Run",
-    "Application.Functions.executor": "Run",
-    "Application.Generate.executor": "Run",
-    "Application.GetClassMethod.executor": "Run",
-    "Application.HashSetAdd.executor": "Run",
-    "Application.HashSetUniqueness.executor": "Run",
-    "Application.Identity.executor": "Run",
-    "Application.IfElse.executor": "Run",
-    "Application.Immutable.executor": "Run",
-    "Application.InstanceOf.executor": "Run",
-    "Application.Interface.executor": "Run",
-    "Application.InterfaceRunnable.executor": "Run",
-    "Application.JavaUtilCalendar.executor": "Run",
-    "Application.JavaUtilDate.executor": "Run",
-    "Application.JavaUtilDateParse.executor": "Run",
-    "Application.LinkedListMethods.executor": "Run",
-    "Application.Logical.executor": "Run",
-    "Application.LogicalLogin.executor": "Run",
-    "Application.LoopTags.executor": "Run",
-    "Application.LoopTagsSearch.executor": "Run",
-    "Application.Main (1).executor": "Run",
-    "Application.Main (2).executor": "Run",
-    "Application.Main (3).executor": "Run",
-    "Application.Main (4).executor": "Run",
-    "Application.Main (5).executor": "Run",
-    "Application.Main.executor": "Debug",
-    "Application.MainClient.executor": "Run",
-    "Application.Map.executor": "Run",
-    "Application.Method.executor": "Run",
-    "Application.MethodArray.executor": "Run",
-    "Application.Methods.executor": "Run",
-    "Application.Methods2.executor": "Run",
-    "Application.OperadorInstanceOf.executor": "Run",
-    "Application.Parallel.executor": "Run",
-    "Application.Preached.executor": "Run",
-    "Application.Precedence.executor": "Run",
-    "Application.Primitive.executor": "Run",
-    "Application.Properties.executor": "Run",
-    "Application.Ramdom.executor": "Run",
-    "Application.Random.executor": "Run",
-    "Application.Randoms.executor": "Run",
-    "Application.Reduce.executor": "Run",
-    "Application.Reference.executor": "Run",
-    "Application.Relational.executor": "Run",
-    "Application.RelationalOperators.executor": "Run",
-    "Application.SentenciasBucleEtiquetas.executor": "Run",
-    "Application.SentenciasBucleEtiquetasBuscar.executor": "Run",
-    "Application.SistemasNumericos.executor": "Run",
-    "Application.SistemasNumericosEntradaScanner.executor": "Run",
-    "Application.Static.executor": "Run",
-    "Application.StringFor.executor": "Run",
-    "Application.SwitchCaseMonth.executor": "Run",
-    "Application.Symmetrical.executor": "Run",
-    "Application.Synchronization.executor": "Run",
-    "Application.SystemNum.executor": "Run",
-    "Application.SystemProperties.executor": "Run",
-    "Application.Ternary.executor": "Run",
-    "Application.TernaryMaxNum.executor": "Run",
-    "Application.TestEfficiency.executor": "Run",
-    "Application.TransposeMatrix.executor": "Run",
-    "Application.Transposed.executor": "Run",
-    "Application.TreeSetAdd.executor": "Run",
-    "Application.TreeSetComparable.executor": "Run",
-    "Application.Unary.executor": "Run",
-    "Application.Validate.executor": "Run",
-    "Application.Value.executor": "Run",
-    "Application.VariableSize.executor": "Run",
-    "Application.While.executor": "Run",
-    "Application.co.argm.app.Example.ui.Main.executor": "Run",
-    "Application.co.argm.app.Main (1).executor": "Run",
-    "Application.co.argm.app.Main (2).executor": "Run",
-    "Application.co.argm.app.Main.executor": "Run",
-    "Application.co.argm.app.Timer.Main.executor": "Run",
-    "Application.co.argm.app.executor.Main.executor": "Run",
-    "Application.co.argm.app.ui.Main.executor": "Run",
-    "Application.co.argm.app.ui.list.array.Methods.executor": "Run",
-    "Application.co.argm.app.ui.list.linked.Methods.executor": "Run",
-    "Application.co.argm.app.ui.map.hash.Methods.executor": "Run",
-    "Application.co.argm.app.ui.map.tree.Methods.executor": "Run",
-    "Application.ui.Main.executor": "Run",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/Users/andre/OneDrive/Escritorio/Course/Modules/DataStructures/Threads/Timer/src/co/argm/app",
-    "last_opened_file_path": "C:/Users/andre/OneDrive/Escritorio/Course/Modules",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.AddRowColumn.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Adding.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Argument.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Arithmetic.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayListMethods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayMethod.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AssignProperties.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Assignation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AutoboxingInteger.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BiggerNum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BooleanWrapper.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BubbleSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Comparable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Concatenation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Consume.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConsumerProducer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Conversion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DistrictUser.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EjemploMetodoGetClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EnvironmentVars.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Example (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Example.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExampleReference.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Extends.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Filter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindDuplicate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.For.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ForArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ForEach.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Frame.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Functions.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Generate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GetClassMethod.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashSetAdd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashSetUniqueness.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Identity.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IfElse.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Immutable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InstanceOf.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Interface.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InterfaceRunnable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JavaUtilCalendar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JavaUtilDate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JavaUtilDateParse.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedListMethods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Logical.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LogicalLogin.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoopTags.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoopTagsSearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (4).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (5).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MainClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Map.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MapFilter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Method.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Methods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Methods2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OperadorInstanceOf.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OrElseRepo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Parallel.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Preached.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Precedence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Primitive.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Properties.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ramdom.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Random.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Randoms.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Reduce.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Reference.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Relational.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RelationalOperators.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Repo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SentenciasBucleEtiquetas.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SentenciasBucleEtiquetasBuscar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SistemasNumericos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SistemasNumericosEntradaScanner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Static.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringFor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SwitchCaseMonth.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Symmetrical.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Synchronization.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SystemNum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SystemProperties.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ternary.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TernaryMaxNum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestEfficiency.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TransposeMatrix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Transposed.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TreeSetAdd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TreeSetComparable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Unary.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Validate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Value.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VariableSize.executor&quot;: &quot;Run&quot;,
+    &quot;Application.While.executor&quot;: &quot;Run&quot;,
+    &quot;Application.co.argm.app.Example.ui.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.co.argm.app.Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.co.argm.app.Main (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.co.argm.app.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.co.argm.app.Timer.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.co.argm.app.executor.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.co.argm.app.ui.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.co.argm.app.ui.list.array.Methods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.co.argm.app.ui.list.linked.Methods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.co.argm.app.ui.map.hash.Methods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.co.argm.app.ui.map.tree.Methods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ui.Main.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/andre/OneDrive/Escritorio/Course/Modules/DataStructures/Threads/Timer/src/co/argm/app&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/andre/OneDrive/Escritorio/Course/Modules&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.grazie&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules" />
@@ -239,46 +231,7 @@
       <recent name="co.argm.app.model.Exceptions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Parallel">
-    <configuration name="DistrictUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.argm.app.ui.DistrictUser" />
-      <module name="StreamAPI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.argm.app.ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Generate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.argm.app.ui.Generate" />
-      <module name="StreamAPI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.argm.app.ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.argm.app.Main" />
-      <module name="Example" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.argm.app.model.IntStudent" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MapFilter">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="co.argm.app.Main" />
       <module name="Example" />
@@ -325,12 +278,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MapFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.argm.app.ui.MapFilter" />
+      <module name="OptionalClass" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.argm.app.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Methods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.argm.app.ui.Methods" />
+      <module name="OptionalClass" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.argm.app.ui.Repo" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrElseRepo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.argm.app.ui.OrElseRepo" />
+      <module name="OptionalClass" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.argm.app.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Parallel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="co.argm.app.ui.Parallel" />
       <module name="StreamAPI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="co.argm.app.ui.*" />
+          <option name="PATTERN" value="co.argm.app.ui.Repo" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -338,25 +330,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Preached" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.argm.app.ui.Preached" />
-      <module name="Lambda" />
+    <configuration name="Repo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.argm.app.ui.Repo" />
+      <module name="OptionalClass" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="co.argm.app.ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Reduce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.argm.app.ui.Reduce" />
-      <module name="StreamAPI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.argm.app.ui.*" />
+          <option name="PATTERN" value="co.argm.app.ui.Repo" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -365,19 +344,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DistrictUser" />
-      <item itemvalue="Application.Generate" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Repo" />
+      <item itemvalue="Application.MapFilter" />
+      <item itemvalue="Application.Methods" />
+      <item itemvalue="Application.OrElseRepo" />
       <item itemvalue="Application.Parallel" />
-      <item itemvalue="Application.Reduce" />
-      <item itemvalue="Application.Preached" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapFilter" />
+        <item itemvalue="Application.OrElseRepo" />
+        <item itemvalue="Application.Methods" />
         <item itemvalue="Application.Parallel" />
-        <item itemvalue="Application.Generate" />
-        <item itemvalue="Application.DistrictUser" />
-        <item itemvalue="Application.Reduce" />
-        <item itemvalue="Application.Preached" />
       </list>
     </recent_temporary>
   </component>
@@ -478,7 +457,9 @@
       <workItem from="1724257175585" duration="1524000" />
       <workItem from="1724274646847" duration="2184000" />
       <workItem from="1724283979258" duration="4221000" />
-      <workItem from="1724360093148" duration="8808000" />
+      <workItem from="1724360093148" duration="9579000" />
+      <workItem from="1724373151128" duration="7411000" />
+      <workItem from="1724440679840" duration="638000" />
     </task>
     <task id="LOCAL-00001" summary="Full change">
       <option name="closed" value="true" />
@@ -648,7 +629,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724276109829</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Java 8 Functional Programming Module: Stream API">
+      <option name="closed" value="true" />
+      <created>1724372805404</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1724372805404</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -685,7 +674,8 @@
     <MESSAGE value="Data Structure Module: Java Collections API" />
     <MESSAGE value="Threads and Concurrency Module" />
     <MESSAGE value="Java 8 Functional Programming Module: Lambda Expressions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java 8 Functional Programming Module: Lambda Expressions" />
+    <MESSAGE value="Java 8 Functional Programming Module: Stream API" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java 8 Functional Programming Module: Stream API" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
