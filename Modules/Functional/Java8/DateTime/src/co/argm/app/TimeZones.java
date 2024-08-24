@@ -8,7 +8,10 @@ import java.time.format.DateTimeFormatter;
 
 import static java.lang.System.out;
 
-public class ZDateTime {
+/**
+ * Clase para trabajar con zonas horarias utilizando ZonedDateTime.
+ */
+public class TimeZones {
     public static void main(String[] args) {
         LocalDateTime localDate = LocalDateTime.parse("2021/09/23 12:45",
                 DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm"));
@@ -20,8 +23,8 @@ public class ZDateTime {
         out.println("Arrival time in Madrid: " + madridZone);
 
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm, dd MMM yyyy");
-        out.println("Details of the trip to Spain:");
-        out.println("New York Party: " + nYZone.format(formatter));
+        out.println("Trip details to Spain:");
+        out.println("Departure from New York: " + nYZone.format(formatter));
         out.println("Arrival in Madrid: " + madridZone.format(formatter));
 
         ZoneId.getAvailableZoneIds().forEach(out::println);

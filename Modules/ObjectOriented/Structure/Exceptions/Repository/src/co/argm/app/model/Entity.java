@@ -17,8 +17,14 @@ public class Entity {
         return id;
     }
 
-    public void setId(Integer id) {
+    public Client setId(Integer id) {
         this.id = id;
+        return (Client) this;
+    }
+
+    public Product setId2(Integer id) {
+        this.id = id;
+        return (Product) this;
     }
 
     @Override

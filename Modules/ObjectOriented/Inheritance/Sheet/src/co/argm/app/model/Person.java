@@ -1,5 +1,8 @@
 package co.argm.app.model;
 
+/**
+ * Representa una persona con nombre y apellido.
+ */
 public class Person {
     private final String name;
     private final String surname;

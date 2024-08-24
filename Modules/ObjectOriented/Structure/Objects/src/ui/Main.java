@@ -1,5 +1,6 @@
 package ui;
 
+import model.*;
 import model.type.CarType;
 
 import java.util.Arrays;

@@ -34,9 +34,7 @@ public class MainClient {
             repo.list("name", DESC).forEach(out::println);
 
             out.println("\n===== Edit =====");
-            Client bea = new Client("Bea", "Mena");
-            repo.update(bea);
-            bea.setId(2);
+            repo.update(new Client("Bea", "Mena").setId(2));
             out.println(repo.get(2));
             repo.list("surname", ASC).forEach(out::println);
 

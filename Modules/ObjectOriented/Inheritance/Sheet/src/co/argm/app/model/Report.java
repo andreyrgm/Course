@@ -1,5 +1,8 @@
 package co.argm.app.model;
 
+/**
+ * Representa un reporte escrito por un autor y revisado por otra persona.
+ */
 public class Report extends Sheet {
     private final Person author;
     private final String reviser;
@@ -12,6 +15,8 @@ public class Report extends Sheet {
 
     @Override
     public String toString() {
-        return "Report written by: " + author + "\nReviewed by: " + reviser + "\n" + content;
+        return "Report written by: " + author +
+                "\nReviewed by: " + reviser +
+                "\n" + content;
     }
 }

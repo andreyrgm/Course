@@ -35,8 +35,7 @@ public class MainProduct {
 
             out.println("\n===== Edit =====");
             Product lamp = new Product("Desk Lamp", 23);
-            repo.update(lamp);
-            lamp.setId(3);
+            repo.update(lamp.setId2(3));
             out.println(repo.get(3));
             repo.list("description", ASC).forEach(out::println);
 

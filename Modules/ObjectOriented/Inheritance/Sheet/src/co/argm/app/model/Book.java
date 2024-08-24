@@ -3,6 +3,10 @@ package co.argm.app.model;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Representa un libro compuesto de varias páginas (Sheet).
+ * Cada libro tiene un autor, un título y un género.
+ */
 public class Book {
     private final List<Sheet> pages;
     private final Person author;
@@ -13,7 +17,7 @@ public class Book {
         this.author = author;
         this.title = title;
         this.genre = genre;
-        pages = new ArrayList<Sheet>();
+        this.pages = new ArrayList<>();
     }
 
     public Book addPage(Sheet page) {
@@ -23,10 +27,11 @@ public class Book {
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder("Title: ").append(title).append("\n").append("Author: ").
-                append(author).append("\n").append("Genre: ").append(genre);
+        StringBuilder sb = new StringBuilder("Title: ").append(title)
+                .append("\nAuthor: ").append(author)
+                .append("\nGenre: ").append(genre);
         for (Sheet sheet : pages) {
-            sb.append(sheet).append("\n");
+            sb.append("\n").append(sheet);
         }
         return sb.toString();
     }

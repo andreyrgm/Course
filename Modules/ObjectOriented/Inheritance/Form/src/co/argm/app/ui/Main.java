@@ -5,6 +5,7 @@ import co.argm.app.model.form.Item;
 import co.argm.app.model.form.Select;
 import co.argm.app.model.form.Textarea;
 import co.argm.app.model.form.select.Option;
+import co.argm.app.model.validator.*;
 
 import java.util.Arrays;
 import java.util.List;
@@ -12,6 +13,10 @@ import java.util.List;
 import static java.lang.System.err;
 import static java.lang.System.out;
 
+/**
+ * Clase principal que demuestra la creación de un formulario con varios campos,
+ * la validación de los mismos y la generación de su representación HTML.
+ */
 public class Main {
     public static void main(String[] args) {
         Input username = new Input("username", "text", "john.doe");

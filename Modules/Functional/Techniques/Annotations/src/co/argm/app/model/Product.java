@@ -4,14 +4,16 @@ import java.time.LocalDate;
 import java.util.Arrays;
 import java.util.stream.Collectors;
 
+/**
+ * Clase que representa un Producto con atributos que pueden ser serializados a JSON.
+ */
 public class Product {
-    @JsonAttribute
-    private String name;
 
     @JsonAttribute(name = "cost")
-    private double price;
-
-    private LocalDate date;
+    private final double price;
+    private final LocalDate date;
+    @JsonAttribute
+    private String name;
 
     public Product(String name, double price, LocalDate date) {
         this.name = name;
@@ -19,9 +21,13 @@ public class Product {
         this.date = date;
     }
 
+    /**
+     * Método anotado con {@link Init} para capitalizar el nombre del producto durante la inicialización.
+     */
     @Init
-    private void init(){
-        this.name = Arrays.stream(name.split(" ")).map(word -> word.substring(0, 1).toUpperCase() + word
-                .substring(1).toLowerCase()).collect(Collectors.joining(" "));
+    private void init() {
+        this.name = Arrays.stream(name.split(" "))
+                .map(word -> word.substring(0, 1).toUpperCase() + word.substring(1).toLowerCase())
+                .collect(Collectors.joining(" "));
     }
 }

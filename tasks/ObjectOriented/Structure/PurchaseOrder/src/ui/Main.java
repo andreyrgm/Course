@@ -8,6 +8,9 @@ import java.util.Date;
 
 import static java.lang.System.out;
 
+/**
+ * Clase principal que demuestra la creación y manejo de órdenes de compra.
+ */
 public class Main {
     public static void main(String[] args) {
         PurchaseOrder order1 = new PurchaseOrder("Purchase of PC components");
