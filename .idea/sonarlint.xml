@@ -10,6 +10,7 @@
         <entry key="Course" value="Course" />
         <entry key="Creation" value="Threads" />
         <entry key="Date&amp;Calendar" value="ClassesDateAndCalendar" />
+        <entry key="DesignPatterns" value="DesignPatterns" />
         <entry key="Form" value="Adstract" />
         <entry key="Generics" value="Example" />
         <entry key="Invoice" value="Example" />
