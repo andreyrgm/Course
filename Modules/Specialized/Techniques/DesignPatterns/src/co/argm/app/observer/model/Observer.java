@@ -8,7 +8,7 @@ public interface Observer {
      * Método llamado para actualizar al observador con información del observable.
      *
      * @param observable El objeto observable.
-     * @param obj Datos adicionales enviados por el observable.
+     * @param obj        Datos adicionales enviados por el observable.
      */
     void update(Observable observable, Object obj);
 }

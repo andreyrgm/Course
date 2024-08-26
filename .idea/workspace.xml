@@ -4,101 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ec5abc6-dc75-42c3-9240-6c8d47314d81" name="Changes" comment="Recursion Module">
-      <change afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/composite/model/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/composite/model/Directory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/composite/model/File.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/composite/ui/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/decorator/example/model/Coffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/decorator/example/model/Configurable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/decorator/example/model/decorator/Abstract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/decorator/example/model/decorator/WithChocolate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/decorator/example/model/decorator/WithCream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/decorator/example/model/decorator/WithMilk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/decorator/example/ui/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/decorator/explain/model/Formattable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/decorator/explain/model/Text.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/decorator/explain/model/decorator/Abstract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/decorator/explain/model/decorator/CapitalLetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/decorator/explain/model/decorator/ReplaceSpace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/decorator/explain/model/decorator/Reverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/decorator/explain/model/decorator/Underline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/decorator/explain/ui/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/factory/model/pizzeria/California.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/factory/model/pizzeria/NewYork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/factory/model/pizzeria/Pizzeria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/factory/model/product/CheeseC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/factory/model/product/ItalianNY.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/factory/model/product/PepperoniC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/factory/model/product/PepperoniNY.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/factory/model/product/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/factory/model/product/VegetarianC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/factory/model/product/VegetarianNY.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/factory/ui/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/observer/model/Corporation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/observer/model/Observable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/observer/model/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/observer/model/UserRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/observer/ui/MainCorp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/observer/ui/MainUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/singleton/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/singleton/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/Recursion/Recursion.iml" afterDir="false" />
+    <list default="true" id="6ec5abc6-dc75-42c3-9240-6c8d47314d81" name="Changes" comment="Design Patterns Module">
+      <change afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Console/FileHandling/FileHandling.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Console/FileHandling/src/CreateFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Console/FileHandling/src/ReadFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Console/FileHandling/src/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Console/FileHandling/src/file/java.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Java8/DateTime/DateTime.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Funcional/DateTime/DateTime.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Java8/DateTime/src/co/argm/app/Date.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Funcional/DateTime/src/co/argm/app/Date.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Java8/DateTime/src/co/argm/app/DateHours.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Funcional/DateTime/src/co/argm/app/DateHours.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Java8/DateTime/src/co/argm/app/Durations.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Funcional/DateTime/src/co/argm/app/Durations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Java8/DateTime/src/co/argm/app/Hours.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Funcional/DateTime/src/co/argm/app/Hours.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Java8/DateTime/src/co/argm/app/Instants.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Funcional/DateTime/src/co/argm/app/Instants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Java8/DateTime/src/co/argm/app/Periods.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Funcional/DateTime/src/co/argm/app/Periods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Java8/DateTime/src/co/argm/app/TimeZones.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Funcional/DateTime/src/co/argm/app/TimeZones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Java8/Lambda/Lambda.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Funcional/Lambda/Lambda.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Java8/Lambda/src/co/argm/app/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Funcional/Lambda/src/co/argm/app/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Java8/Lambda/src/co/argm/app/model/arithmetic/Arithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Funcional/Lambda/src/co/argm/app/model/arithmetic/Arithmetic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Java8/Lambda/src/co/argm/app/model/arithmetic/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Funcional/Lambda/src/co/argm/app/model/arithmetic/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Java8/Lambda/src/co/argm/app/ui/Consume.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Funcional/Lambda/src/co/argm/app/ui/Consume.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Java8/Lambda/src/co/argm/app/ui/Functions.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Funcional/Lambda/src/co/argm/app/ui/Functions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Java8/Lambda/src/co/argm/app/ui/Interface.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Funcional/Lambda/src/co/argm/app/ui/Interface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Java8/Lambda/src/co/argm/app/ui/Preached.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Funcional/Lambda/src/co/argm/app/ui/Preached.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Java8/OptionalClass/OptionalClass.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Funcional/OptionalClass/OptionalClass.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Java8/OptionalClass/src/co/argm/app/model/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Funcional/OptionalClass/src/co/argm/app/model/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Java8/OptionalClass/src/co/argm/app/model/Maker.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Funcional/OptionalClass/src/co/argm/app/model/Maker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Java8/OptionalClass/src/co/argm/app/model/Processor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Funcional/OptionalClass/src/co/argm/app/model/Processor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Java8/OptionalClass/src/co/argm/app/model/repo/Repo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Funcional/OptionalClass/src/co/argm/app/model/repo/Repo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Java8/OptionalClass/src/co/argm/app/model/repo/RepoPC.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Funcional/OptionalClass/src/co/argm/app/model/repo/RepoPC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Java8/OptionalClass/src/co/argm/app/ui/MapFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Funcional/OptionalClass/src/co/argm/app/ui/MapFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Java8/OptionalClass/src/co/argm/app/ui/Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Funcional/OptionalClass/src/co/argm/app/ui/Methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Java8/OptionalClass/src/co/argm/app/ui/OrElseRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Funcional/OptionalClass/src/co/argm/app/ui/OrElseRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Java8/OptionalClass/src/co/argm/app/ui/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Funcional/OptionalClass/src/co/argm/app/ui/Repository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Java8/StreamAPI/StreamAPI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Funcional/StreamAPI/StreamAPI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Java8/StreamAPI/src/co/argm/app/model/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Funcional/StreamAPI/src/co/argm/app/model/Bill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Java8/StreamAPI/src/co/argm/app/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Funcional/StreamAPI/src/co/argm/app/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Java8/StreamAPI/src/co/argm/app/ui/AnyMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Funcional/StreamAPI/src/co/argm/app/ui/AnyMatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Java8/StreamAPI/src/co/argm/app/ui/Count.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Funcional/StreamAPI/src/co/argm/app/ui/Count.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Java8/StreamAPI/src/co/argm/app/ui/Create.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Funcional/StreamAPI/src/co/argm/app/ui/Create.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Java8/StreamAPI/src/co/argm/app/ui/Distinct.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Funcional/StreamAPI/src/co/argm/app/ui/Distinct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Java8/StreamAPI/src/co/argm/app/ui/DistrictUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Funcional/StreamAPI/src/co/argm/app/ui/DistrictUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Java8/StreamAPI/src/co/argm/app/ui/Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Funcional/StreamAPI/src/co/argm/app/ui/Filter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Java8/StreamAPI/src/co/argm/app/ui/FlatMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Funcional/StreamAPI/src/co/argm/app/ui/FlatMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Java8/StreamAPI/src/co/argm/app/ui/Generate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Funcional/StreamAPI/src/co/argm/app/ui/Generate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Java8/StreamAPI/src/co/argm/app/ui/ListToStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Funcional/StreamAPI/src/co/argm/app/ui/ListToStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Java8/StreamAPI/src/co/argm/app/ui/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Funcional/StreamAPI/src/co/argm/app/ui/Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Java8/StreamAPI/src/co/argm/app/ui/Parallel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Funcional/StreamAPI/src/co/argm/app/ui/Parallel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Java8/StreamAPI/src/co/argm/app/ui/Range.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Funcional/StreamAPI/src/co/argm/app/ui/Range.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Java8/StreamAPI/src/co/argm/app/ui/Reduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Funcional/StreamAPI/src/co/argm/app/ui/Reduce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Techniques/Annotations/Annotations.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/Annotations/Annotations.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Techniques/Annotations/src/co/argm/app/model/Init.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/Annotations/src/co/argm/app/model/Init.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Techniques/Annotations/src/co/argm/app/model/JsonAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/Annotations/src/co/argm/app/model/JsonAttribute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Techniques/Annotations/src/co/argm/app/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/Annotations/src/co/argm/app/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Techniques/Annotations/src/co/argm/app/model/processor/JsonSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/Annotations/src/co/argm/app/model/processor/JsonSerializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Techniques/Annotations/src/co/argm/app/model/processor/exception/JsonSerializerException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/Annotations/src/co/argm/app/model/processor/exception/JsonSerializerException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Techniques/Annotations/src/co/argm/app/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/Annotations/src/co/argm/app/ui/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Techniques/Recursion/Recursion.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/DesignPatterns.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Techniques/Recursion/src/co/argm/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/Recursion/src/co/argm/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Functional/Techniques/Recursion/src/co/argm/app/model/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/Recursion/src/co/argm/app/model/Component.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Introduction/BasicElements/CommandLine/CommandLine.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Console/CommandLine/CommandLine.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Introduction/BasicElements/CommandLine/src/Argument.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Console/CommandLine/src/Argument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Introduction/BasicElements/CommandLine/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Console/CommandLine/src/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/observer/model/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/observer/model/Observer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -264,6 +182,7 @@
     "Application.Random.executor": "Run",
     "Application.Randoms.executor": "Run",
     "Application.Range.executor": "Run",
+    "Application.ReadFile.executor": "Run",
     "Application.Reduce.executor": "Run",
     "Application.Reference.executor": "Run",
     "Application.Relational.executor": "Run",
@@ -327,6 +246,7 @@
     "Application.co.argm.app.ui.map.hash.Methods.executor": "Run",
     "Application.co.argm.app.ui.map.tree.Methods.executor": "Run",
     "Application.co.argm.app.ui.set.tree.Add.executor": "Run",
+    "Application.ui.Create.executor": "Run",
     "Application.ui.Main.executor": "Run",
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -359,11 +279,11 @@
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\tasks\ObjectOriented\Inheritance\Heredity\GreengrocerStore\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\Introduction\Fundamentals\Console" />
+      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\Specialized\Techniques" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\Functional\Techniques" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\Functional\Java8" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\Functional" />
-      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\FunctionalProgram" />
-      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\Introduction" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="co.argm.app.composite" />
@@ -373,13 +293,13 @@
       <recent name="co.argm.app" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.argm.app.singleton.Main" />
-      <module name="DesignPatterns" />
+  <component name="RunManager" selected="Application.ReadFile">
+    <configuration name="Create" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.argm.app.ui.Create" />
+      <module name="FileHandling" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="co.argm.app.singleton.*" />
+          <option name="PATTERN" value="co.argm.app.ui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -387,12 +307,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainCorp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.argm.app.observer.ui.MainCorp" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.argm.app.singleton.Main" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="co.argm.app.observer.ui.*" />
+          <option name="PATTERN" value="co.argm.app.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -420,25 +340,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="co.argm.app.composite.ui.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.argm.app.composite.ui.Main" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.argm.app.composite.ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="ReadFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReadFile" />
+      <module name="FileHandling" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="co.argm.app.decorator.example.ui.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.argm.app.decorator.example.ui.Main" />
-      <module name="DesignPatterns" />
+    <configuration name="ui.Create" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.Create" />
+      <module name="FileHandling" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="co.argm.app.decorator.example.ui.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -447,19 +361,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MainCorp" />
+      <item itemvalue="Application.Create" />
+      <item itemvalue="Application.ReadFile" />
+      <item itemvalue="Application.ui.Create" />
       <item itemvalue="Application.MainUser" />
-      <item itemvalue="Application.co.argm.app.composite.ui.Main" />
-      <item itemvalue="Application.co.argm.app.decorator.example.ui.Main" />
       <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadFile" />
+        <item itemvalue="Application.ui.Create" />
+        <item itemvalue="Application.Create" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainUser" />
-        <item itemvalue="Application.MainCorp" />
-        <item itemvalue="Application.co.argm.app.composite.ui.Main" />
-        <item itemvalue="Application.co.argm.app.decorator.example.ui.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -568,7 +482,8 @@
       <workItem from="1724462239660" duration="8959000" />
       <workItem from="1724512124526" duration="10093000" />
       <workItem from="1724539928222" duration="2690000" />
-      <workItem from="1724606451951" duration="12848000" />
+      <workItem from="1724606451951" duration="13831000" />
+      <workItem from="1724642730220" duration="3246000" />
     </task>
     <task id="LOCAL-00001" summary="Full change">
       <option name="closed" value="true" />
@@ -786,7 +701,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724521591981</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Design Patterns Module">
+      <option name="closed" value="true" />
+      <created>1724636507766</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1724636507766</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -828,7 +751,8 @@
     <MESSAGE value="Java 8 Date Time module" />
     <MESSAGE value="Java Annotations Module: Using annotations" />
     <MESSAGE value="Recursion Module" />
-    <option name="LAST_COMMIT_MESSAGE" value="Recursion Module" />
+    <MESSAGE value="Design Patterns Module" />
+    <option name="LAST_COMMIT_MESSAGE" value="Design Patterns Module" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
