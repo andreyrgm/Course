@@ -16,7 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/Modules/Introduction/BasicElements/Date&amp;Calendar/Date&amp;Calendar.iml" filepath="$PROJECT_DIR$/Modules/Introduction/BasicElements/Date&amp;Calendar/Date&amp;Calendar.iml" />
       <module fileurl="file://$PROJECT_DIR$/Modules/Specialized/Funcional/DateTime/DateTime.iml" filepath="$PROJECT_DIR$/Modules/Specialized/Funcional/DateTime/DateTime.iml" />
       <module fileurl="file://$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/DesignPatterns.iml" filepath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/DesignPatterns.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Modules/Introduction/Fundamentals/Console/FileHandling/FileHandling.iml" filepath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Console/FileHandling/FileHandling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modules/Introduction/Fundamentals/Console/FileManagement/FileManagement.iml" filepath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Console/FileManagement/FileManagement.iml" />
       <module fileurl="file://$PROJECT_DIR$/Modules/ObjectOriented/Inheritance/Form/Form.iml" filepath="$PROJECT_DIR$/Modules/ObjectOriented/Inheritance/Form/Form.iml" />
       <module fileurl="file://$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/FuelTank/FuelTank.iml" filepath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/FuelTank/FuelTank.iml" />
       <module fileurl="file://$PROJECT_DIR$/Modules/DataStructures/Generics/Generics.iml" filepath="$PROJECT_DIR$/Modules/DataStructures/Generics/Generics.iml" />

@@ -4,19 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ec5abc6-dc75-42c3-9240-6c8d47314d81" name="Changes" comment="Design Patterns Module">
-      <change afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Console/FileHandling/FileHandling.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Console/FileHandling/src/CreateFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Console/FileHandling/src/ReadFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Console/FileHandling/src/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Console/FileHandling/src/file/java.txt" afterDir="false" />
+    <list default="true" id="6ec5abc6-dc75-42c3-9240-6c8d47314d81" name="Changes" comment="File Management Module">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Database/Intro/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Database/Intro/src/main/java/co/argm/app/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Database/Intro/src/main/java/co/argm/app/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Database/Intro/src/main/java/co/argm/app/model/repo/ProductRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Database/Intro/src/main/java/co/argm/app/model/repo/Repo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Database/Intro/src/main/java/co/argm/app/model/util/Connect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Database/Intro/src/main/java/co/argm/app/ui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/BasicElements/CommandLine/CommandLine.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Console/CommandLine/CommandLine.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/BasicElements/CommandLine/src/Argument.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Console/CommandLine/src/Argument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/BasicElements/CommandLine/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Console/CommandLine/src/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/observer/model/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/observer/model/Observer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +54,11 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Modules/ObjectOriented/Beginnings/Classes&amp;Objects/Automobile/src/Car.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-22.0.2-1/lib/src.zip!/java.sql/java/sql/SQLSyntaxErrorException.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/AppData/Local/Temp/073b6539-7563-46e8-8dc4-a1e705d3549a_1_java_jdbc_singleton.zip.49a/java_jdbc/src/main/java/org/aguzman/java/jdbc/EjemploJdbc.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/AppData/Local/Temp/2d4bc9a1-16a3-4e27-b993-5872da4f802d_1_java_jdbc_singleton.zip.02d/java_jdbc/src/main/java/org/aguzman/java/jdbc/EjemploJdbcDelete.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/AppData/Local/Temp/b465dfc5-cafb-46ac-985b-451c0afcd49a_1_java_jdbc_singleton.zip.49a/java_jdbc/src/main/java/org/aguzman/java/jdbc/repositorio/ProductoRepositorioImpl.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/AppData/Local/Temp/f5ff2fa6-d8e0-4f3f-be7d-5f969c8b2a73_1_java_jdbc_singleton.zip.a73/java_jdbc/src/main/java/org/aguzman/java/jdbc/EjemploJdbcUpdate.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -252,11 +259,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "extract.method.default.visibility": "private",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/Users/andre/OneDrive/Escritorio/Course/Modules/Functional/Techniques/Recursion/src/co/argm/app",
-    "last_opened_file_path": "C:/Users/andre/OneDrive/Escritorio/Course/Modules",
+    "last_directory_selection": "C:/Users/andre/OneDrive/Escritorio/Course/Modules/Database/Intro/src/main/java/co/argm/app/model",
+    "last_opened_file_path": "C:/Users/andre/OneDrive/Escritorio/Course/Modules/Database",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -272,18 +280,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\Database" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\DataStructures\Generics\src\co\argm\app" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\tasks\ObjectOriented\Dynamic\Inheritance\Abstract\a\src" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\tasks\ObjectOriented" />
-      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\tasks\ObjectOriented\Inheritance\Heredity\GreengrocerStore\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\ConnectDatabase" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\Introduction\Fundamentals\Console" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\Specialized\Techniques" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\Functional\Techniques" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\Functional\Java8" />
-      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\Functional" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="co.argm.app.composite" />
@@ -293,10 +301,10 @@
       <recent name="co.argm.app" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReadFile">
+  <component name="RunManager" selected="Application.co.argm.app.ui.Main">
     <configuration name="Create" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="co.argm.app.ui.Create" />
-      <module name="FileHandling" />
+      <module name="FileManagement" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="co.argm.app.ui.*" />
@@ -320,19 +328,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.argm.app.observer.ui.MainUser" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.argm.app.observer.ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Classes&amp;Objects" />
@@ -342,14 +337,27 @@
     </configuration>
     <configuration name="ReadFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ReadFile" />
-      <module name="FileHandling" />
+      <module name="FileManagement" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="co.argm.app.ui.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.argm.app.ui.Main" />
+      <module name="Intro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.argm.app.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="ui.Create" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ui.Create" />
-      <module name="FileHandling" />
+      <module name="FileManagement" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value=".*" />
@@ -361,19 +369,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.co.argm.app.ui.Main" />
       <item itemvalue="Application.Create" />
       <item itemvalue="Application.ReadFile" />
       <item itemvalue="Application.ui.Create" />
-      <item itemvalue="Application.MainUser" />
       <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.co.argm.app.ui.Main" />
         <item itemvalue="Application.ReadFile" />
         <item itemvalue="Application.ui.Create" />
         <item itemvalue="Application.Create" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MainUser" />
       </list>
     </recent_temporary>
   </component>
@@ -483,7 +491,16 @@
       <workItem from="1724512124526" duration="10093000" />
       <workItem from="1724539928222" duration="2690000" />
       <workItem from="1724606451951" duration="13831000" />
-      <workItem from="1724642730220" duration="3246000" />
+      <workItem from="1724642730220" duration="3375000" />
+      <workItem from="1724702964789" duration="1243000" />
+      <workItem from="1724707123761" duration="1103000" />
+      <workItem from="1724710510726" duration="10513000" />
+      <workItem from="1724788471782" duration="2842000" />
+      <workItem from="1724791456773" duration="132000" />
+      <workItem from="1724791601806" duration="2850000" />
+      <workItem from="1724794511310" duration="202000" />
+      <workItem from="1724801040275" duration="722000" />
+      <workItem from="1724801778421" duration="1214000" />
     </task>
     <task id="LOCAL-00001" summary="Full change">
       <option name="closed" value="true" />
@@ -709,7 +726,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724636507766</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="File Management Module">
+      <option name="closed" value="true" />
+      <created>1724646069611</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1724646069611</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -752,7 +777,8 @@
     <MESSAGE value="Java Annotations Module: Using annotations" />
     <MESSAGE value="Recursion Module" />
     <MESSAGE value="Design Patterns Module" />
-    <option name="LAST_COMMIT_MESSAGE" value="Design Patterns Module" />
+    <MESSAGE value="File Management Module" />
+    <option name="LAST_COMMIT_MESSAGE" value="File Management Module" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
