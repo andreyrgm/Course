@@ -1,5 +1,8 @@
 package co.argm.app.model;
 
+/**
+ * Clase que representa una categoría de producto.
+ */
 public class Category {
     private final int id;
     private String name;

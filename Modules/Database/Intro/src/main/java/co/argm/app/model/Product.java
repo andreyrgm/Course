@@ -2,6 +2,9 @@ package co.argm.app.model;
 
 import java.util.Date;
 
+/**
+ * Clase que representa un producto.
+ */
 public class Product {
     private final String name;
     private final int price;

@@ -9,9 +9,13 @@ import java.util.Date;
 
 import static java.lang.System.out;
 
+/**
+ * Clase principal para ejecutar las operaciones CRUD en productos.
+ */
 public class Main {
     public static void main(String[] args) {
         Repo<Product> repo = new ProductRepo();
+
         out.println("=== findAll ===");
         repo.findAll().forEach(out::println);
 
