@@ -9,6 +9,7 @@
         <entry key="CircleArea" value="a" />
         <entry key="Course" value="Course" />
         <entry key="Creation" value="Threads" />
+        <entry key="Database" value="Intro" />
         <entry key="Date&amp;Calendar" value="ClassesDateAndCalendar" />
         <entry key="DesignPatterns" value="DesignPatterns" />
         <entry key="FileManagement" value="FileManagement" />
@@ -19,6 +20,7 @@
         <entry key="Mammals" value="a" />
         <entry key="MoreOccurrences" value="PrintMoreOccurrences" />
         <entry key="Objects" value="ClassesAndobjects" />
+        <entry key="Optional" value="OptionalClass" />
         <entry key="Overload" value="MethodOverload" />
         <entry key="Packages" value="Pacakages" />
         <entry key="PrintChair" value="a" />

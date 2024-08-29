@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/Intro/pom.xml" />
         <option value="$PROJECT_DIR$/Modules/ConnectDatabase/Intro/pom.xml" />
         <option value="$PROJECT_DIR$/Modules/Database/Intro/pom.xml" />
+        <option value="$PROJECT_DIR$/Modules/Specialized/Techniques/Database/pom.xml" />
+        <option value="$PROJECT_DIR$/Modules/Professional/Techniques/Database/pom.xml" />
       </list>
     </option>
   </component>
