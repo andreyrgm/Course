@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ec5abc6-dc75-42c3-9240-6c8d47314d81" name="Changes" comment="JDBC Database Module: Connection Pool">
-      <change afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Console/FileManagement/src/co/argm/app/file/file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/ControlFlows/src/co/argm/app/Example/ForArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/src/main/java/co/argm/app/model/repo/CategoryRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/src/main/java/co/argm/app/model/service/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/src/main/java/co/argm/app/model/service/ServiceCatalog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/target/classes/co/argm/app/model/repo/ProductRepo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/target/classes/co/argm/app/model/util/Connect.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/target/classes/co/argm/app/ui/Main.class" afterDir="false" />
+    <list default="true" id="6ec5abc6-dc75-42c3-9240-6c8d47314d81" name="Changes" comment="JDBC Database Module: Transactions">
+      <change afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/src/main/java/co/argm/app/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/src/main/java/co/argm/app/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/src/main/java/co/argm/app/exception/InsufficientMoneyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/src/main/resources/data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/src/test/java/co/argm/app/AccountTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -20,224 +18,117 @@
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Arrays/src/BiggerNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Arrays/src/co/argm/app/BiggerNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Arrays/src/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Arrays/src/co/argm/app/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Arrays/src/Combined.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Arrays/src/co/argm/app/Combined.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Arrays/src/DeleteItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Arrays/src/co/argm/app/DeleteItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Arrays/src/DetectOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Arrays/src/co/argm/app/DetectOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Arrays/src/EvenOdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Arrays/src/co/argm/app/EvenOdd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Arrays/src/Iteration.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Arrays/src/co/argm/app/Iteration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Arrays/src/MovePosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Arrays/src/co/argm/app/MovePosition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Arrays/src/MovePosition2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Arrays/src/co/argm/app/MovePosition2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Arrays/src/MovePosition3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Arrays/src/co/argm/app/MovePosition3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Arrays/src/OrderStartEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Arrays/src/co/argm/app/OrderStartEnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Arrays/src/ReverseFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Arrays/src/co/argm/app/ReverseFor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Arrays/src/ReverseMutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Arrays/src/co/argm/app/ReverseMutable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Arrays/src/SearchNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Arrays/src/co/argm/app/SearchNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Arrays/src/SearchString.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Arrays/src/co/argm/app/SearchString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Arrays/src/StudentNotes.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Arrays/src/co/argm/app/StudentNotes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Matrices/src/AddRowColumn.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Matrices/src/co/argm/app/AddRowColumn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Matrices/src/Adding.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Matrices/src/co/argm/app/Adding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Matrices/src/Frame.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Matrices/src/co/argm/app/Frame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Matrices/src/Identity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Matrices/src/co/argm/app/Identity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Matrices/src/Iteration.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Matrices/src/co/argm/app/Iteration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Matrices/src/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Matrices/src/co/argm/app/Search.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Matrices/src/Symmetrical.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Matrices/src/co/argm/app/Symmetrical.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Matrices/src/TransposeMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Matrices/src/co/argm/app/TransposeMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Matrices/src/Transposed.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Matrices/src/co/argm/app/Transposed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Matrices/src/VariableSize.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/DataStructures/Arrangements/Matrices/src/co/argm/app/VariableSize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Database/Intro/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Database/Intro/src/main/java/co/argm/app/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/src/main/java/co/argm/app/model/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Database/Intro/src/main/java/co/argm/app/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/src/main/java/co/argm/app/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Database/Intro/src/main/java/co/argm/app/model/repo/ProductRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/src/main/java/co/argm/app/model/repo/ProductRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Database/Intro/src/main/java/co/argm/app/model/repo/Repo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/src/main/java/co/argm/app/model/repo/Repo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Database/Intro/src/main/java/co/argm/app/model/util/Connect.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/src/main/java/co/argm/app/model/util/Connect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Database/Intro/src/main/java/co/argm/app/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/src/main/java/co/argm/app/ui/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Database/Intro/target/classes/co/argm/app/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/target/classes/co/argm/app/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Database/Intro/target/classes/co/argm/app/model/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/target/classes/co/argm/app/model/Category.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Database/Intro/target/classes/co/argm/app/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/target/classes/co/argm/app/model/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Database/Intro/target/classes/co/argm/app/model/repo/ProductRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Database/Intro/target/classes/co/argm/app/model/repo/Repo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/target/classes/co/argm/app/model/repo/Repo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Database/Intro/target/classes/co/argm/app/model/util/Connect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Database/Intro/target/classes/co/argm/app/ui/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/BasicElements/Date&amp;Calendar/src/JavaUtilCalendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/BasicElements/Date&amp;Calendar/src/co/argm/app/Calendar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/BasicElements/Date&amp;Calendar/src/JavaUtilDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/BasicElements/Date&amp;Calendar/src/co/argm/app/Date.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/BasicElements/Date&amp;Calendar/src/JavaUtilDateParse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/BasicElements/Date&amp;Calendar/src/co/argm/app/DateParse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/BasicElements/MathClass/src/Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/BasicElements/MathClass/src/co/argm/app/Methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/BasicElements/MathClass/src/Randoms.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/BasicElements/MathClass/src/co/argm/app/Randoms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/BasicElements/SystemClass/src/AssignProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/BasicElements/SystemClass/src/co/argm/app/AssignProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/BasicElements/SystemClass/src/EnvironmentVars.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/BasicElements/SystemClass/src/co/argm/app/EnvironmentVars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/BasicElements/SystemClass/src/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/BasicElements/SystemClass/src/co/argm/app/Example.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/BasicElements/SystemClass/src/Properties.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/BasicElements/SystemClass/src/co/argm/app/Properties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/BasicElements/SystemClass/src/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/BasicElements/SystemClass/src/co/argm/app/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/BasicElements/ValueVsReference/src/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/BasicElements/ValueVsReference/src/co/argm/app/Example.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/BasicElements/ValueVsReference/src/Reference.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/BasicElements/ValueVsReference/src/co/argm/app/Reference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/BasicElements/ValueVsReference/src/Value.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/BasicElements/ValueVsReference/src/co/argm/app/Value.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/BasicElements/WrapperClasses/src/AutoboxingInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/BasicElements/WrapperClasses/src/co/argm/app/AutoboxingInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/BasicElements/WrapperClasses/src/BooleanWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/BasicElements/WrapperClasses/src/co/argm/app/BooleanWrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/BasicElements/WrapperClasses/src/GetClassMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/BasicElements/WrapperClasses/src/co/argm/app/GetClassMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/BasicElements/WrapperClasses/src/IntegerWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/BasicElements/WrapperClasses/src/co/argm/app/IntegerWrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/BasicElements/WrapperClasses/src/RelationalOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/BasicElements/WrapperClasses/src/co/argm/app/RelationalOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Console/CommandLine/src/Argument.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Console/CommandLine/src/co/argm/app/Argument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Console/CommandLine/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Console/CommandLine/src/co/argm/app/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Console/FileManagement/src/CreateFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Console/FileManagement/src/co/argm/app/CreateFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Console/FileManagement/src/ReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Console/FileManagement/src/co/argm/app/ReadFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Console/FileManagement/src/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Console/FileManagement/src/co/argm/app/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Console/FileManagement/src/file/java.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/ControlFlows/src/Example/ForArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/ControlFlows/src/Example/LoopTagsSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/ControlFlows/src/co/argm/app/Example/LoopTagsSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/ControlFlows/src/Example/SwitchCaseMonth.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/ControlFlows/src/co/argm/app/Example/SwitchCaseMonth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/ControlFlows/src/For.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/ControlFlows/src/co/argm/app/For.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/ControlFlows/src/ForEach.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/ControlFlows/src/co/argm/app/ForEach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/ControlFlows/src/IfElse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/ControlFlows/src/co/argm/app/IfElse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/ControlFlows/src/LoopTags.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/ControlFlows/src/co/argm/app/LoopTags.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/ControlFlows/src/SwitchCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/ControlFlows/src/co/argm/app/SwitchCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/ControlFlows/src/While.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/ControlFlows/src/co/argm/app/While.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Operators/src/Arithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Operators/src/co/argm/app/Arithmetic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Operators/src/Assignation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Operators/src/co/argm/app/Assignation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Operators/src/Example/LogicalLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Operators/src/co/argm/app/Example/LogicalLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Operators/src/Example/TernaryMaxNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Operators/src/co/argm/app/Example/TernaryMaxNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Operators/src/Incremental.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Operators/src/co/argm/app/Incremental.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Operators/src/InstanceOf.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Operators/src/co/argm/app/InstanceOf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Operators/src/Logical.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Operators/src/co/argm/app/Logical.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Operators/src/Precedence.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Operators/src/co/argm/app/Precedence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Operators/src/Relational.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Operators/src/co/argm/app/Relational.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Operators/src/Ternary.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Operators/src/co/argm/app/Ternary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Operators/src/Unary.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Operators/src/co/argm/app/Unary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Strings/src/Concatenation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Strings/src/co/argm/app/Concatenation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Strings/src/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Strings/src/co/argm/app/Example.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Strings/src/Immutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Strings/src/co/argm/app/Immutable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Strings/src/Method.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Strings/src/co/argm/app/Method.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Strings/src/MethodArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Strings/src/co/argm/app/MethodArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Strings/src/TestEfficiency.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Strings/src/co/argm/app/TestEfficiency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Strings/src/Validate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Strings/src/co/argm/app/Validate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Variables/src/Conversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Variables/src/co/argm/app/Conversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Variables/src/Primitive.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Variables/src/co/argm/app/Primitive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Variables/src/SystemNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Introduction/Fundamentals/Variables/src/co/argm/app/SystemNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Objects/src/doc/UML.png" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Objects/src/co/argm/app/doc/UML.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Objects/src/model/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Objects/src/co/argm/app/model/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Objects/src/model/Motor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Objects/src/co/argm/app/model/Motor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Objects/src/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Objects/src/co/argm/app/model/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Objects/src/model/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Objects/src/co/argm/app/model/Tank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Objects/src/model/Wheel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Objects/src/co/argm/app/model/Wheel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Objects/src/model/type/CarType.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Objects/src/co/argm/app/model/type/CarType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Objects/src/model/type/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Objects/src/co/argm/app/model/type/Color.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Objects/src/model/type/MotorType.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Objects/src/co/argm/app/model/type/MotorType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Objects/src/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Structure/Objects/src/co/argm/app/ui/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Funcional/DateTime/DateTime.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Funcional/DateTime/DateTime.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Funcional/DateTime/src/co/argm/app/Date.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Funcional/DateTime/src/co/argm/app/Date.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Funcional/DateTime/src/co/argm/app/DateHours.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Funcional/DateTime/src/co/argm/app/DateHours.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Funcional/DateTime/src/co/argm/app/Durations.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Funcional/DateTime/src/co/argm/app/Durations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Funcional/DateTime/src/co/argm/app/Hours.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Funcional/DateTime/src/co/argm/app/Hours.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Funcional/DateTime/src/co/argm/app/Instants.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Funcional/DateTime/src/co/argm/app/Instants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Funcional/DateTime/src/co/argm/app/Periods.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Funcional/DateTime/src/co/argm/app/Periods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Funcional/DateTime/src/co/argm/app/TimeZones.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Funcional/DateTime/src/co/argm/app/TimeZones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Funcional/Lambda/Lambda.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Funcional/Lambda/Lambda.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Funcional/Lambda/src/co/argm/app/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Funcional/Lambda/src/co/argm/app/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Funcional/Lambda/src/co/argm/app/model/arithmetic/Arithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Funcional/Lambda/src/co/argm/app/model/arithmetic/Arithmetic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Funcional/Lambda/src/co/argm/app/model/arithmetic/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Funcional/Lambda/src/co/argm/app/model/arithmetic/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Funcional/Lambda/src/co/argm/app/ui/Consume.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Funcional/Lambda/src/co/argm/app/ui/Consume.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Funcional/Lambda/src/co/argm/app/ui/Functions.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Funcional/Lambda/src/co/argm/app/ui/Functions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Funcional/Lambda/src/co/argm/app/ui/Interface.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Funcional/Lambda/src/co/argm/app/ui/Interface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Funcional/Lambda/src/co/argm/app/ui/Preached.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Funcional/Lambda/src/co/argm/app/ui/Preached.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Funcional/OptionalClass/OptionalClass.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Funcional/Optional/Optional.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Funcional/OptionalClass/src/co/argm/app/model/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Funcional/Optional/src/co/argm/app/model/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Funcional/OptionalClass/src/co/argm/app/model/Maker.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Funcional/Optional/src/co/argm/app/model/Maker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Funcional/OptionalClass/src/co/argm/app/model/Processor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Funcional/Optional/src/co/argm/app/model/Processor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Funcional/OptionalClass/src/co/argm/app/model/repo/Repo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Funcional/Optional/src/co/argm/app/model/repo/Repo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Funcional/OptionalClass/src/co/argm/app/model/repo/RepoPC.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Funcional/Optional/src/co/argm/app/model/repo/RepoPC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Funcional/OptionalClass/src/co/argm/app/ui/MapFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Funcional/Optional/src/co/argm/app/ui/MapFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Funcional/OptionalClass/src/co/argm/app/ui/Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Funcional/Optional/src/co/argm/app/ui/Methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Funcional/OptionalClass/src/co/argm/app/ui/OrElseRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Funcional/Optional/src/co/argm/app/ui/OrElseRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Funcional/OptionalClass/src/co/argm/app/ui/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Funcional/Optional/src/co/argm/app/ui/Repository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Funcional/StreamAPI/StreamAPI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/StreamAPI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Funcional/StreamAPI/src/co/argm/app/model/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/model/Bill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Funcional/StreamAPI/src/co/argm/app/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Funcional/StreamAPI/src/co/argm/app/ui/AnyMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/ui/AnyMatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Funcional/StreamAPI/src/co/argm/app/ui/Count.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/ui/Count.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Funcional/StreamAPI/src/co/argm/app/ui/Create.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/ui/Create.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Funcional/StreamAPI/src/co/argm/app/ui/Distinct.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/ui/Distinct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Funcional/StreamAPI/src/co/argm/app/ui/DistrictUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/ui/DistrictUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Funcional/StreamAPI/src/co/argm/app/ui/Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/ui/Filter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Funcional/StreamAPI/src/co/argm/app/ui/FlatMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/ui/FlatMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Funcional/StreamAPI/src/co/argm/app/ui/Generate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/ui/Generate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Funcional/StreamAPI/src/co/argm/app/ui/ListToStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/ui/ListToStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Funcional/StreamAPI/src/co/argm/app/ui/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/ui/Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Funcional/StreamAPI/src/co/argm/app/ui/Parallel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/ui/Parallel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Funcional/StreamAPI/src/co/argm/app/ui/Range.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/ui/Range.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Funcional/StreamAPI/src/co/argm/app/ui/Reduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/ui/Reduce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/Annotations/Annotations.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/Annotations/Annotations.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/Annotations/src/co/argm/app/model/Init.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/Annotations/src/co/argm/app/model/Init.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/Annotations/src/co/argm/app/model/JsonAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/Annotations/src/co/argm/app/model/JsonAttribute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/Annotations/src/co/argm/app/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/Annotations/src/co/argm/app/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/Annotations/src/co/argm/app/model/processor/JsonSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/Annotations/src/co/argm/app/model/processor/JsonSerializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/Annotations/src/co/argm/app/model/processor/exception/JsonSerializerException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/Annotations/src/co/argm/app/model/processor/exception/JsonSerializerException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/Annotations/src/co/argm/app/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/Annotations/src/co/argm/app/ui/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/DesignPatterns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/DesignPatterns.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/composite/model/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/composite/model/Component.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/composite/model/Directory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/composite/model/Directory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/composite/model/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/composite/model/File.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/composite/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/composite/ui/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/decorator/example/model/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/example/model/Coffee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/decorator/example/model/Configurable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/example/model/Configurable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/decorator/example/model/decorator/Abstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/example/model/decorator/Abstract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/decorator/example/model/decorator/WithChocolate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/example/model/decorator/WithChocolate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/decorator/example/model/decorator/WithCream.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/example/model/decorator/WithCream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/decorator/example/model/decorator/WithMilk.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/example/model/decorator/WithMilk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/decorator/example/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/example/ui/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/decorator/explain/model/Formattable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/explain/model/Formattable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/decorator/explain/model/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/explain/model/Text.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/decorator/explain/model/decorator/Abstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/explain/model/decorator/Abstract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/decorator/explain/model/decorator/CapitalLetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/explain/model/decorator/CapitalLetter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/decorator/explain/model/decorator/ReplaceSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/explain/model/decorator/ReplaceSpace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/decorator/explain/model/decorator/Reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/explain/model/decorator/Reverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/decorator/explain/model/decorator/Underline.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/explain/model/decorator/Underline.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/decorator/explain/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/explain/ui/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/factory/model/pizzeria/California.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/factory/model/pizzeria/California.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/factory/model/pizzeria/NewYork.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/factory/model/pizzeria/NewYork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/factory/model/pizzeria/Pizzeria.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/factory/model/pizzeria/Pizzeria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/factory/model/product/CheeseC.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/factory/model/product/CheeseC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/factory/model/product/ItalianNY.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/factory/model/product/ItalianNY.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/factory/model/product/PepperoniC.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/factory/model/product/PepperoniC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/factory/model/product/PepperoniNY.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/factory/model/product/PepperoniNY.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/factory/model/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/factory/model/product/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/factory/model/product/VegetarianC.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/factory/model/product/VegetarianC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/factory/model/product/VegetarianNY.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/factory/model/product/VegetarianNY.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/factory/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/factory/ui/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/observer/model/Corporation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/observer/model/Corporation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/observer/model/Observable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/observer/model/Observable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/observer/model/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/observer/model/Observer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/observer/model/UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/observer/model/UserRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/observer/ui/MainCorp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/observer/ui/MainCorp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/observer/ui/MainUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/observer/ui/MainUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/singleton/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/singleton/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/DesignPatterns/src/co/argm/app/singleton/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/singleton/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/Recursion/Recursion.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/Recursion/Recursion.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/Recursion/src/co/argm/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/Recursion/src/co/argm/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Specialized/Techniques/Recursion/src/co/argm/app/model/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Professional/Techniques/Recursion/src/co/argm/app/model/Component.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Array/MoreOccurrences/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Array/MoreOccurrences/src/co/argm/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Array/PrintHigher/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Array/PrintHigher/src/co/argm/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Array/PrintHistogram/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Array/PrintHistogram/src/co/argm/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Array/Sort/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Array/Sort/src/co/argm/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Array/StatisticalSystem/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Array/StatisticalSystem/src/co/argm/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Matrices/PrintChair/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Matrices/PrintChair/src/co/argm/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Matrices/PrintX/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/DataStructures/Arrangements/Matrices/PrintX/src/co/argm/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/Introdution/BasicElements/DateAndCalendar/AgeCalculation/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/Introdution/BasicElements/DateAndCalendar/AgeCalculation/src/co/argm/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/Introdution/BasicElements/MathClass/CircleArea/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/Introdution/BasicElements/MathClass/CircleArea/src/co/argm/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/ControlFlows/MinNum/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/ControlFlows/MinNum/src/co/argm/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/ControlFlows/MultiplyNoSymbol/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/ControlFlows/MultiplyNoSymbol/src/co/argm/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/ControlFlows/StudentGradeAverage/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/ControlFlows/StudentGradeAverage/src/co/argm/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/FuelTank/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/FuelTank/src/co/argm/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/LongestName/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/LongestName/src/co/argm/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/MenuOptions/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/MenuOptions/src/co/argm/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/SortNum/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Operators/SortNum/src/co/argm/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Strings/NameManagement/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Strings/NameManagement/src/co/argm/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Variables/InvoiceDetail/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/Introdution/Fundamentals/Variables/InvoiceDetail/src/co/argm/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/ObjectOriented/Inheritance/Catalog/Catalog.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/ObjectOriented/Structure/PurchaseOrder/src/model/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/ObjectOriented/Structure/PurchaseOrder/src/co/argm/app/model/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/ObjectOriented/Structure/PurchaseOrder/src/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/ObjectOriented/Structure/PurchaseOrder/src/co/argm/app/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/ObjectOriented/Structure/PurchaseOrder/src/model/PurchaseOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/ObjectOriented/Structure/PurchaseOrder/src/co/argm/app/model/PurchaseOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/ObjectOriented/Structure/PurchaseOrder/src/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/ObjectOriented/Structure/PurchaseOrder/src/co/argm/app/ui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/DateTime/DateTime.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/DateTime/DateTime.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/DateTime/src/co/argm/app/Date.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/DateTime/src/co/argm/app/Date.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/DateTime/src/co/argm/app/DateHours.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/DateTime/src/co/argm/app/DateHours.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/DateTime/src/co/argm/app/Durations.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/DateTime/src/co/argm/app/Durations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/DateTime/src/co/argm/app/Hours.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/DateTime/src/co/argm/app/Hours.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/DateTime/src/co/argm/app/Instants.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/DateTime/src/co/argm/app/Instants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/DateTime/src/co/argm/app/Periods.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/DateTime/src/co/argm/app/Periods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/DateTime/src/co/argm/app/TimeZones.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/DateTime/src/co/argm/app/TimeZones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/Lambda/Lambda.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/Patterns.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/Lambda/src/co/argm/app/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/Lambda/src/co/argm/app/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/Lambda/src/co/argm/app/model/arithmetic/Arithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/Lambda/src/co/argm/app/model/arithmetic/Arithmetic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/Lambda/src/co/argm/app/model/arithmetic/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/Lambda/src/co/argm/app/model/arithmetic/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/Lambda/src/co/argm/app/ui/Consume.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/Lambda/src/co/argm/app/ui/Consume.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/Lambda/src/co/argm/app/ui/Functions.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/Lambda/src/co/argm/app/ui/Functions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/Lambda/src/co/argm/app/ui/Interface.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/Lambda/src/co/argm/app/ui/Interface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/Lambda/src/co/argm/app/ui/Preached.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/Lambda/src/co/argm/app/ui/Preached.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/Optional/Optional.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/Lambda/Lambda.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/Optional/src/co/argm/app/model/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/Optional/src/co/argm/app/model/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/Optional/src/co/argm/app/model/Maker.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/Optional/src/co/argm/app/model/Maker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/Optional/src/co/argm/app/model/Processor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/Optional/src/co/argm/app/model/Processor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/Optional/src/co/argm/app/model/repo/Repo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/Optional/src/co/argm/app/model/repo/Repo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/Optional/src/co/argm/app/model/repo/RepoPC.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/Optional/src/co/argm/app/model/repo/RepoPC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/Optional/src/co/argm/app/ui/MapFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/Optional/src/co/argm/app/ui/MapFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/Optional/src/co/argm/app/ui/Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/Optional/src/co/argm/app/ui/Methods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/Optional/src/co/argm/app/ui/OrElseRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/Optional/src/co/argm/app/ui/OrElseRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/Optional/src/co/argm/app/ui/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/Optional/src/co/argm/app/ui/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/StreamAPI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/Optional/Optional.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/model/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/StreamAPI/src/co/argm/app/model/Bill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/StreamAPI/src/co/argm/app/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/ui/AnyMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/StreamAPI/src/co/argm/app/ui/AnyMatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/ui/Count.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/StreamAPI/src/co/argm/app/ui/Count.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/ui/Create.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/StreamAPI/src/co/argm/app/ui/Create.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/ui/Distinct.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/StreamAPI/src/co/argm/app/ui/Distinct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/ui/DistrictUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/StreamAPI/src/co/argm/app/ui/DistrictUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/ui/Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/StreamAPI/src/co/argm/app/ui/Filter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/ui/FlatMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/StreamAPI/src/co/argm/app/ui/FlatMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/ui/Generate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/StreamAPI/src/co/argm/app/ui/Generate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/ui/ListToStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/StreamAPI/src/co/argm/app/ui/ListToStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/ui/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/StreamAPI/src/co/argm/app/ui/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/ui/Parallel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/StreamAPI/src/co/argm/app/ui/Parallel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/ui/Range.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/StreamAPI/src/co/argm/app/ui/Range.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/ui/Reduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/StreamAPI/src/co/argm/app/ui/Reduce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Annotations/Annotations.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/StreamAPI/StreamAPI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Annotations/src/co/argm/app/model/Init.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Annotations/src/co/argm/app/model/Init.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Annotations/src/co/argm/app/model/JsonAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Annotations/src/co/argm/app/model/JsonAttribute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Annotations/src/co/argm/app/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Annotations/src/co/argm/app/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Annotations/src/co/argm/app/model/processor/JsonSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Annotations/src/co/argm/app/model/processor/JsonSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Annotations/src/co/argm/app/model/processor/exception/JsonSerializerException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Annotations/src/co/argm/app/model/processor/exception/JsonSerializerException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Annotations/src/co/argm/app/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Annotations/src/co/argm/app/ui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Database/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/src/main/java/co/argm/app/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Database/src/main/java/co/argm/app/model/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/src/main/java/co/argm/app/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Database/src/main/java/co/argm/app/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/src/main/java/co/argm/app/model/repo/CategoryRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Database/src/main/java/co/argm/app/model/repo/CategoryRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/src/main/java/co/argm/app/model/repo/ProductRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Database/src/main/java/co/argm/app/model/repo/ProductRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/src/main/java/co/argm/app/model/repo/Repo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Database/src/main/java/co/argm/app/model/repo/Repo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/src/main/java/co/argm/app/model/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Database/src/main/java/co/argm/app/model/service/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/src/main/java/co/argm/app/model/service/ServiceCatalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Database/src/main/java/co/argm/app/model/service/ServiceCatalog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/src/main/java/co/argm/app/model/util/Connect.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Database/src/main/java/co/argm/app/model/util/Connect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/src/main/java/co/argm/app/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Database/src/main/java/co/argm/app/ui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/target/classes/co/argm/app/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Database/target/classes/co/argm/app/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/target/classes/co/argm/app/model/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Database/target/classes/co/argm/app/model/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/target/classes/co/argm/app/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Database/target/classes/co/argm/app/model/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/target/classes/co/argm/app/model/repo/CategoryRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Database/target/classes/co/argm/app/model/repo/CategoryRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/target/classes/co/argm/app/model/repo/ProductRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Database/target/classes/co/argm/app/model/repo/ProductRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/target/classes/co/argm/app/model/repo/Repo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Database/target/classes/co/argm/app/model/repo/Repo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/target/classes/co/argm/app/model/service/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Database/target/classes/co/argm/app/model/service/Service.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/target/classes/co/argm/app/model/service/ServiceCatalog.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Database/target/classes/co/argm/app/model/service/ServiceCatalog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/target/classes/co/argm/app/model/util/Connect.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Database/target/classes/co/argm/app/model/util/Connect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/target/classes/co/argm/app/ui/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Database/target/classes/co/argm/app/ui/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/DesignPatterns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Annotations/Annotations.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/composite/model/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/composite/model/Component.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/composite/model/Directory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/composite/model/Directory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/composite/model/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/composite/model/File.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/composite/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/composite/ui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/example/model/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/decorator/example/model/Coffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/example/model/Configurable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/decorator/example/model/Configurable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/example/model/decorator/Abstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/decorator/example/model/decorator/Abstract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/example/model/decorator/WithChocolate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/decorator/example/model/decorator/WithChocolate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/example/model/decorator/WithCream.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/decorator/example/model/decorator/WithCream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/example/model/decorator/WithMilk.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/decorator/example/model/decorator/WithMilk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/example/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/decorator/example/ui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/explain/model/Formattable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/decorator/explain/model/Formattable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/explain/model/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/decorator/explain/model/Text.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/explain/model/decorator/Abstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/decorator/explain/model/decorator/Abstract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/explain/model/decorator/CapitalLetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/decorator/explain/model/decorator/CapitalLetter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/explain/model/decorator/ReplaceSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/decorator/explain/model/decorator/ReplaceSpace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/explain/model/decorator/Reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/decorator/explain/model/decorator/Reverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/explain/model/decorator/Underline.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/decorator/explain/model/decorator/Underline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/explain/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/decorator/explain/ui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/factory/model/pizzeria/California.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/factory/model/pizzeria/California.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/factory/model/pizzeria/NewYork.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/factory/model/pizzeria/NewYork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/factory/model/pizzeria/Pizzeria.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/factory/model/pizzeria/Pizzeria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/factory/model/product/CheeseC.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/factory/model/product/CheeseC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/factory/model/product/ItalianNY.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/factory/model/product/ItalianNY.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/factory/model/product/PepperoniC.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/factory/model/product/PepperoniC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/factory/model/product/PepperoniNY.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/factory/model/product/PepperoniNY.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/factory/model/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/factory/model/product/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/factory/model/product/VegetarianC.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/factory/model/product/VegetarianC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/factory/model/product/VegetarianNY.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/factory/model/product/VegetarianNY.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/factory/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/factory/ui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/observer/model/Corporation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/observer/model/Corporation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/observer/model/Observable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/observer/model/Observable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/observer/model/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/observer/model/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/observer/model/UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/observer/model/UserRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/observer/ui/MainCorp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/observer/ui/MainCorp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/observer/ui/MainUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/observer/ui/MainUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/singleton/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/singleton/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/singleton/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/singleton/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Recursion/Recursion.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Recursion/Recursion.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Recursion/src/co/argm/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Recursion/src/co/argm/app/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Recursion/src/co/argm/app/model/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Recursion/src/co/argm/app/model/Component.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -252,6 +143,7 @@
         <option value="Enum" />
         <option value="AnnotationType" />
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -479,15 +371,40 @@
     "Application.ui.Create.executor": "Run",
     "Application.ui.Main.executor": "Run",
     "DefaultHtmlFileTemplate": "HTML File",
+    "JUnit.AccountTest (1).executor": "Run",
+    "JUnit.AccountTest.accountBalance.executor": "Run",
+    "JUnit.AccountTest.accountCredit.executor": "Run",
+    "JUnit.AccountTest.accountDebit.executor": "Run",
+    "JUnit.AccountTest.accountDebitCsvSource.executor": "Run",
+    "JUnit.AccountTest.accountDebitRepeat.executor": "Run",
+    "JUnit.AccountTest.accountName.executor": "Run",
+    "JUnit.AccountTest.bankAccountRelationship.executor": "Run",
+    "JUnit.AccountTest.credit.executor": "Run",
+    "JUnit.AccountTest.executor": "Run",
+    "JUnit.AccountTest.insufficientMoneyException.executor": "Run",
+    "JUnit.AccountTest.printAmbientVariables.executor": "Run",
+    "JUnit.AccountTest.printSystemProperties (1).executor": "Run",
+    "JUnit.AccountTest.printSystemProperties.executor": "Run",
+    "JUnit.AccountTest.processors.executor": "Run",
+    "JUnit.AccountTest.setPerson.executor": "Run",
+    "JUnit.AccountTest.transferMoney.executor": "Debug",
+    "JUnit.All in Course (1).executor": "Run",
+    "JUnit.All in Course (2).executor": "Run",
+    "JUnit.All in Course (3).executor": "Run",
+    "JUnit.All in Course.executor": "Run",
+    "Maven.Tests [test].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
     "extract.method.default.visibility": "private",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/Users/andre/OneDrive/Escritorio/Course/Modules/Database/Intro/src/main/java/co/argm/app/model",
-    "last_opened_file_path": "C:/Users/andre/OneDrive/Escritorio/Course/Modules/Introduction/BasicElements/SystemClass/src",
+    "last_directory_selection": "C:/Users/andre/OneDrive/Escritorio/Course/Modules/AdvancedCore/Quality/Tests/src/test/java/co/argm/app",
+    "last_opened_file_path": "C:/Users/andre/OneDrive/Escritorio/Course/Modules/AdvancedCore/Quality/Tests",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -497,7 +414,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "sonarlint",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -510,11 +427,20 @@
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\tasks\ObjectOriented\Dynamic\Inheritance\Abstract\a\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\AdvancedCore\Quality" />
+      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\AdvancedCore\Test" />
+      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\Professional" />
+      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\Professional\Feature" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\Introduction\Fundamentals\Operators\src" />
-      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\Introduction\Fundamentals\Console\FileManagement\src\co\argm\app\file" />
-      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\Introduction\BasicElements\SystemClass\src\co\argm\app" />
-      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\Specialized\Techniques" />
-      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="co.argm.app" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="co.argm.app.model" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="co.argm.app.composite" />
@@ -524,86 +450,134 @@
       <recent name="co.argm.app" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.co.argm.app.ui.Main">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.argm.app.Main" />
-      <module name="FuelTank" />
+  <component name="RunManager" selected="JUnit.AccountTest">
+    <configuration name="AccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tests" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="co.argm.app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="co.argm.app" />
+      <option name="MAIN_CLASS_NAME" value="co.argm.app.AccountTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.argm.app.Main" />
-      <module name="StudentGradeAverage" />
+    <configuration name="AccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tests" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="co.argm.app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="co.argm.app" />
+      <option name="MAIN_CLASS_NAME" value="co.argm.app.AccountTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea-DEVNV=dev" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.argm.app.Main" />
-      <module name="MultiplyNoSymbol" />
+    <configuration name="AccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tests" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="co.argm.app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="co.argm.app" />
+      <option name="MAIN_CLASS_NAME" value="co.argm.app.AccountTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -DENV=dev" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.argm.app.Main" />
-      <module name="MinNum" />
+    <configuration name="AccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tests" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="co.argm.app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="co.argm.app" />
+      <option name="MAIN_CLASS_NAME" value="co.argm.app.AccountTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea-DEVNV=dev" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="co.argm.app.ui.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.argm.app.ui.Main" />
-      <module name="Database" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.argm.app.ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="All in Course (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Course" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (2)" />
-      <item itemvalue="Application.Main (3)" />
-      <item itemvalue="Application.Main (4)" />
-      <item itemvalue="Application.co.argm.app.ui.Main" />
-    </list>
+    <configuration name="All in Course (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Course" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in Course (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Course" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests [test]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="test" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.co.argm.app.ui.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="JUnit.AccountTest" />
+        <item itemvalue="Maven.Tests [test]" />
+        <item itemvalue="JUnit.All in Course (3)" />
+        <item itemvalue="JUnit.All in Course (2)" />
+        <item itemvalue="JUnit.All in Course (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -725,7 +699,16 @@
       <workItem from="1724801778421" duration="2222000" />
       <workItem from="1724804028337" duration="797000" />
       <workItem from="1724846445734" duration="5645000" />
-      <workItem from="1724874817467" duration="18196000" />
+      <workItem from="1724874817467" duration="18314000" />
+      <workItem from="1724931667275" duration="7535000" />
+      <workItem from="1724959087474" duration="4603000" />
+      <workItem from="1724975121919" duration="5184000" />
+      <workItem from="1724980968536" duration="28000" />
+      <workItem from="1724982183659" duration="582000" />
+      <workItem from="1724986037439" duration="2265000" />
+      <workItem from="1725041345711" duration="3483000" />
+      <workItem from="1725045470968" duration="1428000" />
+      <workItem from="1725048813870" duration="7709000" />
     </task>
     <task id="LOCAL-00001" summary="Full change">
       <option name="closed" value="true" />
@@ -975,7 +958,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724804807606</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="JDBC Database Module: Transactions">
+      <option name="closed" value="true" />
+      <created>1724900288957</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1724900288957</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -994,7 +985,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Module the system class" />
     <MESSAGE value="Update README.md" />
     <MESSAGE value="Math class module" />
     <MESSAGE value="Array module" />
@@ -1019,7 +1009,8 @@
     <MESSAGE value="File Management Module" />
     <MESSAGE value="Databases module with JDBC" />
     <MESSAGE value="JDBC Database Module: Connection Pool" />
-    <option name="LAST_COMMIT_MESSAGE" value="JDBC Database Module: Connection Pool" />
+    <MESSAGE value="JDBC Database Module: Transactions" />
+    <option name="LAST_COMMIT_MESSAGE" value="JDBC Database Module: Transactions" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

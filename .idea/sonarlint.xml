@@ -11,7 +11,7 @@
         <entry key="Creation" value="Threads" />
         <entry key="Database" value="Intro" />
         <entry key="Date&amp;Calendar" value="ClassesDateAndCalendar" />
-        <entry key="DesignPatterns" value="DesignPatterns" />
+        <entry key="DateTime" value="DateTime" />
         <entry key="FileManagement" value="FileManagement" />
         <entry key="Form" value="Adstract" />
         <entry key="Generics" value="Example" />
@@ -23,6 +23,7 @@
         <entry key="Optional" value="OptionalClass" />
         <entry key="Overload" value="MethodOverload" />
         <entry key="Packages" value="Pacakages" />
+        <entry key="Patterns" value="DesignPatterns" />
         <entry key="PrintChair" value="a" />
         <entry key="PurchaseOrder" value="a" />
         <entry key="Repository" value="Generics" />
@@ -30,6 +31,7 @@
         <entry key="Sheet" value="Interface" />
         <entry key="SortNum" value="SortNum2" />
         <entry key="Synced" value="Bakery" />
+        <entry key="Tests" value="JUnit" />
         <entry key="WrapperClasses" value="WrapperClases" />
         <entry key="course" value="Course" />
       </map>

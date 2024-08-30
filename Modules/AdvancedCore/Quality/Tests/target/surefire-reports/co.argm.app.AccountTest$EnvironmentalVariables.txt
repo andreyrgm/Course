@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: co.argm.app.AccountTest$EnvironmentalVariables
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.025 s -- in co.argm.app.AccountTest$EnvironmentalVariables
