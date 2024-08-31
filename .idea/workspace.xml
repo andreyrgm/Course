@@ -4,61 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ec5abc6-dc75-42c3-9240-6c8d47314d81" name="Changes" comment="Unit Testing Module: JUnit 5">
-      <change afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/Mockito/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/Mockito/src/main/java/co/argm/app/Exam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/Mockito/src/main/java/co/argm/app/repo/ExamRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/Mockito/src/main/java/co/argm/app/repo/QuestionsRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/Mockito/src/main/java/co/argm/app/service/ExamService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/Mockito/src/main/java/co/argm/app/service/ExamServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/Mockito/src/test/java/co/argm/app/service/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/Mockito/src/test/java/co/argm/app/service/ExamServiceImplTest.java" afterDir="false" />
+    <list default="true" id="6ec5abc6-dc75-42c3-9240-6c8d47314d81" name="Changes" comment="Unit Testing Module: Mockito">
+      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/ServletAPI/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/ServletAPI/src/main/webapp/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/src/main/java/co/argm/app/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/src/main/java/co/argm/app/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/src/main/java/co/argm/app/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/src/main/java/co/argm/app/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/src/main/java/co/argm/app/exception/InsufficientMoneyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/src/main/java/co/argm/app/exception/InsufficientMoneyException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/src/main/resources/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/src/main/resources/data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/src/test/java/co/argm/app/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/src/test/java/co/argm/app/AccountTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/classes/co/argm/app/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/classes/co/argm/app/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/classes/co/argm/app/Bank.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/classes/co/argm/app/Bank.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/classes/co/argm/app/exception/InsufficientMoneyException.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/classes/co/argm/app/exception/InsufficientMoneyException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/classes/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/classes/data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/surefire-reports/TEST-co.argm.app.AccountTest$AccountNameBalanceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/surefire-reports/TEST-co.argm.app.AccountTest$AccountNameBalanceTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/surefire-reports/TEST-co.argm.app.AccountTest$AccountOperationsTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/surefire-reports/TEST-co.argm.app.AccountTest$AccountOperationsTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/surefire-reports/TEST-co.argm.app.AccountTest$EnvironmentalVariables.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/surefire-reports/TEST-co.argm.app.AccountTest$EnvironmentalVariables.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/surefire-reports/TEST-co.argm.app.AccountTest$JavaVersionTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/surefire-reports/TEST-co.argm.app.AccountTest$JavaVersionTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/surefire-reports/TEST-co.argm.app.AccountTest$OperatingSystemTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/surefire-reports/TEST-co.argm.app.AccountTest$OperatingSystemTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/surefire-reports/TEST-co.argm.app.AccountTest$ParameterizedTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/surefire-reports/TEST-co.argm.app.AccountTest$ParameterizedTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/surefire-reports/TEST-co.argm.app.AccountTest$SystemPropertiesTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/surefire-reports/TEST-co.argm.app.AccountTest$SystemPropertiesTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/surefire-reports/TEST-co.argm.app.AccountTest$TimeoutTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/surefire-reports/TEST-co.argm.app.AccountTest$TimeoutTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/surefire-reports/TEST-co.argm.app.AccountTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/surefire-reports/TEST-co.argm.app.AccountTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/surefire-reports/co.argm.app.AccountTest$AccountNameBalanceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/surefire-reports/co.argm.app.AccountTest$AccountNameBalanceTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/surefire-reports/co.argm.app.AccountTest$AccountOperationsTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/surefire-reports/co.argm.app.AccountTest$AccountOperationsTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/surefire-reports/co.argm.app.AccountTest$EnvironmentalVariables.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/surefire-reports/co.argm.app.AccountTest$EnvironmentalVariables.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/surefire-reports/co.argm.app.AccountTest$JavaVersionTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/surefire-reports/co.argm.app.AccountTest$JavaVersionTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/surefire-reports/co.argm.app.AccountTest$OperatingSystemTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/surefire-reports/co.argm.app.AccountTest$OperatingSystemTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/surefire-reports/co.argm.app.AccountTest$ParameterizedTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/surefire-reports/co.argm.app.AccountTest$ParameterizedTests.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/surefire-reports/co.argm.app.AccountTest$SystemPropertiesTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/surefire-reports/co.argm.app.AccountTest$SystemPropertiesTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/surefire-reports/co.argm.app.AccountTest$TimeoutTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/surefire-reports/co.argm.app.AccountTest$TimeoutTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/surefire-reports/co.argm.app.AccountTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/surefire-reports/co.argm.app.AccountTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/test-classes/co/argm/app/AccountTest$AccountNameBalanceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/test-classes/co/argm/app/AccountTest$AccountNameBalanceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/test-classes/co/argm/app/AccountTest$AccountOperationsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/test-classes/co/argm/app/AccountTest$AccountOperationsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/test-classes/co/argm/app/AccountTest$EnvironmentalVariables.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/test-classes/co/argm/app/AccountTest$EnvironmentalVariables.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/test-classes/co/argm/app/AccountTest$JavaVersionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/test-classes/co/argm/app/AccountTest$JavaVersionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/test-classes/co/argm/app/AccountTest$OperatingSystemTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/test-classes/co/argm/app/AccountTest$OperatingSystemTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/test-classes/co/argm/app/AccountTest$ParameterizedTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/test-classes/co/argm/app/AccountTest$ParameterizedTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/test-classes/co/argm/app/AccountTest$SystemPropertiesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/test-classes/co/argm/app/AccountTest$SystemPropertiesTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/test-classes/co/argm/app/AccountTest$TimeoutTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/test-classes/co/argm/app/AccountTest$TimeoutTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/test-classes/co/argm/app/AccountTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/test-classes/co/argm/app/AccountTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,12 +21,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="HTML File" />
         <option value="Enum" />
         <option value="AnnotationType" />
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -326,6 +278,7 @@
     "JUnit.ExamServiceImplTest.executor": "Run",
     "JUnit.ExamServiceImplTest.saveExam.executor": "Run",
     "Maven.Tests [test].executor": "Run",
+    "Maven.tomcat7.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
@@ -337,7 +290,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "C:/Users/andre/OneDrive/Escritorio/Course/Modules/AdvancedCore/Quality/Tests/Mockito/src/main/java/co/argm/app",
-    "last_opened_file_path": "C:/Users/andre/OneDrive/Escritorio/Course/Modules/AdvancedCore/Quality/Tests",
+    "last_opened_file_path": "C:/Users/andre/OneDrive/Escritorio/Course/Modules/JakartaEE/ServletsWeb/ServletAPI",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -347,7 +300,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -360,11 +313,11 @@
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\tasks\ObjectOriented\Dynamic\Inheritance\Abstract\a\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\JakartaEE\ServletsWeb" />
+      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\JakartaEE" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\AdvancedCore\Quality\Tests" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\AdvancedCore\Quality" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\AdvancedCore\Test" />
-      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\Professional" />
-      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\Professional\Feature" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -384,24 +337,7 @@
       <recent name="co.argm.app" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ExamServiceImplTest">
-    <configuration name="AccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Tests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.argm.app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="co.argm.app" />
-      <option name="MAIN_CLASS_NAME" value="co.argm.app.AccountTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea -DENV=dev" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="AccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Tests" />
       <extension name="coverage">
@@ -419,62 +355,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in Course" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Course" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExamServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Mockito" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.argm.app.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="co.argm.app.service" />
-      <option name="MAIN_CLASS_NAME" value="co.argm.app.service.ExamServiceImplTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExamServiceImplTest.doesntExamQuestionVerify" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Mockito" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.argm.app.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="co.argm.app.service" />
-      <option name="MAIN_CLASS_NAME" value="co.argm.app.service.ExamServiceImplTest" />
-      <option name="METHOD_NAME" value="doesntExamQuestionVerify" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExamServiceImplTest.saveExam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Mockito" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.argm.app.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="co.argm.app.service" />
-      <option name="MAIN_CLASS_NAME" value="co.argm.app.service.ExamServiceImplTest" />
-      <option name="METHOD_NAME" value="saveExam" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tests [test]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+    <configuration name="tomcat7" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
@@ -486,11 +367,11 @@
             </option>
             <option name="goals">
               <list>
-                <option value="test" />
+                <option value="tomcat7:redeploy" />
               </list>
             </option>
             <option name="multimoduleDir" />
-            <option name="pomFileName" value="pom.xml" />
+            <option name="pomFileName" />
             <option name="profilesMap">
               <map />
             </option>
@@ -498,21 +379,12 @@
               <list />
             </option>
             <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/ServletAPI" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.ExamServiceImplTest" />
-        <item itemvalue="JUnit.ExamServiceImplTest.saveExam" />
-        <item itemvalue="JUnit.ExamServiceImplTest.doesntExamQuestionVerify" />
-        <item itemvalue="JUnit.All in Course" />
-        <item itemvalue="Maven.Tests [test]" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -643,7 +515,8 @@
       <workItem from="1725045470968" duration="1428000" />
       <workItem from="1725048813870" duration="8432000" />
       <workItem from="1725118416536" duration="8404000" />
-      <workItem from="1725134757313" duration="5740000" />
+      <workItem from="1725134757313" duration="6703000" />
+      <workItem from="1725144817677" duration="2999000" />
     </task>
     <task id="LOCAL-00001" summary="Full change">
       <option name="closed" value="true" />
@@ -909,7 +782,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725056849148</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Unit Testing Module: Mockito">
+      <option name="closed" value="true" />
+      <created>1725142798807</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1725142798807</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -928,7 +809,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Math class module" />
     <MESSAGE value="Array module" />
     <MESSAGE value="Matrix Module: Two-dimensional arrays" />
     <MESSAGE value="Object-oriented programming module: Classes and objects" />
@@ -953,7 +833,8 @@
     <MESSAGE value="JDBC Database Module: Connection Pool" />
     <MESSAGE value="JDBC Database Module: Transactions" />
     <MESSAGE value="Unit Testing Module: JUnit 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Unit Testing Module: JUnit 5" />
+    <MESSAGE value="Unit Testing Module: Mockito" />
+    <option name="LAST_COMMIT_MESSAGE" value="Unit Testing Module: Mockito" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
