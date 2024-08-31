@@ -4,131 +4,61 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ec5abc6-dc75-42c3-9240-6c8d47314d81" name="Changes" comment="JDBC Database Module: Transactions">
-      <change afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/src/main/java/co/argm/app/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/src/main/java/co/argm/app/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/src/main/java/co/argm/app/exception/InsufficientMoneyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/src/main/resources/data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/src/test/java/co/argm/app/AccountTest.java" afterDir="false" />
+    <list default="true" id="6ec5abc6-dc75-42c3-9240-6c8d47314d81" name="Changes" comment="Unit Testing Module: JUnit 5">
+      <change afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/Mockito/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/Mockito/src/main/java/co/argm/app/Exam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/Mockito/src/main/java/co/argm/app/repo/ExamRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/Mockito/src/main/java/co/argm/app/repo/QuestionsRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/Mockito/src/main/java/co/argm/app/service/ExamService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/Mockito/src/main/java/co/argm/app/service/ExamServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/Mockito/src/test/java/co/argm/app/service/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/Mockito/src/test/java/co/argm/app/service/ExamServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/DateTime/DateTime.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/DateTime/DateTime.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/DateTime/src/co/argm/app/Date.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/DateTime/src/co/argm/app/Date.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/DateTime/src/co/argm/app/DateHours.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/DateTime/src/co/argm/app/DateHours.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/DateTime/src/co/argm/app/Durations.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/DateTime/src/co/argm/app/Durations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/DateTime/src/co/argm/app/Hours.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/DateTime/src/co/argm/app/Hours.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/DateTime/src/co/argm/app/Instants.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/DateTime/src/co/argm/app/Instants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/DateTime/src/co/argm/app/Periods.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/DateTime/src/co/argm/app/Periods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/DateTime/src/co/argm/app/TimeZones.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/DateTime/src/co/argm/app/TimeZones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/Lambda/Lambda.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/Patterns.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/Lambda/src/co/argm/app/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/Lambda/src/co/argm/app/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/Lambda/src/co/argm/app/model/arithmetic/Arithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/Lambda/src/co/argm/app/model/arithmetic/Arithmetic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/Lambda/src/co/argm/app/model/arithmetic/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/Lambda/src/co/argm/app/model/arithmetic/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/Lambda/src/co/argm/app/ui/Consume.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/Lambda/src/co/argm/app/ui/Consume.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/Lambda/src/co/argm/app/ui/Functions.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/Lambda/src/co/argm/app/ui/Functions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/Lambda/src/co/argm/app/ui/Interface.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/Lambda/src/co/argm/app/ui/Interface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/Lambda/src/co/argm/app/ui/Preached.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/Lambda/src/co/argm/app/ui/Preached.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/Optional/Optional.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/Lambda/Lambda.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/Optional/src/co/argm/app/model/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/Optional/src/co/argm/app/model/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/Optional/src/co/argm/app/model/Maker.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/Optional/src/co/argm/app/model/Maker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/Optional/src/co/argm/app/model/Processor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/Optional/src/co/argm/app/model/Processor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/Optional/src/co/argm/app/model/repo/Repo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/Optional/src/co/argm/app/model/repo/Repo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/Optional/src/co/argm/app/model/repo/RepoPC.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/Optional/src/co/argm/app/model/repo/RepoPC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/Optional/src/co/argm/app/ui/MapFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/Optional/src/co/argm/app/ui/MapFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/Optional/src/co/argm/app/ui/Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/Optional/src/co/argm/app/ui/Methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/Optional/src/co/argm/app/ui/OrElseRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/Optional/src/co/argm/app/ui/OrElseRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/Optional/src/co/argm/app/ui/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/Optional/src/co/argm/app/ui/Repository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/StreamAPI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/Optional/Optional.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/model/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/StreamAPI/src/co/argm/app/model/Bill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/StreamAPI/src/co/argm/app/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/ui/AnyMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/StreamAPI/src/co/argm/app/ui/AnyMatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/ui/Count.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/StreamAPI/src/co/argm/app/ui/Count.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/ui/Create.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/StreamAPI/src/co/argm/app/ui/Create.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/ui/Distinct.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/StreamAPI/src/co/argm/app/ui/Distinct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/ui/DistrictUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/StreamAPI/src/co/argm/app/ui/DistrictUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/ui/Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/StreamAPI/src/co/argm/app/ui/Filter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/ui/FlatMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/StreamAPI/src/co/argm/app/ui/FlatMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/ui/Generate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/StreamAPI/src/co/argm/app/ui/Generate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/ui/ListToStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/StreamAPI/src/co/argm/app/ui/ListToStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/ui/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/StreamAPI/src/co/argm/app/ui/Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/ui/Parallel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/StreamAPI/src/co/argm/app/ui/Parallel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/ui/Range.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/StreamAPI/src/co/argm/app/ui/Range.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Funcional/StreamAPI/src/co/argm/app/ui/Reduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/StreamAPI/src/co/argm/app/ui/Reduce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Annotations/Annotations.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Feature/StreamAPI/StreamAPI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Annotations/src/co/argm/app/model/Init.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Annotations/src/co/argm/app/model/Init.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Annotations/src/co/argm/app/model/JsonAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Annotations/src/co/argm/app/model/JsonAttribute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Annotations/src/co/argm/app/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Annotations/src/co/argm/app/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Annotations/src/co/argm/app/model/processor/JsonSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Annotations/src/co/argm/app/model/processor/JsonSerializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Annotations/src/co/argm/app/model/processor/exception/JsonSerializerException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Annotations/src/co/argm/app/model/processor/exception/JsonSerializerException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Annotations/src/co/argm/app/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Annotations/src/co/argm/app/ui/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Database/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/src/main/java/co/argm/app/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Database/src/main/java/co/argm/app/model/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/src/main/java/co/argm/app/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Database/src/main/java/co/argm/app/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/src/main/java/co/argm/app/model/repo/CategoryRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Database/src/main/java/co/argm/app/model/repo/CategoryRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/src/main/java/co/argm/app/model/repo/ProductRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Database/src/main/java/co/argm/app/model/repo/ProductRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/src/main/java/co/argm/app/model/repo/Repo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Database/src/main/java/co/argm/app/model/repo/Repo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/src/main/java/co/argm/app/model/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Database/src/main/java/co/argm/app/model/service/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/src/main/java/co/argm/app/model/service/ServiceCatalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Database/src/main/java/co/argm/app/model/service/ServiceCatalog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/src/main/java/co/argm/app/model/util/Connect.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Database/src/main/java/co/argm/app/model/util/Connect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/src/main/java/co/argm/app/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Database/src/main/java/co/argm/app/ui/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/target/classes/co/argm/app/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Database/target/classes/co/argm/app/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/target/classes/co/argm/app/model/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Database/target/classes/co/argm/app/model/Category.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/target/classes/co/argm/app/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Database/target/classes/co/argm/app/model/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/target/classes/co/argm/app/model/repo/CategoryRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Database/target/classes/co/argm/app/model/repo/CategoryRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/target/classes/co/argm/app/model/repo/ProductRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Database/target/classes/co/argm/app/model/repo/ProductRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/target/classes/co/argm/app/model/repo/Repo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Database/target/classes/co/argm/app/model/repo/Repo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/target/classes/co/argm/app/model/service/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Database/target/classes/co/argm/app/model/service/Service.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/target/classes/co/argm/app/model/service/ServiceCatalog.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Database/target/classes/co/argm/app/model/service/ServiceCatalog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/target/classes/co/argm/app/model/util/Connect.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Database/target/classes/co/argm/app/model/util/Connect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Database/target/classes/co/argm/app/ui/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Database/target/classes/co/argm/app/ui/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/DesignPatterns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Annotations/Annotations.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/composite/model/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/composite/model/Component.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/composite/model/Directory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/composite/model/Directory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/composite/model/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/composite/model/File.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/composite/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/composite/ui/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/example/model/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/decorator/example/model/Coffee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/example/model/Configurable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/decorator/example/model/Configurable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/example/model/decorator/Abstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/decorator/example/model/decorator/Abstract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/example/model/decorator/WithChocolate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/decorator/example/model/decorator/WithChocolate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/example/model/decorator/WithCream.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/decorator/example/model/decorator/WithCream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/example/model/decorator/WithMilk.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/decorator/example/model/decorator/WithMilk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/example/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/decorator/example/ui/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/explain/model/Formattable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/decorator/explain/model/Formattable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/explain/model/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/decorator/explain/model/Text.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/explain/model/decorator/Abstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/decorator/explain/model/decorator/Abstract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/explain/model/decorator/CapitalLetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/decorator/explain/model/decorator/CapitalLetter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/explain/model/decorator/ReplaceSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/decorator/explain/model/decorator/ReplaceSpace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/explain/model/decorator/Reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/decorator/explain/model/decorator/Reverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/explain/model/decorator/Underline.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/decorator/explain/model/decorator/Underline.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/decorator/explain/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/decorator/explain/ui/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/factory/model/pizzeria/California.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/factory/model/pizzeria/California.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/factory/model/pizzeria/NewYork.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/factory/model/pizzeria/NewYork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/factory/model/pizzeria/Pizzeria.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/factory/model/pizzeria/Pizzeria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/factory/model/product/CheeseC.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/factory/model/product/CheeseC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/factory/model/product/ItalianNY.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/factory/model/product/ItalianNY.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/factory/model/product/PepperoniC.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/factory/model/product/PepperoniC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/factory/model/product/PepperoniNY.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/factory/model/product/PepperoniNY.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/factory/model/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/factory/model/product/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/factory/model/product/VegetarianC.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/factory/model/product/VegetarianC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/factory/model/product/VegetarianNY.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/factory/model/product/VegetarianNY.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/factory/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/factory/ui/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/observer/model/Corporation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/observer/model/Corporation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/observer/model/Observable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/observer/model/Observable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/observer/model/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/observer/model/Observer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/observer/model/UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/observer/model/UserRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/observer/ui/MainCorp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/observer/ui/MainCorp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/observer/ui/MainUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/observer/ui/MainUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/singleton/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/singleton/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/DesignPatterns/src/co/argm/app/singleton/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Patterns/src/co/argm/app/singleton/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Recursion/Recursion.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Recursion/Recursion.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Recursion/src/co/argm/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Recursion/src/co/argm/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Professional/Techniques/Recursion/src/co/argm/app/model/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Design/Recursion/src/co/argm/app/model/Component.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/src/main/java/co/argm/app/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/src/main/java/co/argm/app/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/src/main/java/co/argm/app/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/src/main/java/co/argm/app/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/src/main/java/co/argm/app/exception/InsufficientMoneyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/src/main/java/co/argm/app/exception/InsufficientMoneyException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/src/main/resources/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/src/main/resources/data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/src/test/java/co/argm/app/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/src/test/java/co/argm/app/AccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/classes/co/argm/app/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/classes/co/argm/app/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/classes/co/argm/app/Bank.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/classes/co/argm/app/Bank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/classes/co/argm/app/exception/InsufficientMoneyException.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/classes/co/argm/app/exception/InsufficientMoneyException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/classes/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/classes/data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/surefire-reports/TEST-co.argm.app.AccountTest$AccountNameBalanceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/surefire-reports/TEST-co.argm.app.AccountTest$AccountNameBalanceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/surefire-reports/TEST-co.argm.app.AccountTest$AccountOperationsTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/surefire-reports/TEST-co.argm.app.AccountTest$AccountOperationsTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/surefire-reports/TEST-co.argm.app.AccountTest$EnvironmentalVariables.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/surefire-reports/TEST-co.argm.app.AccountTest$EnvironmentalVariables.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/surefire-reports/TEST-co.argm.app.AccountTest$JavaVersionTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/surefire-reports/TEST-co.argm.app.AccountTest$JavaVersionTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/surefire-reports/TEST-co.argm.app.AccountTest$OperatingSystemTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/surefire-reports/TEST-co.argm.app.AccountTest$OperatingSystemTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/surefire-reports/TEST-co.argm.app.AccountTest$ParameterizedTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/surefire-reports/TEST-co.argm.app.AccountTest$ParameterizedTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/surefire-reports/TEST-co.argm.app.AccountTest$SystemPropertiesTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/surefire-reports/TEST-co.argm.app.AccountTest$SystemPropertiesTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/surefire-reports/TEST-co.argm.app.AccountTest$TimeoutTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/surefire-reports/TEST-co.argm.app.AccountTest$TimeoutTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/surefire-reports/TEST-co.argm.app.AccountTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/surefire-reports/TEST-co.argm.app.AccountTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/surefire-reports/co.argm.app.AccountTest$AccountNameBalanceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/surefire-reports/co.argm.app.AccountTest$AccountNameBalanceTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/surefire-reports/co.argm.app.AccountTest$AccountOperationsTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/surefire-reports/co.argm.app.AccountTest$AccountOperationsTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/surefire-reports/co.argm.app.AccountTest$EnvironmentalVariables.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/surefire-reports/co.argm.app.AccountTest$EnvironmentalVariables.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/surefire-reports/co.argm.app.AccountTest$JavaVersionTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/surefire-reports/co.argm.app.AccountTest$JavaVersionTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/surefire-reports/co.argm.app.AccountTest$OperatingSystemTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/surefire-reports/co.argm.app.AccountTest$OperatingSystemTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/surefire-reports/co.argm.app.AccountTest$ParameterizedTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/surefire-reports/co.argm.app.AccountTest$ParameterizedTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/surefire-reports/co.argm.app.AccountTest$SystemPropertiesTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/surefire-reports/co.argm.app.AccountTest$SystemPropertiesTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/surefire-reports/co.argm.app.AccountTest$TimeoutTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/surefire-reports/co.argm.app.AccountTest$TimeoutTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/surefire-reports/co.argm.app.AccountTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/surefire-reports/co.argm.app.AccountTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/test-classes/co/argm/app/AccountTest$AccountNameBalanceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/test-classes/co/argm/app/AccountTest$AccountNameBalanceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/test-classes/co/argm/app/AccountTest$AccountOperationsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/test-classes/co/argm/app/AccountTest$AccountOperationsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/test-classes/co/argm/app/AccountTest$EnvironmentalVariables.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/test-classes/co/argm/app/AccountTest$EnvironmentalVariables.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/test-classes/co/argm/app/AccountTest$JavaVersionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/test-classes/co/argm/app/AccountTest$JavaVersionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/test-classes/co/argm/app/AccountTest$OperatingSystemTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/test-classes/co/argm/app/AccountTest$OperatingSystemTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/test-classes/co/argm/app/AccountTest$ParameterizedTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/test-classes/co/argm/app/AccountTest$ParameterizedTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/test-classes/co/argm/app/AccountTest$SystemPropertiesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/test-classes/co/argm/app/AccountTest$SystemPropertiesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/test-classes/co/argm/app/AccountTest$TimeoutTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/test-classes/co/argm/app/AccountTest$TimeoutTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/target/test-classes/co/argm/app/AccountTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/target/test-classes/co/argm/app/AccountTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -392,6 +322,9 @@
     "JUnit.All in Course (2).executor": "Run",
     "JUnit.All in Course (3).executor": "Run",
     "JUnit.All in Course.executor": "Run",
+    "JUnit.ExamServiceImplTest.doesntExamQuestionVerify.executor": "Run",
+    "JUnit.ExamServiceImplTest.executor": "Run",
+    "JUnit.ExamServiceImplTest.saveExam.executor": "Run",
     "Maven.Tests [test].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -403,7 +336,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/Users/andre/OneDrive/Escritorio/Course/Modules/AdvancedCore/Quality/Tests/src/test/java/co/argm/app",
+    "last_directory_selection": "C:/Users/andre/OneDrive/Escritorio/Course/Modules/AdvancedCore/Quality/Tests/Mockito/src/main/java/co/argm/app",
     "last_opened_file_path": "C:/Users/andre/OneDrive/Escritorio/Course/Modules/AdvancedCore/Quality/Tests",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -414,7 +347,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -427,11 +360,11 @@
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\tasks\ObjectOriented\Dynamic\Inheritance\Abstract\a\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\AdvancedCore\Quality\Tests" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\AdvancedCore\Quality" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\AdvancedCore\Test" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\Professional" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\Professional\Feature" />
-      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\Introduction\Fundamentals\Operators\src" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -440,6 +373,7 @@
       <recent name="co.argm.app" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="co.argm.app.service" />
       <recent name="co.argm.app.model" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -450,39 +384,7 @@
       <recent name="co.argm.app" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AccountTest">
-    <configuration name="AccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Tests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.argm.app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="co.argm.app" />
-      <option name="MAIN_CLASS_NAME" value="co.argm.app.AccountTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Tests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.argm.app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="co.argm.app" />
-      <option name="MAIN_CLASS_NAME" value="co.argm.app.AccountTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea-DEVNV=dev" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ExamServiceImplTest">
     <configuration name="AccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Tests" />
       <extension name="coverage">
@@ -517,7 +419,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in Course (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in Course" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Course" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -525,18 +427,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in Course (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Course" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+    <configuration name="ExamServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mockito" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.argm.app.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.argm.app.service" />
+      <option name="MAIN_CLASS_NAME" value="co.argm.app.service.ExamServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in Course (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Course" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+    <configuration name="ExamServiceImplTest.doesntExamQuestionVerify" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mockito" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.argm.app.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.argm.app.service" />
+      <option name="MAIN_CLASS_NAME" value="co.argm.app.service.ExamServiceImplTest" />
+      <option name="METHOD_NAME" value="doesntExamQuestionVerify" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExamServiceImplTest.saveExam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mockito" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.argm.app.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.argm.app.service" />
+      <option name="MAIN_CLASS_NAME" value="co.argm.app.service.ExamServiceImplTest" />
+      <option name="METHOD_NAME" value="saveExam" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -573,11 +506,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AccountTest" />
+        <item itemvalue="JUnit.ExamServiceImplTest" />
+        <item itemvalue="JUnit.ExamServiceImplTest.saveExam" />
+        <item itemvalue="JUnit.ExamServiceImplTest.doesntExamQuestionVerify" />
+        <item itemvalue="JUnit.All in Course" />
         <item itemvalue="Maven.Tests [test]" />
-        <item itemvalue="JUnit.All in Course (3)" />
-        <item itemvalue="JUnit.All in Course (2)" />
-        <item itemvalue="JUnit.All in Course (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -708,7 +641,9 @@
       <workItem from="1724986037439" duration="2265000" />
       <workItem from="1725041345711" duration="3483000" />
       <workItem from="1725045470968" duration="1428000" />
-      <workItem from="1725048813870" duration="7709000" />
+      <workItem from="1725048813870" duration="8432000" />
+      <workItem from="1725118416536" duration="8404000" />
+      <workItem from="1725134757313" duration="5740000" />
     </task>
     <task id="LOCAL-00001" summary="Full change">
       <option name="closed" value="true" />
@@ -966,7 +901,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724900288957</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Unit Testing Module: JUnit 5">
+      <option name="closed" value="true" />
+      <created>1725056849148</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1725056849148</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -985,7 +928,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Update README.md" />
     <MESSAGE value="Math class module" />
     <MESSAGE value="Array module" />
     <MESSAGE value="Matrix Module: Two-dimensional arrays" />
@@ -1010,7 +952,8 @@
     <MESSAGE value="Databases module with JDBC" />
     <MESSAGE value="JDBC Database Module: Connection Pool" />
     <MESSAGE value="JDBC Database Module: Transactions" />
-    <option name="LAST_COMMIT_MESSAGE" value="JDBC Database Module: Transactions" />
+    <MESSAGE value="Unit Testing Module: JUnit 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Unit Testing Module: JUnit 5" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

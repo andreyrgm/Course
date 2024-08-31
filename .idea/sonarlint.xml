@@ -16,6 +16,7 @@
         <entry key="Form" value="Adstract" />
         <entry key="Generics" value="Example" />
         <entry key="Invoice" value="Example" />
+        <entry key="JUnit5" value="JUnit" />
         <entry key="Lambda" value="LambdaExpressions" />
         <entry key="Mammals" value="a" />
         <entry key="MoreOccurrences" value="PrintMoreOccurrences" />
@@ -31,7 +32,6 @@
         <entry key="Sheet" value="Interface" />
         <entry key="SortNum" value="SortNum2" />
         <entry key="Synced" value="Bakery" />
-        <entry key="Tests" value="JUnit" />
         <entry key="WrapperClasses" value="WrapperClases" />
         <entry key="course" value="Course" />
       </map>

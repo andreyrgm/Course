@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/Modules/AdvancedCore/Database/pom.xml" />
         <option value="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/pom.xml" />
         <option value="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/pom.xml" />
+        <option value="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/Mockito/pom.xml" />
       </list>
     </option>
   </component>
