@@ -15,6 +15,8 @@
         <option value="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/pom.xml" />
         <option value="$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/Mockito/pom.xml" />
         <option value="$PROJECT_DIR$/ServletAPI/pom.xml" />
+        <option value="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Intro/pom.xml" />
+        <option value="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Form/pom.xml" />
       </list>
     </option>
   </component>

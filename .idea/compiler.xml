@@ -7,8 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Database" />
-        <module name="ServletAPI" />
+        <module name="Intro" />
         <module name="Mockito" />
+        <module name="Form" />
         <module name="JUnit5" />
       </profile>
     </annotationProcessing>

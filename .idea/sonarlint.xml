@@ -13,8 +13,9 @@
         <entry key="Date&amp;Calendar" value="ClassesDateAndCalendar" />
         <entry key="DateTime" value="DateTime" />
         <entry key="FileManagement" value="FileManagement" />
-        <entry key="Form" value="Adstract" />
+        <entry key="Format" value="Adstract" />
         <entry key="Generics" value="Example" />
+        <entry key="Intro" value="ServletAPI" />
         <entry key="Invoice" value="Example" />
         <entry key="JUnit5" value="JUnit" />
         <entry key="Lambda" value="LambdaExpressions" />
