@@ -13,7 +13,6 @@ import java.io.PrintWriter;
  */
 @WebServlet("/hello-word")
 public class HelloWord extends HttpServlet {
-
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         // Establece el tipo de contenido de la respuesta como HTML
@@ -24,12 +23,12 @@ public class HelloWord extends HttpServlet {
 
             // Genera la estructura básica de una página HTML
             out.println("<html>");
-            out.println("   <head>");
-            out.println("       <title>Hello World Servlet</title>");
-            out.println("   </head>");
-            out.println("   <body>");
-            out.println("       <h1>Hello World Servlet!</h1>");
-            out.println("   </body>");
+            out.println("<head>");
+            out.println("   <title>Hello World Servlet</title>");
+            out.println("</head>");
+            out.println("<body>");
+            out.println("<h1>Hello World Servlet!</h1>");
+            out.println("</body>");
             out.println("</html>");
         }
     }

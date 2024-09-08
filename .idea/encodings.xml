@@ -7,9 +7,15 @@
     <file url="file://$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/JUnit5/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/Mockito/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Modules/AdvancedCore/Quality/Tests/Mockito/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Form/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Form/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Form/Intro/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Form/Intro/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Forms/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Forms/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Intro/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Intro/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/a/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/a/src/main/resources" charset="UTF-8" />
   </component>
 </project>

@@ -7,11 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Database" />
-        <module name="Intro" />
+        <module name="header" />
         <module name="Mockito" />
-        <module name="Form" />
+        <module name="forms" />
         <module name="JUnit5" />
+        <module name="intro" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="headers (2)" target="22" />
+      <module name="Intro (1)" target="22" />
+    </bytecodeTargetLevel>
   </component>
 </project>

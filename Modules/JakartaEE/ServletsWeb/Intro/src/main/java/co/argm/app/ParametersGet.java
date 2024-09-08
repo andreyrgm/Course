@@ -13,7 +13,6 @@ import java.io.PrintWriter;
  */
 @WebServlet("/parameters/get")
 public class ParametersGet extends HttpServlet {
-
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         // Establece el tipo de contenido de la respuesta como HTML
@@ -29,7 +28,7 @@ public class ParametersGet extends HttpServlet {
             // Genera la estructura básica de una página HTML
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Parameters Get from URL</title>");
+            out.println("   <title>Parameters Get from URL</title>");
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>Parameters Get from URL!</h1>");

@@ -17,7 +17,22 @@
         <option value="$PROJECT_DIR$/ServletAPI/pom.xml" />
         <option value="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Intro/pom.xml" />
         <option value="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Form/pom.xml" />
+        <option value="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Intro/Headers/pom.xml" />
+        <option value="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Headers/pom.xml" />
+        <option value="$PROJECT_DIR$/A/pom.xml" />
+        <option value="$PROJECT_DIR$/Form/pom.xml" />
+        <option value="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Forms/pom.xml" />
+        <option value="$PROJECT_DIR$/Headers/pom.xml" />
+        <option value="$PROJECT_DIR$/Header/pom.xml" />
+        <option value="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Form/Intro/pom.xml" />
+        <option value="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Form/pom.xml" />
+        <option value="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Headers/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_22" default="true" project-jdk-name="openjdk-22" project-jdk-type="JavaSDK">
