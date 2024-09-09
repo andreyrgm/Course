@@ -4,71 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ec5abc6-dc75-42c3-9240-6c8d47314d81" name="Changes" comment="Jakarta EE Module 9: Servlet API - Forms Management">
-      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/src/main/java/co/argm/app/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/src/main/java/co/argm/app/controller/Dispatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/src/main/java/co/argm/app/controller/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/src/main/java/co/argm/app/controller/ProductJson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/src/main/java/co/argm/app/controller/ProductXls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/src/main/java/co/argm/app/controller/Redirect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/src/main/java/co/argm/app/controller/RequestHeaders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/src/main/java/co/argm/app/controller/SearchProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/src/main/java/co/argm/app/controller/UpdatedTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/src/main/java/co/argm/app/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/src/main/java/co/argm/app/service/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/src/main/webapp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/src/main/webapp/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/src/main/webapp/search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Intro/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Intro/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+    <list default="true" id="6ec5abc6-dc75-42c3-9240-6c8d47314d81" name="Changes" comment="Jakarta EE Module 9: Servlet API - HTTP Headers and Status">
+      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Cookie/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Cookie/src/main/java/co/argm/app/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Cookie/src/main/java/co/argm/app/controller/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Cookie/src/main/java/co/argm/app/controller/Logout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Cookie/src/main/java/co/argm/app/controller/Products.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Cookie/src/main/java/co/argm/app/service/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Cookie/src/main/java/co/argm/app/service/LoginServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Cookie/src/main/java/co/argm/app/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Cookie/src/main/java/co/argm/app/service/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Cookie/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Cookie/src/main/webapp/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Form/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Forms/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Form/src/main/java/co/argm/app/Form.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Forms/src/main/java/co/argm/app/Form.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Form/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Form/target/Form.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Form/target/Form/WEB-INF/classes/co/argm/app/Form.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Form/target/Form/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Forms/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Form/target/classes/co/argm/app/Form.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Form/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Form/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Form/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Form/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Form/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Intro/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Intro/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Intro/src/main/java/co/argm/app/HelloWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Intro/src/main/java/co/argm/app/HelloWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Intro/src/main/java/co/argm/app/ParametersGet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Intro/src/main/java/co/argm/app/ParametersGet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Intro/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Intro/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Intro/target/classes/co/argm/app/HelloWordServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Intro/target/classes/co/argm/app/ParametersGetServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Intro/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Intro/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Intro/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Intro/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Intro/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Intro/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Inheritance/Format/Format.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Inheritance/Form/Form.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Inheritance/Format/src/co/argm/app/doc/UML.png" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Inheritance/Form/src/co/argm/app/doc/UML.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Inheritance/Format/src/co/argm/app/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Inheritance/Form/src/co/argm/app/form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Inheritance/Format/src/co/argm/app/model/form/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Inheritance/Form/src/co/argm/app/model/form/Input.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Inheritance/Format/src/co/argm/app/model/form/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Inheritance/Form/src/co/argm/app/model/form/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Inheritance/Format/src/co/argm/app/model/form/Select.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Inheritance/Form/src/co/argm/app/model/form/Select.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Inheritance/Format/src/co/argm/app/model/form/Textarea.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Inheritance/Form/src/co/argm/app/model/form/Textarea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Inheritance/Format/src/co/argm/app/model/form/select/Option.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Inheritance/Form/src/co/argm/app/model/form/select/Option.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Inheritance/Format/src/co/argm/app/model/validator/Default.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Inheritance/Form/src/co/argm/app/model/validator/Default.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Inheritance/Format/src/co/argm/app/model/validator/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Inheritance/Form/src/co/argm/app/model/validator/Email.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Inheritance/Format/src/co/argm/app/model/validator/NonNull.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Inheritance/Form/src/co/argm/app/model/validator/NonNull.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Inheritance/Format/src/co/argm/app/model/validator/Num.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Inheritance/Form/src/co/argm/app/model/validator/Num.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Inheritance/Format/src/co/argm/app/model/validator/Required.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Inheritance/Form/src/co/argm/app/model/validator/Required.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Inheritance/Format/src/co/argm/app/model/validator/Size.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Inheritance/Form/src/co/argm/app/model/validator/Size.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Inheritance/Format/src/co/argm/app/model/validator/message/Formattable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Inheritance/Form/src/co/argm/app/model/validator/message/Formattable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/ObjectOriented/Inheritance/Format/src/co/argm/app/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/ObjectOriented/Inheritance/Form/src/co/argm/app/ui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/classes/co/argm/app/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/classes/co/argm/app/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/classes/co/argm/app/controller/Dispatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/classes/co/argm/app/controller/Dispatch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/classes/co/argm/app/controller/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/classes/co/argm/app/controller/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/classes/co/argm/app/controller/ProductJson.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/classes/co/argm/app/controller/ProductJson.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/classes/co/argm/app/controller/ProductXls.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/classes/co/argm/app/controller/ProductXls.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/classes/co/argm/app/controller/Redirect.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/classes/co/argm/app/controller/Redirect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/classes/co/argm/app/controller/RequestHeaders.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/classes/co/argm/app/controller/RequestHeaders.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/classes/co/argm/app/controller/UpdatedTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/classes/co/argm/app/controller/UpdatedTime.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/classes/co/argm/app/service/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/classes/co/argm/app/service/ProductServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/header.war" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/header.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/header/WEB-INF/classes/co/argm/app/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/header/WEB-INF/classes/co/argm/app/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/header/WEB-INF/classes/co/argm/app/controller/Dispatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/header/WEB-INF/classes/co/argm/app/controller/Dispatch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/header/WEB-INF/classes/co/argm/app/controller/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/header/WEB-INF/classes/co/argm/app/controller/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/header/WEB-INF/classes/co/argm/app/controller/ProductJson.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/header/WEB-INF/classes/co/argm/app/controller/ProductJson.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/header/WEB-INF/classes/co/argm/app/controller/ProductXls.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/header/WEB-INF/classes/co/argm/app/controller/ProductXls.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/header/WEB-INF/classes/co/argm/app/controller/Redirect.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/header/WEB-INF/classes/co/argm/app/controller/Redirect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/header/WEB-INF/classes/co/argm/app/controller/RequestHeaders.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/header/WEB-INF/classes/co/argm/app/controller/RequestHeaders.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/header/WEB-INF/classes/co/argm/app/controller/UpdatedTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/header/WEB-INF/classes/co/argm/app/controller/UpdatedTime.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/header/WEB-INF/classes/co/argm/app/service/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/header/WEB-INF/classes/co/argm/app/service/ProductServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/header/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/header/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,9 +54,9 @@
         <option value="Enum" />
         <option value="AnnotationType" />
         <option value="JUnit5 Test Class" />
-        <option value="Jsp File" />
         <option value="Interface" />
         <option value="HTML File" />
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -336,6 +308,7 @@
     &quot;Maven.Form [clean].executor&quot;: &quot;Run&quot;,
     &quot;Maven.Headers [clean].executor&quot;: &quot;Run&quot;,
     &quot;Maven.Tests [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cookie.executor&quot;: &quot;Run&quot;,
     &quot;Maven.form.executor&quot;: &quot;Run&quot;,
     &quot;Maven.forms.executor&quot;: &quot;Run&quot;,
     &quot;Maven.header [clean].executor&quot;: &quot;Run&quot;,
@@ -356,8 +329,8 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/andre/OneDrive/Escritorio/Course/Modules/AdvancedCore/Quality/Tests/Mockito/src/main/java/co/argm/app&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/andre/OneDrive/Escritorio/Course/Modules/JakartaEE/ServletsWeb/Form/Form2/src/main&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/andre/OneDrive/Escritorio/Course/Modules/JakartaEE/ServletsWeb/Cookie/src/main/java/co/argm/app&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/andre/OneDrive/Escritorio/Course/Modules/JakartaEE/ServletsWeb/Cookie/src/main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -373,15 +346,15 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\JakartaEE\ServletsWeb\Cookie\src\main" />
+      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\JakartaEE\ServletsWeb\Cookie\src\main\java\co\argm\app" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\JakartaEE\ServletsWeb\Form\Form2\src\main" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\Introduction\BasicElements\SystemClass\src" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\Database" />
-      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules" />
-      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\DataStructures\Generics\src\co\argm\app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\JakartaEE\ServletsWeb\Header\src\main\webapp" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\JakartaEE\ServletsWeb" />
+      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\JakartaEE\ServletsWeb\Header\src\main\webapp" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Headers\src\main\java\co\argm\app" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\JakartaEE\ServletsWeb\for\src\main\java\co\argm\app" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\JakartaEE\ServletsWeb\for\src" />
@@ -397,14 +370,14 @@
       <recent name="co.argm.app.model" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="co.argm.app.controller" />
+      <recent name="co.argm.app" />
       <recent name="co.argm.app.composite" />
       <recent name="co.argm.app.decorator.example.model.decorator" />
       <recent name="co.argm.app.decorator.model.decorator" />
-      <recent name="co.argm.app.factory.model.product" />
-      <recent name="co.argm.app" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.header">
+  <component name="RunManager" selected="Maven.cookie">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="co.argm.app.ui.Main" />
       <module name="Form" />
@@ -417,6 +390,36 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="cookie" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:redeploy" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Cookie" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
     </configuration>
     <configuration name="forms" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
@@ -513,6 +516,7 @@
       <item itemvalue="Maven.forms" />
       <item itemvalue="Maven.header" />
       <item itemvalue="Maven.intro" />
+      <item itemvalue="Maven.cookie" />
     </list>
     <recent_temporary>
       <list>
@@ -669,7 +673,11 @@
       <workItem from="1725657545919" duration="1330000" />
       <workItem from="1725738153084" duration="4342000" />
       <workItem from="1725742994753" duration="2722000" />
-      <workItem from="1725798089394" duration="8042000" />
+      <workItem from="1725798089394" duration="8284000" />
+      <workItem from="1725825661720" duration="3001000" />
+      <workItem from="1725908380260" duration="1056000" />
+      <workItem from="1725913287887" duration="238000" />
+      <workItem from="1725920897296" duration="3200000" />
     </task>
     <task id="LOCAL-00001" summary="Full change">
       <option name="closed" value="true" />
@@ -967,7 +975,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725575937189</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Jakarta EE Module 9: Servlet API - HTTP Headers and Status">
+      <option name="closed" value="true" />
+      <created>1725808399230</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1725808399230</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -978,7 +994,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -986,7 +1014,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Object-oriented programming module: Invoice example" />
     <MESSAGE value="Object-oriented programming module: Method overloading" />
     <MESSAGE value="Object-oriented programming module: Inheritance and abstract classes" />
     <MESSAGE value="Object-oriented programming module: Interfaces" />
@@ -1011,7 +1038,8 @@
     <MESSAGE value="Introduction to Java EE module: now renamed to Jakarta EE" />
     <MESSAGE value="Jakarta EE Module 9: Servlet API - Introduction" />
     <MESSAGE value="Jakarta EE Module 9: Servlet API - Forms Management" />
-    <option name="LAST_COMMIT_MESSAGE" value="Jakarta EE Module 9: Servlet API - Forms Management" />
+    <MESSAGE value="Jakarta EE Module 9: Servlet API - HTTP Headers and Status" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jakarta EE Module 9: Servlet API - HTTP Headers and Status" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

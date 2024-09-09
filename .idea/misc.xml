@@ -25,6 +25,8 @@
         <option value="$PROJECT_DIR$/Headers/pom.xml" />
         <option value="$PROJECT_DIR$/Header/pom.xml" />
         <option value="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/pom.xml" />
+        <option value="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Coolkie/pom.xml" />
+        <option value="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Cookie/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
