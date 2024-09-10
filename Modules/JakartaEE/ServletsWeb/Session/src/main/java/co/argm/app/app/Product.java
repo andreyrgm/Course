@@ -1,7 +1,7 @@
 package co.argm.app.app;
 
 /**
- * Clase que representa un producto.
+ * Clase que representa un producto en el sistema.
  *
  * @param id    el ID del producto
  * @param name  el nombre del producto

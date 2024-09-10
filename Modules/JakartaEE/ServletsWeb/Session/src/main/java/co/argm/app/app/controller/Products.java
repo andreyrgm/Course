@@ -2,9 +2,7 @@ package co.argm.app.app.controller;
 
 import co.argm.app.app.Product;
 import co.argm.app.app.service.LoginService;
-import co.argm.app.app.service.LoginServiceImp;
 import co.argm.app.app.service.ProductService;
-import co.argm.app.app.service.ProductServiceImpl;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
@@ -16,13 +14,13 @@ import java.util.List;
 import java.util.Optional;
 
 /**
- * Servlet que maneja la visualización de la lista de productos.
+ * Servlet que muestra una lista de productos.
  */
 @WebServlet("/products")
 public class Products extends HttpServlet {
 
     /**
-     * Maneja las solicitudes GET para listar los productos disponibles.
+     * Maneja solicitudes GET para listar los productos disponibles.
      *
      * @param req  el objeto HttpServletRequest que contiene la solicitud del cliente
      * @param resp el objeto HttpServletResponse que contiene la respuesta del servlet
@@ -30,10 +28,10 @@ public class Products extends HttpServlet {
      */
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
-        ProductService productService = new ProductServiceImpl();
-        List<Product> products = productService.list();
+        ProductService service = new ProductService();
+        List<Product> products = service.list();
 
-        LoginService auth = new LoginServiceImp();
+        LoginService auth = new LoginService();
         Optional<String> username = auth.getUsername(req);
 
         resp.setContentType("text/html;charset=UTF-8");
@@ -43,12 +41,18 @@ public class Products extends HttpServlet {
             username.ifPresent(s -> out.println("<div style='color: blue;'>Hi " + s + ", welcome!</div>"));
 
             out.println("<table><tr><th>id</th><th>name</th><th>type</th>");
-            if (username.isPresent()) out.println("<th>price</th>");
+            if (username.isPresent()) {
+                out.println("<th>price</th>");
+                out.println("<th>add</th>");
+            }
             out.println("</tr>");
 
             products.forEach(p -> {
                 out.println("<tr><td>" + p.id() + "</td><td>" + p.name() + "</td><td>" + p.type() + "</td>");
-                if (username.isPresent()) out.println("<td>" + p.price() + "</td>");
+                if (username.isPresent()) {
+                    out.println("<td>" + p.price() + "</td>");
+                    out.println("<td><a href=\"" + req.getContextPath() + "/add-cart?id=" + p.id() + "\">add to cart</a></td>");
+                }
                 out.println("</tr>");
             });
             out.println("</table></body></html>");

@@ -1,7 +1,6 @@
 package co.argm.app.app.controller;
 
 import co.argm.app.app.service.LoginService;
-import co.argm.app.app.service.LoginServiceImp;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -15,7 +14,7 @@ import java.util.Optional;
 import static jakarta.servlet.http.HttpServletResponse.SC_UNAUTHORIZED;
 
 /**
- * Servlet que maneja las solicitudes de login de los usuarios usando sesiones.
+ * Servlet que maneja el inicio de sesión del usuario.
  */
 @WebServlet("/login")
 public class Login extends HttpServlet {
@@ -25,7 +24,6 @@ public class Login extends HttpServlet {
 
     /**
      * Maneja las solicitudes GET para verificar si el usuario ha iniciado sesión.
-     * Si ya hay una sesión activa, se muestra un mensaje de bienvenida.
      *
      * @param req  el objeto HttpServletRequest que contiene la solicitud del cliente
      * @param resp el objeto HttpServletResponse que contiene la respuesta del servlet
@@ -34,7 +32,7 @@ public class Login extends HttpServlet {
      */
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        LoginService auth = new LoginServiceImp();
+        LoginService auth = new LoginService();
         Optional<String> username = auth.getUsername(req);
 
         if (username.isPresent()) {
@@ -65,7 +63,7 @@ public class Login extends HttpServlet {
 
         if (USERNAME.equals(username) && PASSWORD.equals(password)) {
             req.getSession().setAttribute("username", username); // Guarda el usuario en la sesión
-            resp.sendRedirect(req.getContextPath() + "/login.html");
+            resp.sendRedirect(req.getContextPath() + "/login");
         } else {
             resp.sendError(SC_UNAUTHORIZED, "Unauthorized access, please try again.");
         }
