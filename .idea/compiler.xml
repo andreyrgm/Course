@@ -6,8 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Forms" />
         <module name="cookie" />
         <module name="Mockito" />
+        <module name="session" />
         <module name="intro" />
         <module name="Database" />
         <module name="header" />

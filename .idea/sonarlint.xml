@@ -38,6 +38,7 @@
         <entry key="forms" value="for" />
         <entry key="header" value="headers (1)" />
         <entry key="intro" value="intro (2)" />
+        <entry key="session" value="Session" />
       </map>
     </option>
   </component>

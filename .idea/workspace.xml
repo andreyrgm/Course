@@ -5,42 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ec5abc6-dc75-42c3-9240-6c8d47314d81" name="Changes" comment="Jakarta EE Module 9: Servlet API - HTTP Headers and Status">
-      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Cookie/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Cookie/src/main/java/co/argm/app/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Cookie/src/main/java/co/argm/app/controller/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Cookie/src/main/java/co/argm/app/controller/Logout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Cookie/src/main/java/co/argm/app/controller/Products.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Cookie/src/main/java/co/argm/app/service/LoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Cookie/src/main/java/co/argm/app/service/LoginServiceImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Cookie/src/main/java/co/argm/app/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Cookie/src/main/java/co/argm/app/service/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Cookie/src/main/webapp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Cookie/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Session/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Session/src/main/java/co/argm/app/app/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Session/src/main/java/co/argm/app/app/controller/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Session/src/main/java/co/argm/app/app/controller/Logout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Session/src/main/java/co/argm/app/app/controller/Products.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Session/src/main/java/co/argm/app/app/service/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Session/src/main/java/co/argm/app/app/service/LoginServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Session/src/main/java/co/argm/app/app/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Session/src/main/java/co/argm/app/app/service/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Session/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Session/src/main/webapp/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/classes/co/argm/app/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/classes/co/argm/app/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/classes/co/argm/app/controller/Dispatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/classes/co/argm/app/controller/Dispatch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/classes/co/argm/app/controller/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/classes/co/argm/app/controller/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/classes/co/argm/app/controller/ProductJson.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/classes/co/argm/app/controller/ProductJson.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/classes/co/argm/app/controller/ProductXls.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/classes/co/argm/app/controller/ProductXls.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/classes/co/argm/app/controller/Redirect.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/classes/co/argm/app/controller/Redirect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/classes/co/argm/app/controller/RequestHeaders.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/classes/co/argm/app/controller/RequestHeaders.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/classes/co/argm/app/controller/UpdatedTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/classes/co/argm/app/controller/UpdatedTime.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/classes/co/argm/app/service/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/classes/co/argm/app/service/ProductServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/header.war" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/header.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/header/WEB-INF/classes/co/argm/app/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/header/WEB-INF/classes/co/argm/app/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/header/WEB-INF/classes/co/argm/app/controller/Dispatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/header/WEB-INF/classes/co/argm/app/controller/Dispatch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/header/WEB-INF/classes/co/argm/app/controller/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/header/WEB-INF/classes/co/argm/app/controller/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/header/WEB-INF/classes/co/argm/app/controller/ProductJson.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/header/WEB-INF/classes/co/argm/app/controller/ProductJson.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/header/WEB-INF/classes/co/argm/app/controller/ProductXls.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/header/WEB-INF/classes/co/argm/app/controller/ProductXls.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/header/WEB-INF/classes/co/argm/app/controller/Redirect.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/header/WEB-INF/classes/co/argm/app/controller/Redirect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/header/WEB-INF/classes/co/argm/app/controller/RequestHeaders.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/header/WEB-INF/classes/co/argm/app/controller/RequestHeaders.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/header/WEB-INF/classes/co/argm/app/controller/UpdatedTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/header/WEB-INF/classes/co/argm/app/controller/UpdatedTime.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/header/WEB-INF/classes/co/argm/app/service/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/header/WEB-INF/classes/co/argm/app/service/ProductServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/header/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Header/target/header/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,258 +79,259 @@
     <option name="showScratchesAndConsoles" value="false" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Add.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AddRowColumn.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Adding.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AnyMatch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Argument.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Arithmetic.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayListMethods.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayMethod.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AssignProperties.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Assignation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AutoboxingInteger.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BiggerNum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BooleanWrapper.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BreadShop.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BubbleSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Calculator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Calendar.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Combined.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Comparable.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Concatenation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Consume.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConsumerProducer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Conversion.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Count.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Create.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CreateFile.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Date.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DateHours.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DeleteItem.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DetectOrder.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Distinct.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DistrictUser.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Durations.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EjemploMetodoGetClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EnvironmentVars.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EvenOdd.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Example (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Example.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExampleReference.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Extends.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExtendsThread.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Filter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindDuplicate.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FlatMap.executor&quot;: &quot;Run&quot;,
-    &quot;Application.For.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ForArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ForEach.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Frame.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Functions.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Generate.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GetClassMethod.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HashSetAdd.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HashSetUniqueness.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Hour.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Hours.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Identity.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IfElse.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Immutable.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Incremental.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InstanceOf.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Instants.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IntegerWrapper.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Interface.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InterfaceRunnable.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Iteration.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JavaUtilCalendar.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JavaUtilDate.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JavaUtilDateParse.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LDateTime.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedListMethods.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListToStream.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LocalDate.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LocalDateTime.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Logical.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LogicalLogin.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LoopTags.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LoopTagsSearch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main (3).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main (4).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main (5).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainClient.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainCorp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainProduct.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainUser.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Map.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MapFilter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Method.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MethodArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Methods.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Methods2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MovePosition.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MovePosition2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MovePosition3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OperadorInstanceOf.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OrElseRepo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OrderStartEnd.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Parallel.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Periods.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Preached.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Precedence.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Primitive.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Properties.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ramdom.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Random.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Randoms.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Range.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReadFile.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Reduce.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Reference.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Relational.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RelationalOperator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RelationalOperators.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Repo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Repository.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseFor.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseMutable.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Search.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SearchNum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SearchString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SentenciasBucleEtiquetas.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SentenciasBucleEtiquetasBuscar.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SistemasNumericos.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SistemasNumericosEntradaScanner.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Static.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringFor.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StudentNotes.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SwitchCase.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SwitchCaseMonth.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Symmetrical.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Synchronization.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SystemNum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SystemProperties.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ternary.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TernaryMaxNum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestEfficiency.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TimeZones.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TransposeMatrix.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Transposed.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TreeSetAdd.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TreeSetComparable.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Unary.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Uniqueness.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Validate.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Value.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VariableSize.executor&quot;: &quot;Run&quot;,
-    &quot;Application.While.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ZDateTime.executor&quot;: &quot;Run&quot;,
-    &quot;Application.co.argm.app.Example.ui.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.co.argm.app.Main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.co.argm.app.Main (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.co.argm.app.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.co.argm.app.Methods.executor&quot;: &quot;Run&quot;,
-    &quot;Application.co.argm.app.Timer.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.co.argm.app.composite.ui.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.co.argm.app.decorator.example.ui.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.co.argm.app.decorator.explain.ui.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.co.argm.app.executor.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.co.argm.app.executor.Methods.executor&quot;: &quot;Run&quot;,
-    &quot;Application.co.argm.app.factory.ui.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.co.argm.app.garden.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.co.argm.app.home.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.co.argm.app.observer.ui.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.co.argm.app.singleton.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.co.argm.app.synced.ui.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.co.argm.app.timer.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.co.argm.app.ui.Main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.co.argm.app.ui.Main (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.co.argm.app.ui.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.co.argm.app.ui.list.array.Methods.executor&quot;: &quot;Run&quot;,
-    &quot;Application.co.argm.app.ui.list.linked.Methods.executor&quot;: &quot;Run&quot;,
-    &quot;Application.co.argm.app.ui.map.hash.Methods.executor&quot;: &quot;Run&quot;,
-    &quot;Application.co.argm.app.ui.map.tree.Methods.executor&quot;: &quot;Run&quot;,
-    &quot;Application.co.argm.app.ui.set.tree.Add.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ui.Create.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ui.Main.executor&quot;: &quot;Run&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JUnit.AccountTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AccountTest.accountBalance.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AccountTest.accountCredit.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AccountTest.accountDebit.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AccountTest.accountDebitCsvSource.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AccountTest.accountDebitRepeat.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AccountTest.accountName.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AccountTest.bankAccountRelationship.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AccountTest.credit.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AccountTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AccountTest.insufficientMoneyException.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AccountTest.printAmbientVariables.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AccountTest.printSystemProperties (1).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AccountTest.printSystemProperties.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AccountTest.processors.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AccountTest.setPerson.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AccountTest.transferMoney.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.All in Course (1).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.All in Course (2).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.All in Course (3).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.All in Course.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ExamServiceImplTest.doesntExamQuestionVerify.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ExamServiceImplTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ExamServiceImplTest.saveExam.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Form [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Headers [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Tests [test].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.cookie.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.form.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.forms.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.header [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.header [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.header [org.apache.maven.plugins:maven-clean-plugin:3.2.0:help].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.header [validate].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.header.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.headers.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.intro.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.tomcat7.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers&quot;: &quot;true&quot;,
-    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/andre/OneDrive/Escritorio/Course/Modules/JakartaEE/ServletsWeb/Cookie/src/main/java/co/argm/app&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/andre/OneDrive/Escritorio/Course/Modules/JakartaEE/ServletsWeb/Cookie/src/main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.PostgreSQL, Greenplum, Redshift&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Add.executor": "Run",
+    "Application.AddRowColumn.executor": "Run",
+    "Application.Adding.executor": "Run",
+    "Application.AnyMatch.executor": "Run",
+    "Application.Argument.executor": "Run",
+    "Application.Arithmetic.executor": "Run",
+    "Application.ArrayListMethods.executor": "Run",
+    "Application.ArrayMethod.executor": "Run",
+    "Application.AssignProperties.executor": "Run",
+    "Application.Assignation.executor": "Run",
+    "Application.AutoboxingInteger.executor": "Run",
+    "Application.BiggerNum.executor": "Run",
+    "Application.BooleanWrapper.executor": "Run",
+    "Application.BreadShop.executor": "Run",
+    "Application.BubbleSort.executor": "Run",
+    "Application.Calculator.executor": "Run",
+    "Application.Calendar.executor": "Run",
+    "Application.Combined.executor": "Run",
+    "Application.Comparable.executor": "Run",
+    "Application.Concatenation.executor": "Run",
+    "Application.Consume.executor": "Run",
+    "Application.ConsumerProducer.executor": "Run",
+    "Application.Conversion.executor": "Run",
+    "Application.Count.executor": "Run",
+    "Application.Create.executor": "Run",
+    "Application.CreateFile.executor": "Run",
+    "Application.Date.executor": "Run",
+    "Application.DateHours.executor": "Run",
+    "Application.DeleteItem.executor": "Run",
+    "Application.DetectOrder.executor": "Run",
+    "Application.Distinct.executor": "Run",
+    "Application.DistrictUser.executor": "Run",
+    "Application.Durations.executor": "Run",
+    "Application.EjemploMetodoGetClass.executor": "Run",
+    "Application.EnvironmentVars.executor": "Run",
+    "Application.EvenOdd.executor": "Run",
+    "Application.Example (1).executor": "Run",
+    "Application.Example.executor": "Run",
+    "Application.ExampleReference.executor": "Run",
+    "Application.Extends.executor": "Run",
+    "Application.ExtendsThread.executor": "Run",
+    "Application.Filter.executor": "Run",
+    "Application.FindDuplicate.executor": "Run",
+    "Application.FlatMap.executor": "Run",
+    "Application.For.executor": "Run",
+    "Application.ForArray.executor": "Run",
+    "Application.ForEach.executor": "Run",
+    "Application.Frame.executor": "Run",
+    "Application.Functions.executor": "Run",
+    "Application.Generate.executor": "Run",
+    "Application.GetClassMethod.executor": "Run",
+    "Application.HashSetAdd.executor": "Run",
+    "Application.HashSetUniqueness.executor": "Run",
+    "Application.Hour.executor": "Run",
+    "Application.Hours.executor": "Run",
+    "Application.Identity.executor": "Run",
+    "Application.IfElse.executor": "Run",
+    "Application.Immutable.executor": "Run",
+    "Application.Incremental.executor": "Run",
+    "Application.InstanceOf.executor": "Run",
+    "Application.Instants.executor": "Run",
+    "Application.IntegerWrapper.executor": "Run",
+    "Application.Interface.executor": "Run",
+    "Application.InterfaceRunnable.executor": "Run",
+    "Application.Iteration.executor": "Run",
+    "Application.JavaUtilCalendar.executor": "Run",
+    "Application.JavaUtilDate.executor": "Run",
+    "Application.JavaUtilDateParse.executor": "Run",
+    "Application.LDateTime.executor": "Run",
+    "Application.LinkedListMethods.executor": "Run",
+    "Application.ListToStream.executor": "Run",
+    "Application.LocalDate.executor": "Run",
+    "Application.LocalDateTime.executor": "Run",
+    "Application.Logical.executor": "Run",
+    "Application.LogicalLogin.executor": "Run",
+    "Application.LoopTags.executor": "Run",
+    "Application.LoopTagsSearch.executor": "Run",
+    "Application.Main (1).executor": "Run",
+    "Application.Main (2).executor": "Run",
+    "Application.Main (3).executor": "Run",
+    "Application.Main (4).executor": "Run",
+    "Application.Main (5).executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MainClient.executor": "Run",
+    "Application.MainCorp.executor": "Run",
+    "Application.MainProduct.executor": "Run",
+    "Application.MainUser.executor": "Run",
+    "Application.Map.executor": "Run",
+    "Application.MapFilter.executor": "Run",
+    "Application.Method.executor": "Run",
+    "Application.MethodArray.executor": "Run",
+    "Application.Methods.executor": "Run",
+    "Application.Methods2.executor": "Run",
+    "Application.MovePosition.executor": "Run",
+    "Application.MovePosition2.executor": "Run",
+    "Application.MovePosition3.executor": "Run",
+    "Application.OperadorInstanceOf.executor": "Run",
+    "Application.OrElseRepo.executor": "Run",
+    "Application.OrderStartEnd.executor": "Run",
+    "Application.Parallel.executor": "Run",
+    "Application.Periods.executor": "Run",
+    "Application.Preached.executor": "Run",
+    "Application.Precedence.executor": "Run",
+    "Application.Primitive.executor": "Run",
+    "Application.Properties.executor": "Run",
+    "Application.Ramdom.executor": "Run",
+    "Application.Random.executor": "Run",
+    "Application.Randoms.executor": "Run",
+    "Application.Range.executor": "Run",
+    "Application.ReadFile.executor": "Run",
+    "Application.Reduce.executor": "Run",
+    "Application.Reference.executor": "Run",
+    "Application.Relational.executor": "Run",
+    "Application.RelationalOperator.executor": "Run",
+    "Application.RelationalOperators.executor": "Run",
+    "Application.Repo.executor": "Run",
+    "Application.Repository.executor": "Run",
+    "Application.ReverseFor.executor": "Run",
+    "Application.ReverseMutable.executor": "Run",
+    "Application.Search.executor": "Run",
+    "Application.SearchNum.executor": "Run",
+    "Application.SearchString.executor": "Run",
+    "Application.SentenciasBucleEtiquetas.executor": "Run",
+    "Application.SentenciasBucleEtiquetasBuscar.executor": "Run",
+    "Application.SistemasNumericos.executor": "Run",
+    "Application.SistemasNumericosEntradaScanner.executor": "Run",
+    "Application.Static.executor": "Run",
+    "Application.StringFor.executor": "Run",
+    "Application.StudentNotes.executor": "Run",
+    "Application.SwitchCase.executor": "Run",
+    "Application.SwitchCaseMonth.executor": "Run",
+    "Application.Symmetrical.executor": "Run",
+    "Application.Synchronization.executor": "Run",
+    "Application.SystemNum.executor": "Run",
+    "Application.SystemProperties.executor": "Run",
+    "Application.Ternary.executor": "Run",
+    "Application.TernaryMaxNum.executor": "Run",
+    "Application.TestEfficiency.executor": "Run",
+    "Application.TimeZones.executor": "Run",
+    "Application.TransposeMatrix.executor": "Run",
+    "Application.Transposed.executor": "Run",
+    "Application.TreeSetAdd.executor": "Run",
+    "Application.TreeSetComparable.executor": "Run",
+    "Application.Unary.executor": "Run",
+    "Application.Uniqueness.executor": "Run",
+    "Application.Validate.executor": "Run",
+    "Application.Value.executor": "Run",
+    "Application.VariableSize.executor": "Run",
+    "Application.While.executor": "Run",
+    "Application.ZDateTime.executor": "Run",
+    "Application.co.argm.app.Example.ui.Main.executor": "Run",
+    "Application.co.argm.app.Main (1).executor": "Run",
+    "Application.co.argm.app.Main (2).executor": "Run",
+    "Application.co.argm.app.Main.executor": "Run",
+    "Application.co.argm.app.Methods.executor": "Run",
+    "Application.co.argm.app.Timer.Main.executor": "Run",
+    "Application.co.argm.app.composite.ui.Main.executor": "Run",
+    "Application.co.argm.app.decorator.example.ui.Main.executor": "Run",
+    "Application.co.argm.app.decorator.explain.ui.Main.executor": "Run",
+    "Application.co.argm.app.executor.Main.executor": "Run",
+    "Application.co.argm.app.executor.Methods.executor": "Run",
+    "Application.co.argm.app.factory.ui.Main.executor": "Run",
+    "Application.co.argm.app.garden.Main.executor": "Run",
+    "Application.co.argm.app.home.Main.executor": "Run",
+    "Application.co.argm.app.observer.ui.Main.executor": "Run",
+    "Application.co.argm.app.singleton.Main.executor": "Run",
+    "Application.co.argm.app.synced.ui.Main.executor": "Run",
+    "Application.co.argm.app.timer.Main.executor": "Run",
+    "Application.co.argm.app.ui.Main (1).executor": "Run",
+    "Application.co.argm.app.ui.Main (2).executor": "Run",
+    "Application.co.argm.app.ui.Main.executor": "Run",
+    "Application.co.argm.app.ui.list.array.Methods.executor": "Run",
+    "Application.co.argm.app.ui.list.linked.Methods.executor": "Run",
+    "Application.co.argm.app.ui.map.hash.Methods.executor": "Run",
+    "Application.co.argm.app.ui.map.tree.Methods.executor": "Run",
+    "Application.co.argm.app.ui.set.tree.Add.executor": "Run",
+    "Application.ui.Create.executor": "Run",
+    "Application.ui.Main.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JUnit.AccountTest (1).executor": "Run",
+    "JUnit.AccountTest.accountBalance.executor": "Run",
+    "JUnit.AccountTest.accountCredit.executor": "Run",
+    "JUnit.AccountTest.accountDebit.executor": "Run",
+    "JUnit.AccountTest.accountDebitCsvSource.executor": "Run",
+    "JUnit.AccountTest.accountDebitRepeat.executor": "Run",
+    "JUnit.AccountTest.accountName.executor": "Run",
+    "JUnit.AccountTest.bankAccountRelationship.executor": "Run",
+    "JUnit.AccountTest.credit.executor": "Run",
+    "JUnit.AccountTest.executor": "Run",
+    "JUnit.AccountTest.insufficientMoneyException.executor": "Run",
+    "JUnit.AccountTest.printAmbientVariables.executor": "Run",
+    "JUnit.AccountTest.printSystemProperties (1).executor": "Run",
+    "JUnit.AccountTest.printSystemProperties.executor": "Run",
+    "JUnit.AccountTest.processors.executor": "Run",
+    "JUnit.AccountTest.setPerson.executor": "Run",
+    "JUnit.AccountTest.transferMoney.executor": "Debug",
+    "JUnit.All in Course (1).executor": "Run",
+    "JUnit.All in Course (2).executor": "Run",
+    "JUnit.All in Course (3).executor": "Run",
+    "JUnit.All in Course.executor": "Run",
+    "JUnit.ExamServiceImplTest.doesntExamQuestionVerify.executor": "Run",
+    "JUnit.ExamServiceImplTest.executor": "Run",
+    "JUnit.ExamServiceImplTest.saveExam.executor": "Run",
+    "Maven.Form [clean].executor": "Run",
+    "Maven.Headers [clean].executor": "Run",
+    "Maven.Tests [test].executor": "Run",
+    "Maven.cookie.executor": "Run",
+    "Maven.form.executor": "Run",
+    "Maven.forms.executor": "Run",
+    "Maven.header [clean].executor": "Run",
+    "Maven.header [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
+    "Maven.header [org.apache.maven.plugins:maven-clean-plugin:3.2.0:help].executor": "Run",
+    "Maven.header [validate].executor": "Run",
+    "Maven.header.executor": "Run",
+    "Maven.headers.executor": "Run",
+    "Maven.intro.executor": "Run",
+    "Maven.session.executor": "Run",
+    "Maven.tomcat7.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
+    "extract.method.default.visibility": "private",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/andre/OneDrive/Escritorio/Course/Modules/JakartaEE/ServletsWeb/Cookie/src/main/java/co/argm/app",
+    "last_opened_file_path": "C:/Users/andre/IdeaProjects/Course/Modules/JakartaEE/ServletsWeb/Session/src/main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.sourceCode.PostgreSQL, Greenplum, Redshift",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\andre\IdeaProjects\Course\Modules\JakartaEE\ServletsWeb\Session\src\main" />
+      <recent name="C:\Users\andre\IdeaProjects\Course\Modules\JakartaEE\ServletsWeb\Session\src\main\java\co\argm\app" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\JakartaEE\ServletsWeb\Cookie\src\main" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\JakartaEE\ServletsWeb\Cookie\src\main\java\co\argm\app" />
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\JakartaEE\ServletsWeb\Form\Form2\src\main" />
-      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\Introduction\BasicElements\SystemClass\src" />
-      <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\Database" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\andre\OneDrive\Escritorio\Course\Modules\JakartaEE\ServletsWeb" />
@@ -377,7 +358,7 @@
       <recent name="co.argm.app.decorator.model.decorator" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.cookie">
+  <component name="RunManager" selected="Maven.session">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="co.argm.app.ui.Main" />
       <module name="Form" />
@@ -511,12 +492,43 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="session" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:redeploy" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/Modules/JakartaEE/ServletsWeb/Session" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Maven.forms" />
       <item itemvalue="Maven.header" />
       <item itemvalue="Maven.intro" />
       <item itemvalue="Maven.cookie" />
+      <item itemvalue="Maven.session" />
     </list>
     <recent_temporary>
       <list>
@@ -678,6 +690,7 @@
       <workItem from="1725908380260" duration="1056000" />
       <workItem from="1725913287887" duration="238000" />
       <workItem from="1725920897296" duration="3200000" />
+      <workItem from="1725928325326" duration="1719000" />
     </task>
     <task id="LOCAL-00001" summary="Full change">
       <option name="closed" value="true" />
