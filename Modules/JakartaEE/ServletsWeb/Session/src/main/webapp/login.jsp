@@ -1,20 +1,26 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Login form</title>
+    <title>Login Form</title>
 </head>
 <body>
-<h1>Sign in</h1>
-<form action="/session/login" method="post">
+<h1>Login</h1>
+<form action="${pageContext.request.contextPath}/login" method="post">
     <div>
         <label for="username">Username</label>
-        <div><input id="username" name="username" type="text"></div>
+        <div>
+            <input type="text" name="username" id="username">
+        </div>
     </div>
     <div>
         <label for="password">Password</label>
-        <div><input id="password" name="password" type="password"></div>
+        <div>
+            <input type="password" name="password" id="password">
+        </div>
     </div>
-    <div><input type="submit" value="Login"></div>
+    <div>
+        <input type="submit" value="Login">
+    </div>
 </form>
 </body>
 </html>
