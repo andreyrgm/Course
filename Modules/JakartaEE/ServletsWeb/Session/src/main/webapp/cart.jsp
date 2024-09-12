@@ -11,7 +11,7 @@
 <% if (cart.getItems().isEmpty()) { %>
 <p>Sorry, there are no products in the shopping cart!</p>
 <% } else { %>
-<form name="cartForm" action="<%=request.getContextPath()%>/update-cart" method="post">
+<form name="cartForm" action="<%=request.getContextPath()%>/cart/update" method="post">
     <table>
         <tr>
             <th>ID</th>

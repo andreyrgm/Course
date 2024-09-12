@@ -48,7 +48,7 @@ public class Products extends HttpServlet {
                 out.println("   <td>" + p.type() + "</td>");
                 if (opt.isPresent()) {
                     out.println("<td>" + p.price() + "</td>");
-                    out.println("<td><a href=\"" + req.getContextPath() + "/add-cart?id=" + p.id() + "\">add to cart</a></td>");
+                    out.println("<td><a href=\"" + req.getContextPath() + "/cart/add?id=" + p.id() + "\">add to cart</a></td>");
                 }
                 out.println("</tr>");
             });

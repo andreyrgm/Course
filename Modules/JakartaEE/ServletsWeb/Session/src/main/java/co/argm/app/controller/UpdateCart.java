@@ -13,13 +13,13 @@ import java.util.List;
 
 import static java.lang.Integer.parseInt;
 
-@WebServlet("/update-cart")
+@WebServlet("/cart/update")
 public class UpdateCart extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         updateProducts(req, (Cart) req.getSession().getAttribute("cart"));
         updateQuantities(req, (Cart) req.getSession().getAttribute("cart"));
-        resp.sendRedirect(req.getContextPath() + "/view-cart");
+        resp.sendRedirect(req.getContextPath() + "/cart/view");
     }
 
     private void updateProducts(HttpServletRequest request, Cart cart) {

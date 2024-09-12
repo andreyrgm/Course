@@ -14,7 +14,7 @@ import java.util.Optional;
 
 import static java.lang.Integer.parseInt;
 
-@WebServlet("/add-cart")
+@WebServlet("/cart/add")
 public class AddCart extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
@@ -24,6 +24,6 @@ public class AddCart extends HttpServlet {
             Cart cart = (Cart) req.getSession().getAttribute("cart");
             cart.addItem(new CartItem(1, product.get()));
         }
-        resp.sendRedirect(req.getContextPath() + "/view-cart");
+        resp.sendRedirect(req.getContextPath() + "/cart/view");
     }
 }
